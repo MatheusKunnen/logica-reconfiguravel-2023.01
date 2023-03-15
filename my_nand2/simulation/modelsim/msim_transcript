@@ -1,0 +1,73 @@
+# Reading C:/altera/13.0sp1/modelsim_ase/tcl/vsim/pref.tcl 
+# do my_nand2_run_msim_rtl_vhdl.do 
+# if {[file exists rtl_work]} {
+# 	vdel -lib rtl_work -all
+# }
+# vlib rtl_work
+# vmap work rtl_work
+# Copying C:\altera\13.0sp1\modelsim_ase\win32aloem/../modelsim.ini to modelsim.ini
+# Modifying modelsim.ini
+# ** Warning: Copied C:\altera\13.0sp1\modelsim_ase\win32aloem/../modelsim.ini to modelsim.ini.
+#          Updated modelsim.ini.
+# 
+# vcom -93 -work work {C:/Users/mathe/Projects/universidade/logica-reconfiguravel-2023.01/my_nand2/my_nand2.vhd}
+# Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity my_nand2
+# -- Compiling architecture my_nand2_arch of my_nand2
+# 
+do my_nand2_script.sdo
+# Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity my_nand2
+# -- Compiling architecture my_nand2_arch of my_nand2
+# Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity tb_my_nand2
+# -- Compiling architecture tb_my_nand2_arch of tb_my_nand2
+run -all
+# No Design Loaded!
+run all
+# No Design Loaded!
+vsim -voptargs=+acc work.tb_my_nand2
+# vsim -voptargs=+acc work.tb_my_nand2 
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.numeric_std(body)
+# Loading work.tb_my_nand2(tb_my_nand2_arch)
+# Loading work.my_nand2(my_nand2_arch)
+run all
+# Invalid time value: all
+run -all
+
+add wave -position insertpoint  \
+sim:/tb_my_nand2/a \
+sim:/tb_my_nand2/b1 \
+sim:/tb_my_nand2/c
+add wave -position insertpoint  \
+sim:/tb_my_nand2/DUT/a
+add wave -position insertpoint  \
+sim:/tb_my_nand2/DUT/a
+run
+run
+run
+run
+run
+run -continue
+run -continue
+run -continue
+run -all
+add wave -position insertpoint  \
+sim:/tb_my_nand2/DUT/b
+add wave -position insertpoint  \
+sim:/tb_my_nand2/DUT/c

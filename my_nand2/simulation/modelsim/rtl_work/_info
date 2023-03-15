@@ -1,0 +1,79 @@
+m255
+K3
+13
+cModel Technology
+Z0 dC:\Users\mathe\Projects\universidade\logica-reconfiguravel-2023.01\my_nand2\simulation\modelsim
+Emy_nand2
+Z1 w1678882739
+Z2 DPx4 ieee 11 numeric_std 0 22 O3PF8EB`?j9=z7KT`fn941
+Z3 DPx3 std 6 textio 0 22 5>J:;AW>W0[[dW0I6EN1Q0
+Z4 DPx4 ieee 14 std_logic_1164 0 22 5=aWaoGZSMWIcH0i^f`XF1
+Z5 dC:\Users\mathe\Projects\universidade\logica-reconfiguravel-2023.01\my_nand2\simulation\modelsim
+Z6 8C:/Users/mathe/Projects/universidade/logica-reconfiguravel-2023.01/my_nand2/my_nand2.vhd
+Z7 FC:/Users/mathe/Projects/universidade/logica-reconfiguravel-2023.01/my_nand2/my_nand2.vhd
+l0
+L5
+VL4SQGl??4=9K[<@K6QcC@1
+Z8 OV;C;10.1d;51
+32
+Z9 !s108 1678888900.527000
+Z10 !s90 -reportprogress|300|-work|work|C:/Users/mathe/Projects/universidade/logica-reconfiguravel-2023.01/my_nand2/my_nand2.vhd|
+Z11 !s107 C:/Users/mathe/Projects/universidade/logica-reconfiguravel-2023.01/my_nand2/my_nand2.vhd|
+Z12 o-work work -O0
+Z13 tExplicit 1
+!s100 3H3m@G`ZFeOj053a^I_6j1
+!i10b 1
+Amy_nand2_arch
+R2
+R3
+R4
+DEx4 work 8 my_nand2 0 22 L4SQGl??4=9K[<@K6QcC@1
+l16
+L13
+V>Rc92CkdLHiORP3JG[4zn2
+!s100 80a<c@4O>jafzz[XbIzzE2
+R8
+32
+R9
+R10
+R11
+R12
+R13
+!i10b 1
+Etb_my_nand2
+Z14 w1678888759
+R2
+R3
+R4
+R5
+Z15 8C:/Users/mathe/Projects/universidade/logica-reconfiguravel-2023.01/my_nand2/tb_my_nand2.vhd
+Z16 FC:/Users/mathe/Projects/universidade/logica-reconfiguravel-2023.01/my_nand2/tb_my_nand2.vhd
+l0
+L5
+Va8lhelEBlDh_JY5:Hg`PE0
+!s100 ]nJP1=BE4JG[H:hi?;=Jd0
+R8
+32
+!i10b 1
+Z17 !s108 1678888900.581000
+Z18 !s90 -reportprogress|300|-work|work|C:/Users/mathe/Projects/universidade/logica-reconfiguravel-2023.01/my_nand2/tb_my_nand2.vhd|
+Z19 !s107 C:/Users/mathe/Projects/universidade/logica-reconfiguravel-2023.01/my_nand2/tb_my_nand2.vhd|
+R12
+R13
+Atb_my_nand2_arch
+R2
+R3
+R4
+DEx4 work 11 tb_my_nand2 0 22 a8lhelEBlDh_JY5:Hg`PE0
+l23
+L10
+Vcz0DHb;Eaj?eJJUD_QnIG1
+!s100 k>2mzFnD_jO<XVNiURnj`3
+R8
+32
+!i10b 1
+R17
+R18
+R19
+R12
+R13

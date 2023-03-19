@@ -1,0 +1,12 @@
+entity tb_cont_57 is
+end entity;
+
+architecture tb_cont_57_arch of tb_cont_57 is 
+
+begin
+
+   process
+   begin
+   
+   end process;
+end architecture;

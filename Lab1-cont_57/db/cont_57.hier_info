@@ -1,0 +1,158 @@
+|cont_57
+rst => ld.IN1
+clk => cont_10:cont_un.CLK
+clk => cont_10:cont_de.CLK
+en => en_un.IN1
+en => en_de.IN1
+out_un[0] <= out_un.DB_MAX_OUTPUT_PORT_TYPE
+out_un[1] <= out_un.DB_MAX_OUTPUT_PORT_TYPE
+out_un[2] <= out_un.DB_MAX_OUTPUT_PORT_TYPE
+out_un[3] <= out_un.DB_MAX_OUTPUT_PORT_TYPE
+out_de[0] <= out_de.DB_MAX_OUTPUT_PORT_TYPE
+out_de[1] <= out_de.DB_MAX_OUTPUT_PORT_TYPE
+out_de[2] <= out_de.DB_MAX_OUTPUT_PORT_TYPE
+out_de[3] <= out_de.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|cont_57|cont_10:cont_un
+RST => cont4_completo:cont16.RST
+CLK => cont4_completo:cont16.CLK
+Q[0] <= cont4_completo:cont16.Q[0]
+Q[1] <= cont4_completo:cont16.Q[1]
+Q[2] <= cont4_completo:cont16.Q[2]
+Q[3] <= cont4_completo:cont16.Q[3]
+EN => cont4_completo:cont16.EN
+CLR => CLR_aux.IN1
+LD => cont4_completo:cont16.LD
+LOAD[0] => cont4_completo:cont16.LOAD[0]
+LOAD[1] => cont4_completo:cont16.LOAD[1]
+LOAD[2] => cont4_completo:cont16.LOAD[2]
+LOAD[3] => cont4_completo:cont16.LOAD[3]
+
+
+|cont_57|cont_10:cont_un|cont4_completo:cont16
+RST => CONT[0].ACLR
+RST => CONT[1].ACLR
+RST => CONT[2].ACLR
+RST => CONT[3].ACLR
+RST => Q_s[3]~reg0.ENA
+RST => Q_s[2]~reg0.ENA
+RST => Q_s[1]~reg0.ENA
+RST => Q_s[0]~reg0.ENA
+CLK => Q_s[0]~reg0.CLK
+CLK => Q_s[1]~reg0.CLK
+CLK => Q_s[2]~reg0.CLK
+CLK => Q_s[3]~reg0.CLK
+CLK => CONT[0].CLK
+CLK => CONT[1].CLK
+CLK => CONT[2].CLK
+CLK => CONT[3].CLK
+Q[0] <= CONT[0].DB_MAX_OUTPUT_PORT_TYPE
+Q[1] <= CONT[1].DB_MAX_OUTPUT_PORT_TYPE
+Q[2] <= CONT[2].DB_MAX_OUTPUT_PORT_TYPE
+Q[3] <= CONT[3].DB_MAX_OUTPUT_PORT_TYPE
+Q_s[0] <= Q_s[0]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+Q_s[1] <= Q_s[1]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+Q_s[2] <= Q_s[2]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+Q_s[3] <= Q_s[3]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+EN => CONT.OUTPUTSELECT
+EN => CONT.OUTPUTSELECT
+EN => CONT.OUTPUTSELECT
+EN => CONT.OUTPUTSELECT
+EN => Q_s.OUTPUTSELECT
+EN => Q_s.OUTPUTSELECT
+EN => Q_s.OUTPUTSELECT
+EN => Q_s.OUTPUTSELECT
+CLR => CONT.OUTPUTSELECT
+CLR => CONT.OUTPUTSELECT
+CLR => CONT.OUTPUTSELECT
+CLR => CONT.OUTPUTSELECT
+CLR => Q_s.OUTPUTSELECT
+CLR => Q_s.OUTPUTSELECT
+CLR => Q_s.OUTPUTSELECT
+CLR => Q_s.OUTPUTSELECT
+LD => CONT.OUTPUTSELECT
+LD => CONT.OUTPUTSELECT
+LD => CONT.OUTPUTSELECT
+LD => CONT.OUTPUTSELECT
+LD => Q_s.OUTPUTSELECT
+LD => Q_s.OUTPUTSELECT
+LD => Q_s.OUTPUTSELECT
+LD => Q_s.OUTPUTSELECT
+LOAD[0] => CONT.DATAB
+LOAD[1] => CONT.DATAB
+LOAD[2] => CONT.DATAB
+LOAD[3] => CONT.DATAB
+
+
+|cont_57|cont_10:cont_de
+RST => cont4_completo:cont16.RST
+CLK => cont4_completo:cont16.CLK
+Q[0] <= cont4_completo:cont16.Q[0]
+Q[1] <= cont4_completo:cont16.Q[1]
+Q[2] <= cont4_completo:cont16.Q[2]
+Q[3] <= cont4_completo:cont16.Q[3]
+EN => cont4_completo:cont16.EN
+CLR => CLR_aux.IN1
+LD => cont4_completo:cont16.LD
+LOAD[0] => cont4_completo:cont16.LOAD[0]
+LOAD[1] => cont4_completo:cont16.LOAD[1]
+LOAD[2] => cont4_completo:cont16.LOAD[2]
+LOAD[3] => cont4_completo:cont16.LOAD[3]
+
+
+|cont_57|cont_10:cont_de|cont4_completo:cont16
+RST => CONT[0].ACLR
+RST => CONT[1].ACLR
+RST => CONT[2].ACLR
+RST => CONT[3].ACLR
+RST => Q_s[3]~reg0.ENA
+RST => Q_s[2]~reg0.ENA
+RST => Q_s[1]~reg0.ENA
+RST => Q_s[0]~reg0.ENA
+CLK => Q_s[0]~reg0.CLK
+CLK => Q_s[1]~reg0.CLK
+CLK => Q_s[2]~reg0.CLK
+CLK => Q_s[3]~reg0.CLK
+CLK => CONT[0].CLK
+CLK => CONT[1].CLK
+CLK => CONT[2].CLK
+CLK => CONT[3].CLK
+Q[0] <= CONT[0].DB_MAX_OUTPUT_PORT_TYPE
+Q[1] <= CONT[1].DB_MAX_OUTPUT_PORT_TYPE
+Q[2] <= CONT[2].DB_MAX_OUTPUT_PORT_TYPE
+Q[3] <= CONT[3].DB_MAX_OUTPUT_PORT_TYPE
+Q_s[0] <= Q_s[0]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+Q_s[1] <= Q_s[1]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+Q_s[2] <= Q_s[2]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+Q_s[3] <= Q_s[3]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+EN => CONT.OUTPUTSELECT
+EN => CONT.OUTPUTSELECT
+EN => CONT.OUTPUTSELECT
+EN => CONT.OUTPUTSELECT
+EN => Q_s.OUTPUTSELECT
+EN => Q_s.OUTPUTSELECT
+EN => Q_s.OUTPUTSELECT
+EN => Q_s.OUTPUTSELECT
+CLR => CONT.OUTPUTSELECT
+CLR => CONT.OUTPUTSELECT
+CLR => CONT.OUTPUTSELECT
+CLR => CONT.OUTPUTSELECT
+CLR => Q_s.OUTPUTSELECT
+CLR => Q_s.OUTPUTSELECT
+CLR => Q_s.OUTPUTSELECT
+CLR => Q_s.OUTPUTSELECT
+LD => CONT.OUTPUTSELECT
+LD => CONT.OUTPUTSELECT
+LD => CONT.OUTPUTSELECT
+LD => CONT.OUTPUTSELECT
+LD => Q_s.OUTPUTSELECT
+LD => Q_s.OUTPUTSELECT
+LD => Q_s.OUTPUTSELECT
+LD => Q_s.OUTPUTSELECT
+LOAD[0] => CONT.DATAB
+LOAD[1] => CONT.DATAB
+LOAD[2] => CONT.DATAB
+LOAD[3] => CONT.DATAB
+
+

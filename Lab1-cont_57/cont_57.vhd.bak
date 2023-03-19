@@ -1,0 +1,8 @@
+entity cont57 is 
+port 
+(
+   rst: IN std_logic;
+   clk: IN std_logic;
+   en:  IN std_logic;
+   clr: IN std_logic;
+)

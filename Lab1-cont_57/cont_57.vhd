@@ -58,9 +58,9 @@ begin
    en_un <= '1' when en = '1' or ld = '1' else '0';
    en_de <= '1' when (en = '1' and (out_un_internal = "1001")) or (ld = '1') else '0';
    
-   ld <= '1' when rst = '1' or (out_un_internal = "1001" and out_de_internal = "0110") else '0';
+   ld <= '1' when rst = '1' or (out_un_internal = "1000" and out_de_internal = "0110") else '0';
    
-   out_un <= out_un_internal when ld /= '1' else "0010";
-   out_de <= out_de_internal when ld /= '1' else "0001";
+   out_un <= out_un_internal; -- when ld /= '1' else "0010";
+   out_de <= out_de_internal; -- when ld /= '1' else "0001";
 
 end architecture;

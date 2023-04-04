@@ -1,5 +1,5 @@
 Analysis & Synthesis report for cont_57
-Thu Mar 16 17:57:32 2023
+Mon Mar 27 19:36:58 2023
 Quartus II 64-Bit Version 13.0.1 Build 232 06/12/2013 Service Pack 1 SJ Web Edition
 
 
@@ -13,14 +13,13 @@ Quartus II 64-Bit Version 13.0.1 Build 232 06/12/2013 Service Pack 1 SJ Web Edit
   5. Analysis & Synthesis Source Files Read
   6. Analysis & Synthesis Resource Usage Summary
   7. Analysis & Synthesis Resource Utilization by Entity
-  8. Registers Removed During Synthesis
-  9. Removed Registers Triggering Further Register Optimizations
- 10. General Register Statistics
- 11. Port Connectivity Checks: "cont_10:cont_de"
- 12. Port Connectivity Checks: "cont_10:cont_un|cont4_completo:cont16"
- 13. Port Connectivity Checks: "cont_10:cont_un"
- 14. Elapsed Time Per Partition
- 15. Analysis & Synthesis Messages
+  8. General Register Statistics
+  9. Multiplexer Restructuring Statistics (Restructuring Performed)
+ 10. Port Connectivity Checks: "cont_10:cont_de"
+ 11. Port Connectivity Checks: "cont_10:cont_un|cont4_completo:cont16"
+ 12. Port Connectivity Checks: "cont_10:cont_un"
+ 13. Elapsed Time Per Partition
+ 14. Analysis & Synthesis Messages
 
 
 
@@ -46,15 +45,15 @@ applicable agreement for further details.
 +--------------------------------------------------------------------------------------+
 ; Analysis & Synthesis Summary                                                         ;
 +------------------------------------+-------------------------------------------------+
-; Analysis & Synthesis Status        ; Successful - Thu Mar 16 17:57:32 2023           ;
+; Analysis & Synthesis Status        ; Successful - Mon Mar 27 19:36:58 2023           ;
 ; Quartus II 64-Bit Version          ; 13.0.1 Build 232 06/12/2013 SP 1 SJ Web Edition ;
 ; Revision Name                      ; cont_57                                         ;
 ; Top-level Entity Name              ; cont_57                                         ;
 ; Family                             ; Cyclone II                                      ;
-; Total logic elements               ; 0                                               ;
-;     Total combinational functions  ; 0                                               ;
-;     Dedicated logic registers      ; 0                                               ;
-; Total registers                    ; 0                                               ;
+; Total logic elements               ; 21                                              ;
+;     Total combinational functions  ; 21                                              ;
+;     Dedicated logic registers      ; 8                                               ;
+; Total registers                    ; 8                                               ;
 ; Total pins                         ; 11                                              ;
 ; Total virtual pins                 ; 0                                               ;
 ; Total memory bits                  ; 0                                               ;
@@ -148,15 +147,21 @@ applicable agreement for further details.
 +----------------------------------------------------------------------------+--------------------+--------------------+
 
 
-Parallel compilation was disabled, but you have multiple processors available. Enable parallel compilation to reduce compilation time.
-+-------------------------------------+
-; Parallel Compilation                ;
-+----------------------------+--------+
-; Processors                 ; Number ;
-+----------------------------+--------+
-; Number detected on machine ; 16     ;
-; Maximum allowed            ; 1      ;
-+----------------------------+--------+
++------------------------------------------+
+; Parallel Compilation                     ;
++----------------------------+-------------+
+; Processors                 ; Number      ;
++----------------------------+-------------+
+; Number detected on machine ; 16          ;
+; Maximum allowed            ; 16          ;
+;                            ;             ;
+; Average used               ; 1.00        ;
+; Maximum used               ; 1           ;
+;                            ;             ;
+; Usage by Processor         ; % Time Used ;
+;     Processor 1            ; 100.0%      ;
+;     Processors 2-16        ;   0.0%      ;
++----------------------------+-------------+
 
 
 +-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
@@ -170,66 +175,48 @@ Parallel compilation was disabled, but you have multiple processors available. E
 +----------------------------------+-----------------+-----------------+----------------------------------------------------------------------------------------------------+---------+
 
 
-+-----------------------------------------------------+
-; Analysis & Synthesis Resource Usage Summary         ;
-+---------------------------------------------+-------+
-; Resource                                    ; Usage ;
-+---------------------------------------------+-------+
-;                                             ;       ;
-; Total combinational functions               ; 0     ;
-; Logic element usage by number of LUT inputs ;       ;
-;     -- 4 input functions                    ; 0     ;
-;     -- 3 input functions                    ; 0     ;
-;     -- <=2 input functions                  ; 0     ;
-;                                             ;       ;
-; Logic elements by mode                      ;       ;
-;     -- normal mode                          ; 0     ;
-;     -- arithmetic mode                      ; 0     ;
-;                                             ;       ;
-; Total registers                             ; 0     ;
-;     -- Dedicated logic registers            ; 0     ;
-;     -- I/O registers                        ; 0     ;
-;                                             ;       ;
-; I/O pins                                    ; 11    ;
-; Embedded Multiplier 9-bit elements          ; 0     ;
-+---------------------------------------------+-------+
++---------------------------------------------------------------------------------------------+
+; Analysis & Synthesis Resource Usage Summary                                                 ;
++---------------------------------------------+-----------------------------------------------+
+; Resource                                    ; Usage                                         ;
++---------------------------------------------+-----------------------------------------------+
+; Estimated Total logic elements              ; 21                                            ;
+;                                             ;                                               ;
+; Total combinational functions               ; 21                                            ;
+; Logic element usage by number of LUT inputs ;                                               ;
+;     -- 4 input functions                    ; 13                                            ;
+;     -- 3 input functions                    ; 7                                             ;
+;     -- <=2 input functions                  ; 1                                             ;
+;                                             ;                                               ;
+; Logic elements by mode                      ;                                               ;
+;     -- normal mode                          ; 21                                            ;
+;     -- arithmetic mode                      ; 0                                             ;
+;                                             ;                                               ;
+; Total registers                             ; 8                                             ;
+;     -- Dedicated logic registers            ; 8                                             ;
+;     -- I/O registers                        ; 0                                             ;
+;                                             ;                                               ;
+; I/O pins                                    ; 11                                            ;
+; Embedded Multiplier 9-bit elements          ; 0                                             ;
+; Maximum fan-out node                        ; cont_10:cont_un|cont4_completo:cont16|CONT[0] ;
+; Maximum fan-out                             ; 9                                             ;
+; Total fan-out                               ; 99                                            ;
+; Average fan-out                             ; 2.48                                          ;
++---------------------------------------------+-----------------------------------------------+
 
 
-+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-; Analysis & Synthesis Resource Utilization by Entity                                                                                                                         ;
-+----------------------------+-------------------+--------------+-------------+--------------+---------+-----------+------+--------------+---------------------+--------------+
-; Compilation Hierarchy Node ; LC Combinationals ; LC Registers ; Memory Bits ; DSP Elements ; DSP 9x9 ; DSP 18x18 ; Pins ; Virtual Pins ; Full Hierarchy Name ; Library Name ;
-+----------------------------+-------------------+--------------+-------------+--------------+---------+-----------+------+--------------+---------------------+--------------+
-; |cont_57                   ; 0 (0)             ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 11   ; 0            ; |cont_57            ; work         ;
-+----------------------------+-------------------+--------------+-------------+--------------+---------+-----------+------+--------------+---------------------+--------------+
++-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+; Analysis & Synthesis Resource Utilization by Entity                                                                                                                                                       ;
++-------------------------------+-------------------+--------------+-------------+--------------+---------+-----------+------+--------------+------------------------------------------------+--------------+
+; Compilation Hierarchy Node    ; LC Combinationals ; LC Registers ; Memory Bits ; DSP Elements ; DSP 9x9 ; DSP 18x18 ; Pins ; Virtual Pins ; Full Hierarchy Name                            ; Library Name ;
++-------------------------------+-------------------+--------------+-------------+--------------+---------+-----------+------+--------------+------------------------------------------------+--------------+
+; |cont_57                      ; 21 (3)            ; 8 (0)        ; 0           ; 0            ; 0       ; 0         ; 11   ; 0            ; |cont_57                                       ; work         ;
+;    |cont_10:cont_de|          ; 8 (1)             ; 4 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |cont_57|cont_10:cont_de                       ; work         ;
+;       |cont4_completo:cont16| ; 7 (7)             ; 4 (4)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |cont_57|cont_10:cont_de|cont4_completo:cont16 ; work         ;
+;    |cont_10:cont_un|          ; 10 (1)            ; 4 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |cont_57|cont_10:cont_un                       ; work         ;
+;       |cont4_completo:cont16| ; 9 (9)             ; 4 (4)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |cont_57|cont_10:cont_un|cont4_completo:cont16 ; work         ;
++-------------------------------+-------------------+--------------+-------------+--------------+---------+-----------+------+--------------+------------------------------------------------+--------------+
 Note: For table entries with two numbers listed, the numbers in parentheses indicate the number of resources of the given type used by the specific entity alone. The numbers listed outside of parentheses indicate the total resources of the given type used by the specific entity and all of its sub-entities in the hierarchy.
-
-
-+-------------------------------------------------------------------------------------------------------------+
-; Registers Removed During Synthesis                                                                          ;
-+-------------------------------------------------+-----------------------------------------------------------+
-; Register name                                   ; Reason for Removal                                        ;
-+-------------------------------------------------+-----------------------------------------------------------+
-; cont_10:cont_de|cont4_completo:cont16|CONT[1,2] ; Merged with cont_10:cont_de|cont4_completo:cont16|CONT[3] ;
-; cont_10:cont_un|cont4_completo:cont16|CONT[0,2] ; Merged with cont_10:cont_un|cont4_completo:cont16|CONT[3] ;
-; cont_10:cont_de|cont4_completo:cont16|CONT[3]   ; Stuck at GND due to stuck port data_in                    ;
-; cont_10:cont_un|cont4_completo:cont16|CONT[3]   ; Stuck at GND due to stuck port data_in                    ;
-; cont_10:cont_de|cont4_completo:cont16|CONT[0]   ; Stuck at VCC due to stuck port data_in                    ;
-; cont_10:cont_un|cont4_completo:cont16|CONT[1]   ; Stuck at VCC due to stuck port data_in                    ;
-; Total Number of Removed Registers = 8           ;                                                           ;
-+-------------------------------------------------+-----------------------------------------------------------+
-
-
-+---------------------------------------------------------------------------------------------------------------------------+
-; Removed Registers Triggering Further Register Optimizations                                                               ;
-+-----------------------------------------------+---------------------------+-----------------------------------------------+
-; Register name                                 ; Reason for Removal        ; Registers Removed due to This Register        ;
-+-----------------------------------------------+---------------------------+-----------------------------------------------+
-; cont_10:cont_de|cont4_completo:cont16|CONT[3] ; Stuck at GND              ; cont_10:cont_de|cont4_completo:cont16|CONT[0] ;
-;                                               ; due to stuck port data_in ;                                               ;
-; cont_10:cont_un|cont4_completo:cont16|CONT[3] ; Stuck at GND              ; cont_10:cont_un|cont4_completo:cont16|CONT[1] ;
-;                                               ; due to stuck port data_in ;                                               ;
-+-----------------------------------------------+---------------------------+-----------------------------------------------+
 
 
 +------------------------------------------------------+
@@ -237,7 +224,7 @@ Note: For table entries with two numbers listed, the numbers in parentheses indi
 +----------------------------------------------+-------+
 ; Statistic                                    ; Value ;
 +----------------------------------------------+-------+
-; Total registers                              ; 0     ;
+; Total registers                              ; 8     ;
 ; Number of registers using Synchronous Clear  ; 0     ;
 ; Number of registers using Synchronous Load   ; 0     ;
 ; Number of registers using Asynchronous Clear ; 0     ;
@@ -245,6 +232,16 @@ Note: For table entries with two numbers listed, the numbers in parentheses indi
 ; Number of registers using Clock Enable       ; 0     ;
 ; Number of registers using Preset             ; 0     ;
 +----------------------------------------------+-------+
+
+
++----------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+; Multiplexer Restructuring Statistics (Restructuring Performed)                                                                                                       ;
++--------------------+-----------+---------------+----------------------+------------------------+------------+--------------------------------------------------------+
+; Multiplexer Inputs ; Bus Width ; Baseline Area ; Area if Restructured ; Saving if Restructured ; Registered ; Example Multiplexer Output                             ;
++--------------------+-----------+---------------+----------------------+------------------------+------------+--------------------------------------------------------+
+; 4:1                ; 4 bits    ; 8 LEs         ; 8 LEs                ; 0 LEs                  ; Yes        ; |cont_57|cont_10:cont_un|cont4_completo:cont16|CONT[0] ;
+; 4:1                ; 4 bits    ; 8 LEs         ; 8 LEs                ; 0 LEs                  ; Yes        ; |cont_57|cont_10:cont_de|cont4_completo:cont16|CONT[0] ;
++--------------------+-----------+---------------+----------------------+------------------------+------------+--------------------------------------------------------+
 
 
 +----------------------------------------------+
@@ -296,9 +293,9 @@ Note: For table entries with two numbers listed, the numbers in parentheses indi
 Info: *******************************************************************
 Info: Running Quartus II 64-Bit Analysis & Synthesis
     Info: Version 13.0.1 Build 232 06/12/2013 Service Pack 1 SJ Web Edition
-    Info: Processing started: Thu Mar 16 17:57:31 2023
+    Info: Processing started: Mon Mar 27 19:36:52 2023
 Info: Command: quartus_map --read_settings_files=on --write_settings_files=off cont_57 -c cont_57
-Warning (20028): Parallel compilation is not licensed and has been disabled
+Info (20030): Parallel compilation is enabled and will use 16 of the 16 processors detected
 Info (12021): Found 2 design units, including 1 entities, in source file cont_10.vhd
     Info (12022): Found design unit 1: cont_10-cont_10_arch
     Info (12023): Found entity 1: cont_10
@@ -314,28 +311,16 @@ Info (12021): Found 2 design units, including 1 entities, in source file tb_cont
 Info (12127): Elaborating entity "cont_57" for the top level hierarchy
 Info (12128): Elaborating entity "cont_10" for hierarchy "cont_10:cont_un"
 Info (12128): Elaborating entity "cont4_completo" for hierarchy "cont_10:cont_un|cont4_completo:cont16"
-Warning (13024): Output pins are stuck at VCC or GND
-    Warning (13410): Pin "out_un[0]" is stuck at GND
-    Warning (13410): Pin "out_un[1]" is stuck at VCC
-    Warning (13410): Pin "out_un[2]" is stuck at GND
-    Warning (13410): Pin "out_un[3]" is stuck at GND
-    Warning (13410): Pin "out_de[0]" is stuck at VCC
-    Warning (13410): Pin "out_de[1]" is stuck at GND
-    Warning (13410): Pin "out_de[2]" is stuck at GND
-    Warning (13410): Pin "out_de[3]" is stuck at GND
 Info (16010): Generating hard_block partition "hard_block:auto_generated_inst"
     Info (16011): Adding 0 node(s), including 0 DDIO, 0 PLL, 0 transceiver and 0 LCELL
-Warning (21074): Design contains 3 input pin(s) that do not drive logic
-    Warning (15610): No output dependent on input pin "en"
-    Warning (15610): No output dependent on input pin "rst"
-    Warning (15610): No output dependent on input pin "clk"
-Info (21057): Implemented 11 device resources after synthesis - the final resource count might be different
+Info (21057): Implemented 32 device resources after synthesis - the final resource count might be different
     Info (21058): Implemented 3 input pins
     Info (21059): Implemented 8 output pins
-Info: Quartus II 64-Bit Analysis & Synthesis was successful. 0 errors, 14 warnings
-    Info: Peak virtual memory: 4626 megabytes
-    Info: Processing ended: Thu Mar 16 17:57:32 2023
-    Info: Elapsed time: 00:00:01
+    Info (21061): Implemented 21 logic cells
+Info: Quartus II 64-Bit Analysis & Synthesis was successful. 0 errors, 0 warnings
+    Info: Peak virtual memory: 4645 megabytes
+    Info: Processing ended: Mon Mar 27 19:36:58 2023
+    Info: Elapsed time: 00:00:06
     Info: Total CPU time (on all processors): 00:00:01
 
 

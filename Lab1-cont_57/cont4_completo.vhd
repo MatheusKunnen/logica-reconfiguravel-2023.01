@@ -24,7 +24,7 @@ Begin
    Begin
       If RST = '1' then
          CONT <= "0000";
-      Elsif CLK' event and CLK = '1' then
+      Elsif CLK' event and rising_edge(CLK) then
          If CLR = '1'then
             CONT <= "0000";
          Else
@@ -32,6 +32,7 @@ Begin
                If LD = '1' then
                   CONT <= unsigned(LOAD);
                Else
+                  CONT <= CONT + 1;
                   Q_s  <= std_logic_vector(CONT);
                End IF;
             End If;

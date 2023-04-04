@@ -1,0 +1,190 @@
+m255
+K3
+13
+cModel Technology
+Z0 dC:\Users\mathe\Projects\universidade\logica-reconfiguravel-2023.01\Lab2-cronometro\simulation\modelsim
+Ebcd_2_ssd
+Z1 w1680094647
+Z2 DPx4 ieee 11 numeric_std 0 22 O3PF8EB`?j9=z7KT`fn941
+Z3 DPx3 std 6 textio 0 22 5>J:;AW>W0[[dW0I6EN1Q0
+Z4 DPx4 ieee 14 std_logic_1164 0 22 5=aWaoGZSMWIcH0i^f`XF1
+Z5 dC:\Users\mathe\Projects\universidade\logica-reconfiguravel-2023.01\Lab2-cronometro\simulation\modelsim
+Z6 8C:/Users/mathe/Projects/universidade/logica-reconfiguravel-2023.01/Lab2-cronometro/bcd_2_ssd.vhd
+Z7 FC:/Users/mathe/Projects/universidade/logica-reconfiguravel-2023.01/Lab2-cronometro/bcd_2_ssd.vhd
+l0
+L5
+Vd3M<^=^z_61W0AhKZlVlL1
+Z8 OV;C;10.1d;51
+31
+Z9 !s108 1680610337.478000
+Z10 !s90 -reportprogress|300|-93|-work|work|C:/Users/mathe/Projects/universidade/logica-reconfiguravel-2023.01/Lab2-cronometro/bcd_2_ssd.vhd|
+Z11 !s107 C:/Users/mathe/Projects/universidade/logica-reconfiguravel-2023.01/Lab2-cronometro/bcd_2_ssd.vhd|
+Z12 o-93 -work work -O0
+Z13 tExplicit 1
+!s100 eY0@?4oeQ^h4bUccFl@_@2
+!i10b 1
+Abcd_2_ssd_arch
+R2
+R3
+R4
+DEx4 work 9 bcd_2_ssd 0 22 d3M<^=^z_61W0AhKZlVlL1
+l18
+L14
+VDBIXIzU`Dmihn[QPKkCWc3
+R8
+31
+R9
+R10
+R11
+R12
+R13
+!s100 1T:c_e_?1nFPz>EhQGJ=A1
+!i10b 1
+Econt4_completo
+Z14 w1680092779
+R2
+R3
+R4
+R5
+Z15 8C:/Users/mathe/Projects/universidade/logica-reconfiguravel-2023.01/Lab2-cronometro/cont4_completo.vhd
+Z16 FC:/Users/mathe/Projects/universidade/logica-reconfiguravel-2023.01/Lab2-cronometro/cont4_completo.vhd
+l0
+L5
+V=R3S0zMN;=0U`0W2>=mO50
+R8
+31
+Z17 !s108 1680610337.301000
+Z18 !s90 -reportprogress|300|-93|-work|work|C:/Users/mathe/Projects/universidade/logica-reconfiguravel-2023.01/Lab2-cronometro/cont4_completo.vhd|
+Z19 !s107 C:/Users/mathe/Projects/universidade/logica-reconfiguravel-2023.01/Lab2-cronometro/cont4_completo.vhd|
+R12
+R13
+!s100 h^Wb97Y=B3NBL^^b4BPAb1
+!i10b 1
+Ax
+R2
+R3
+R4
+DEx4 work 14 cont4_completo 0 22 =R3S0zMN;=0U`0W2>=mO50
+l22
+L17
+V@a3246hXT6YEnUJGo0EO;2
+R8
+31
+R17
+R18
+R19
+R12
+R13
+!s100 ndzj94IW;>;B=V=1mYDck1
+!i10b 1
+Econt_10
+Z20 w1680094922
+R2
+R3
+R4
+R5
+Z21 8C:/Users/mathe/Projects/universidade/logica-reconfiguravel-2023.01/Lab2-cronometro/cont_10.vhd
+Z22 FC:/Users/mathe/Projects/universidade/logica-reconfiguravel-2023.01/Lab2-cronometro/cont_10.vhd
+l0
+L5
+V1aY<XYd7boRel6_zi:E8:1
+R8
+31
+Z23 !s108 1680610337.360000
+Z24 !s90 -reportprogress|300|-93|-work|work|C:/Users/mathe/Projects/universidade/logica-reconfiguravel-2023.01/Lab2-cronometro/cont_10.vhd|
+Z25 !s107 C:/Users/mathe/Projects/universidade/logica-reconfiguravel-2023.01/Lab2-cronometro/cont_10.vhd|
+R12
+R13
+!s100 Ih<PdDCF>S4;fI0GVFgi21
+!i10b 1
+Acont_10_arch
+R2
+R3
+R4
+DEx4 work 7 cont_10 0 22 1aY<XYd7boRel6_zi:E8:1
+l39
+L16
+V;]ML9cEQVR1eGV2mooCQ52
+R8
+31
+R23
+R24
+R25
+R12
+R13
+!s100 B>O`O?1X^YM8JlcSo:m;^2
+!i10b 1
+Ecronometro
+Z26 w1680609952
+R2
+R3
+R4
+R5
+Z27 8C:/Users/mathe/Projects/universidade/logica-reconfiguravel-2023.01/Lab2-cronometro/cronometro.vhd
+Z28 FC:/Users/mathe/Projects/universidade/logica-reconfiguravel-2023.01/Lab2-cronometro/cronometro.vhd
+l0
+L5
+V>Xe@Mb4GX]TKI@^`=2BPz3
+R8
+31
+Z29 !s108 1680610337.421000
+Z30 !s90 -reportprogress|300|-93|-work|work|C:/Users/mathe/Projects/universidade/logica-reconfiguravel-2023.01/Lab2-cronometro/cronometro.vhd|
+Z31 !s107 C:/Users/mathe/Projects/universidade/logica-reconfiguravel-2023.01/Lab2-cronometro/cronometro.vhd|
+R12
+R13
+!s100 3oPM_6MiZRC]AN0KaN9892
+!i10b 1
+Acronometro_arch
+R2
+R3
+R4
+DEx4 work 10 cronometro 0 22 >Xe@Mb4GX]TKI@^`=2BPz3
+l70
+L19
+V;Vfk:Y5KHYXnD^alMJ1ci2
+R8
+31
+R29
+R30
+R31
+R12
+R13
+!s100 9`U::TGl85LVQHWoP<1:`2
+!i10b 1
+Edivisor
+Z32 w1680175007
+R2
+R3
+R4
+R5
+Z33 8C:/Users/mathe/Projects/universidade/logica-reconfiguravel-2023.01/Lab2-cronometro/divisor.vhd
+Z34 FC:/Users/mathe/Projects/universidade/logica-reconfiguravel-2023.01/Lab2-cronometro/divisor.vhd
+l0
+L5
+VE[UkI1Ez9jNAUJZV0JOn02
+!s100 N^d6oWhEaNdPa1S:5WV?c1
+R8
+31
+!i10b 1
+Z35 !s108 1680610337.535000
+Z36 !s90 -reportprogress|300|-93|-work|work|C:/Users/mathe/Projects/universidade/logica-reconfiguravel-2023.01/Lab2-cronometro/divisor.vhd|
+Z37 !s107 C:/Users/mathe/Projects/universidade/logica-reconfiguravel-2023.01/Lab2-cronometro/divisor.vhd|
+R12
+R13
+Ax
+R2
+R3
+R4
+DEx4 work 7 divisor 0 22 E[UkI1Ez9jNAUJZV0JOn02
+l19
+L14
+VmRAQOd1:0f2d1lQ1_9BY02
+!s100 m@^PQj7@[mkAT8jWlJf[W1
+R8
+31
+!i10b 1
+R35
+R36
+R37
+R12
+R13

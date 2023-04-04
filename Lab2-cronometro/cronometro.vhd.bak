@@ -1,0 +1,6 @@
+entity cronometro is
+   port 
+   (
+      clk: IN std_logic
+   )
+end entity;

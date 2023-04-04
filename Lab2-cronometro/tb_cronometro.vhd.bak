@@ -1,0 +1,7 @@
+component tb_cronometro is
+port();
+end component;
+
+architecture tb_cronometro_arch of tb_cronometro is
+
+end architecture;

@@ -1,0 +1,172 @@
+m255
+K3
+13
+cModel Technology
+Z0 dC:\Users\mathe\Projects\universidade\logica-reconfiguravel-2023.01\Lab2-cronometro\simulation\modelsim
+Ebcd_2_ssd
+Z1 w1680611277
+Z2 DPx4 ieee 11 numeric_std 0 22 O3PF8EB`?j9=z7KT`fn941
+Z3 DPx3 std 6 textio 0 22 5>J:;AW>W0[[dW0I6EN1Q0
+Z4 DPx4 ieee 14 std_logic_1164 0 22 5=aWaoGZSMWIcH0i^f`XF1
+Z5 dC:\Users\mathe\Projects\universidade\logica-reconfiguravel-2023.01\Lab2-cronometro\simulation\modelsim
+Z6 8C:/Users/mathe/Projects/universidade/logica-reconfiguravel-2023.01/Lab2-cronometro/bcd_2_ssd.vhd
+Z7 FC:/Users/mathe/Projects/universidade/logica-reconfiguravel-2023.01/Lab2-cronometro/bcd_2_ssd.vhd
+l0
+L5
+VnWzek;h?GTj[z[DhNK`c=2
+Z8 OV;C;10.1d;51
+32
+Z9 !s108 1680699781.773000
+Z10 !s90 -reportprogress|300|-work|work|C:/Users/mathe/Projects/universidade/logica-reconfiguravel-2023.01/Lab2-cronometro/bcd_2_ssd.vhd|
+Z11 !s107 C:/Users/mathe/Projects/universidade/logica-reconfiguravel-2023.01/Lab2-cronometro/bcd_2_ssd.vhd|
+Z12 o-work work -O0
+Z13 tExplicit 1
+!s100 eY0@?4oeQ^h4bUccFl@_@2
+!i10b 1
+Abcd_2_ssd_arch
+R2
+R3
+R4
+DEx4 work 9 bcd_2_ssd 0 22 nWzek;h?GTj[z[DhNK`c=2
+l18
+L14
+V4E7YIX?=V2[?>]XRFl;eV1
+R8
+32
+R9
+R10
+R11
+R12
+R13
+!s100 82`_lZ:a=7HoKnT[=@oC?3
+!i10b 1
+Econt4_completo
+Z14 w1680610615
+R2
+R3
+R4
+R5
+Z15 8C:/Users/mathe/Projects/universidade/logica-reconfiguravel-2023.01/Lab2-cronometro/cont4_completo.vhd
+Z16 FC:/Users/mathe/Projects/universidade/logica-reconfiguravel-2023.01/Lab2-cronometro/cont4_completo.vhd
+l0
+L5
+V8J[d4c>oe@C1XzJQfT_5]3
+R8
+32
+Z17 !s108 1680699781.653000
+Z18 !s90 -reportprogress|300|-work|work|C:/Users/mathe/Projects/universidade/logica-reconfiguravel-2023.01/Lab2-cronometro/cont4_completo.vhd|
+Z19 !s107 C:/Users/mathe/Projects/universidade/logica-reconfiguravel-2023.01/Lab2-cronometro/cont4_completo.vhd|
+R12
+R13
+!s100 h^Wb97Y=B3NBL^^b4BPAb1
+!i10b 1
+Ax
+R2
+R3
+R4
+DEx4 work 14 cont4_completo 0 22 8J[d4c>oe@C1XzJQfT_5]3
+l22
+L17
+VT5_JWoK>kSkF4_<V0YfoA2
+R8
+32
+R17
+R18
+R19
+R12
+R13
+!s100 j^N`X9g28C;mC=z=;RZan3
+!i10b 1
+Econt_10
+Z20 w1680094922
+R2
+R3
+R4
+R5
+Z21 8C:/Users/mathe/Projects/universidade/logica-reconfiguravel-2023.01/Lab2-cronometro/cont_10.vhd
+Z22 FC:/Users/mathe/Projects/universidade/logica-reconfiguravel-2023.01/Lab2-cronometro/cont_10.vhd
+l0
+L5
+VzSGL1l^DAM2Y0QY9[2Uz_2
+R8
+32
+Z23 !s108 1680699781.714000
+Z24 !s90 -reportprogress|300|-work|work|C:/Users/mathe/Projects/universidade/logica-reconfiguravel-2023.01/Lab2-cronometro/cont_10.vhd|
+Z25 !s107 C:/Users/mathe/Projects/universidade/logica-reconfiguravel-2023.01/Lab2-cronometro/cont_10.vhd|
+R12
+R13
+!s100 Ih<PdDCF>S4;fI0GVFgi21
+!i10b 1
+Acont_10_arch
+R2
+R3
+R4
+DEx4 work 7 cont_10 0 22 zSGL1l^DAM2Y0QY9[2Uz_2
+l39
+L16
+VZJTYzmhWUzB1d=8OPR@e62
+R8
+32
+R23
+R24
+R25
+R12
+R13
+!s100 B>O`O?1X^YM8JlcSo:m;^2
+!i10b 1
+vcronometro
+!i10b 1
+!s100 QEDl9kZz^Lo04NafNZDGY2
+I8@SeRGj?Cg9E6FE5_GOO?0
+VT[G@MmR[3ceXj5T=]BMfK2
+R5
+w1680699480
+8C:/Users/mathe/Projects/universidade/logica-reconfiguravel-2023.01/Lab2-cronometro/simulation/modelsim/cronometro.vo
+FC:/Users/mathe/Projects/universidade/logica-reconfiguravel-2023.01/Lab2-cronometro/simulation/modelsim/cronometro.vo
+L0 31
+OV;L;10.1d;51
+r1
+!s85 0
+31
+!s108 1680699788.953000
+!s107 C:/Users/mathe/Projects/universidade/logica-reconfiguravel-2023.01/Lab2-cronometro/simulation/modelsim/cronometro.vo|
+!s90 -reportprogress|300|-work|work|C:/Users/mathe/Projects/universidade/logica-reconfiguravel-2023.01/Lab2-cronometro/simulation/modelsim/cronometro.vo|
+!s101 -O0
+R12
+Etb_cronometro
+Z26 w1680095877
+R2
+R3
+R4
+R5
+Z27 8C:/Users/mathe/Projects/universidade/logica-reconfiguravel-2023.01/Lab2-cronometro/tb_cronometro.vhd
+Z28 FC:/Users/mathe/Projects/universidade/logica-reconfiguravel-2023.01/Lab2-cronometro/tb_cronometro.vhd
+l0
+L5
+VCOeD@gn<nIFc3eGf2^Mz23
+R8
+32
+Z29 !s108 1680699781.893000
+Z30 !s90 -reportprogress|300|-work|work|C:/Users/mathe/Projects/universidade/logica-reconfiguravel-2023.01/Lab2-cronometro/tb_cronometro.vhd|
+Z31 !s107 C:/Users/mathe/Projects/universidade/logica-reconfiguravel-2023.01/Lab2-cronometro/tb_cronometro.vhd|
+R12
+R13
+!s100 S3@7V6W[Hj?aTcGW`nTKn0
+!i10b 1
+Atb_cronometro_arch
+R2
+R3
+R4
+DEx4 work 13 tb_cronometro 0 22 COeD@gn<nIFc3eGf2^Mz23
+l37
+L9
+Vdz9j7U]V52@WYJ_BO;[510
+!s100 `dR7<[N6@TkJ5TO`VfzWJ3
+R8
+32
+R29
+R30
+R31
+R12
+R13
+!i10b 1

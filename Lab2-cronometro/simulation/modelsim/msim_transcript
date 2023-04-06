@@ -1,57 +1,110 @@
 # Reading C:/altera/13.0sp1/modelsim_ase/tcl/vsim/pref.tcl 
-# do cronometro_run_msim_rtl_vhdl.do 
-# if {[file exists rtl_work]} {
-# 	vdel -lib rtl_work -all
+# do cronometro_run_msim_gate_verilog.do 
+# if {[file exists gate_work]} {
+# 	vdel -lib gate_work -all
 # }
-# vlib rtl_work
-# vmap work rtl_work
+# vlib gate_work
+# vmap work gate_work
 # Copying C:\altera\13.0sp1\modelsim_ase\win32aloem/../modelsim.ini to modelsim.ini
 # Modifying modelsim.ini
 # ** Warning: Copied C:\altera\13.0sp1\modelsim_ase\win32aloem/../modelsim.ini to modelsim.ini.
 #          Updated modelsim.ini.
 # 
-# vcom -93 -work work {C:/Users/mathe/Projects/universidade/logica-reconfiguravel-2023.01/Lab2-cronometro/cont4_completo.vhd}
-# Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
-# -- Loading package STANDARD
-# -- Loading package TEXTIO
-# -- Loading package std_logic_1164
-# -- Loading package NUMERIC_STD
-# -- Compiling entity cont4_completo
-# -- Compiling architecture X of Cont4_completo
-# vcom -93 -work work {C:/Users/mathe/Projects/universidade/logica-reconfiguravel-2023.01/Lab2-cronometro/cont_10.vhd}
-# Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
-# -- Loading package STANDARD
-# -- Loading package TEXTIO
-# -- Loading package std_logic_1164
-# -- Loading package NUMERIC_STD
-# -- Compiling entity cont_10
-# -- Compiling architecture cont_10_arch of cont_10
-# vcom -93 -work work {C:/Users/mathe/Projects/universidade/logica-reconfiguravel-2023.01/Lab2-cronometro/cronometro.vhd}
-# Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
-# -- Loading package STANDARD
-# -- Loading package TEXTIO
-# -- Loading package std_logic_1164
-# -- Loading package NUMERIC_STD
-# -- Compiling entity cronometro
-# -- Compiling architecture cronometro_arch of cronometro
-# vcom -93 -work work {C:/Users/mathe/Projects/universidade/logica-reconfiguravel-2023.01/Lab2-cronometro/bcd_2_ssd.vhd}
-# Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
-# -- Loading package STANDARD
-# -- Loading package TEXTIO
-# -- Loading package std_logic_1164
-# -- Loading package NUMERIC_STD
-# -- Compiling entity bcd_2_ssd
-# -- Compiling architecture bcd_2_ssd_arch of bcd_2_ssd
-# vcom -93 -work work {C:/Users/mathe/Projects/universidade/logica-reconfiguravel-2023.01/Lab2-cronometro/divisor.vhd}
-# Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
-# -- Loading package STANDARD
-# -- Loading package TEXTIO
-# -- Loading package std_logic_1164
-# -- Loading package NUMERIC_STD
-# -- Compiling entity DIVISOR
-# -- Compiling architecture x of DIVISOR
+# vlog -vlog01compat -work work +incdir+. {cronometro.vo}
+# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+# -- Compiling module cronometro
 # 
+# Top level modules:
+# 	cronometro
+# 
+# vcom -93 -work work {C:/Users/mathe/Projects/universidade/logica-reconfiguravel-2023.01/Lab2-cronometro/tb_cronometro.vhd}
+# Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity tb_cronometro
+# -- Compiling architecture tb_cronometro_arch of tb_cronometro
+# 
+# vsim -t 1ps +transport_int_delays +transport_path_delays -L cycloneii_ver -L gate_work -L work -voptargs="+acc"  Cronometro
+# vsim +transport_int_delays +transport_path_delays -L cycloneii_ver -L gate_work -L work -voptargs=\"+acc\" -t 1ps Cronometro 
+# ** Error: (vsim-3170) Could not find 'work.Cronometro'.
+# 
+# Error loading design
+# Error: Error loading design 
+#        Pausing macro execution 
+# MACRO ./cronometro_run_msim_gate_verilog.do PAUSED at line 12
+vsim +transport_int_delays +transport_path_delays -L cycloneii_ver -L gate_work -L work -voptargs=\"+acc\" -sdftyp /DUT=C:/Users/mathe/Projects/universidade/logica-reconfiguravel-2023.01/Lab2-cronometro/simulation/modelsim/cronometro_v.sdo -t 1ps gate_work.tb_cronometro
+# vsim +transport_int_delays +transport_path_delays -L cycloneii_ver -L gate_work -L work -voptargs=\"+acc\" -sdftyp /DUT=C:/Users/mathe/Projects/universidade/logica-reconfiguravel-2023.01/Lab2-cronometro/simulation/modelsim/cronometro_v.sdo -t 1ps gate_work.tb_cronometro 
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.numeric_std(body)
+# Loading work.tb_cronometro(tb_cronometro_arch)
+# ALTERA version supports only a single HDL
+# ** Error: (vsim-3039) C:/Users/mathe/Projects/universidade/logica-reconfiguravel-2023.01/Lab2-cronometro/tb_cronometro.vhd(50): Instantiation of 'cronometro' failed.
+# 
+#         Region: /tb_cronometro
+# Loading instances from C:/Users/mathe/Projects/universidade/logica-reconfiguravel-2023.01/Lab2-cronometro/simulation/modelsim/cronometro_v.sdo
+# ** Error: (vsim-SDF-3250) C:/Users/mathe/Projects/universidade/logica-reconfiguravel-2023.01/Lab2-cronometro/simulation/modelsim/cronometro_v.sdo(0): Failed to find INSTANCE '/DUT'.
+# 
+# ** Error: (vsim-SDF-3894) : Errors occured in reading and resolving instances from compiled SDF file(s).
+# 
+# ** Error: (vsim-SDF-3250) C:/Users/mathe/Projects/universidade/logica-reconfiguravel-2023.01/Lab2-cronometro/simulation/modelsim/cronometro_v.sdo(0): Failed to find INSTANCE '/DUT'.
+# 
+# Error loading design
+# Error: Error loading design 
+#        Pausing macro execution 
+# MACRO ./cronometro_run_msim_gate_verilog.do PAUSED at line 12
+vcom -93 -work work -O0 C:/Users/mathe/Projects/universidade/logica-reconfiguravel-2023.01/Lab2-cronometro/tb_cronometro.vhd
+# Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity tb_cronometro
+# -- Compiling architecture tb_cronometro_arch of tb_cronometro
+vlog -vlog01compat -work work +incdir+. -O0 C:/Users/mathe/Projects/universidade/logica-reconfiguravel-2023.01/Lab2-cronometro/simulation/modelsim/cronometro.vo
+# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+# -- Compiling module cronometro
+# 
+# Top level modules:
+# 	cronometro
+do cronometro_run_msim_gate_verilog.do
+# transcript on
+# if {[file exists gate_work]} {
+# 	vdel -lib gate_work -all
+# }
+# vlib gate_work
+# vmap work gate_work
+# Modifying modelsim.ini
+# 
+# vlog -vlog01compat -work work +incdir+. {cronometro.vo}
+# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+# -- Compiling module cronometro
+# 
+# Top level modules:
+# 	cronometro
+# 
+# vcom -93 -work work {C:/Users/mathe/Projects/universidade/logica-reconfiguravel-2023.01/Lab2-cronometro/tb_cronometro.vhd}
+# Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity tb_cronometro
+# -- Compiling architecture tb_cronometro_arch of tb_cronometro
+# 
+# vsim -t 1ps +transport_int_delays +transport_path_delays -L cycloneii_ver -L gate_work -L work -voptargs="+acc"  Cronometro
+# vsim +transport_int_delays +transport_path_delays -L cycloneii_ver -L gate_work -L work -voptargs=\"+acc\" -t 1ps Cronometro 
+# ** Error: (vsim-3170) Could not find 'gate_work.Cronometro'.
+# 
+# Error loading design
+# Error: Error loading design 
+#        Pausing macro execution 
+# MACRO ./cronometro_run_msim_gate_verilog.do PAUSED at line 12
 do cronometro_compile.do
+# vcom -reportprogress 300 -work work C:/Users/mathe/Projects/universidade/logica-reconfiguravel-2023.01/Lab2-cronometro/cont4_completo.vhd
 # Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
 # -- Loading package STANDARD
 # -- Loading package TEXTIO
@@ -59,6 +112,7 @@ do cronometro_compile.do
 # -- Loading package NUMERIC_STD
 # -- Compiling entity cont4_completo
 # -- Compiling architecture X of Cont4_completo
+# vcom -reportprogress 300 -work work C:/Users/mathe/Projects/universidade/logica-reconfiguravel-2023.01/Lab2-cronometro/cont_10.vhd
 # Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
 # -- Loading package STANDARD
 # -- Loading package TEXTIO
@@ -66,6 +120,7 @@ do cronometro_compile.do
 # -- Loading package NUMERIC_STD
 # -- Compiling entity cont_10
 # -- Compiling architecture cont_10_arch of cont_10
+# vcom -reportprogress 300 -work work C:/Users/mathe/Projects/universidade/logica-reconfiguravel-2023.01/Lab2-cronometro/bcd_2_ssd.vhd
 # Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
 # -- Loading package STANDARD
 # -- Loading package TEXTIO
@@ -73,6 +128,7 @@ do cronometro_compile.do
 # -- Loading package NUMERIC_STD
 # -- Compiling entity bcd_2_ssd
 # -- Compiling architecture bcd_2_ssd_arch of bcd_2_ssd
+# vcom -reportprogress 300 -work work C:/Users/mathe/Projects/universidade/logica-reconfiguravel-2023.01/Lab2-cronometro/cronometro.vhd
 # Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
 # -- Loading package STANDARD
 # -- Loading package TEXTIO
@@ -80,6 +136,7 @@ do cronometro_compile.do
 # -- Loading package NUMERIC_STD
 # -- Compiling entity cronometro
 # -- Compiling architecture cronometro_arch of cronometro
+# vcom -reportprogress 300 -work work C:/Users/mathe/Projects/universidade/logica-reconfiguravel-2023.01/Lab2-cronometro/tb_cronometro.vhd
 # Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
 # -- Loading package STANDARD
 # -- Loading package TEXTIO
@@ -87,343 +144,9 @@ do cronometro_compile.do
 # -- Loading package NUMERIC_STD
 # -- Compiling entity tb_cronometro
 # -- Compiling architecture tb_cronometro_arch of tb_cronometro
-vsim +altera -do cronometro_run_msim_rtl_vhdl.do -l msim_transcript -gui work.tb_cronometro
-# vsim +altera -do cronometro_run_msim_rtl_vhdl.do -l msim_transcript -gui work.tb_cronometro 
-# Loading std.standard
-# Loading std.textio(body)
-# Loading ieee.std_logic_1164(body)
-# Loading ieee.numeric_std(body)
-# Loading work.tb_cronometro(tb_cronometro_arch)
-# Loading work.cronometro(cronometro_arch)
-# Loading work.divisor(x)
-# Loading work.cont_10(cont_10_arch)
-# Loading work.cont4_completo(x)
-# Loading work.bcd_2_ssd(bcd_2_ssd_arch)
-# do cronometro_run_msim_rtl_vhdl.do 
-# if {[file exists rtl_work]} {
-# 	vdel -lib rtl_work -all
-# }
-# vlib rtl_work
-# vmap work rtl_work
-# Modifying modelsim.ini
+vlog -reportprogress 300 -work work C:/Users/mathe/Projects/universidade/logica-reconfiguravel-2023.01/Lab2-cronometro/simulation/modelsim/cronometro.vo
+# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+# -- Compiling module cronometro
 # 
-# vcom -93 -work work {C:/Users/mathe/Projects/universidade/logica-reconfiguravel-2023.01/Lab2-cronometro/cont4_completo.vhd}
-# Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
-# -- Loading package STANDARD
-# -- Loading package TEXTIO
-# -- Loading package std_logic_1164
-# -- Loading package NUMERIC_STD
-# -- Compiling entity cont4_completo
-# -- Compiling architecture X of Cont4_completo
-# vcom -93 -work work {C:/Users/mathe/Projects/universidade/logica-reconfiguravel-2023.01/Lab2-cronometro/cont_10.vhd}
-# Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
-# -- Loading package STANDARD
-# -- Loading package TEXTIO
-# -- Loading package std_logic_1164
-# -- Loading package NUMERIC_STD
-# -- Compiling entity cont_10
-# -- Compiling architecture cont_10_arch of cont_10
-# vcom -93 -work work {C:/Users/mathe/Projects/universidade/logica-reconfiguravel-2023.01/Lab2-cronometro/cronometro.vhd}
-# Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
-# -- Loading package STANDARD
-# -- Loading package TEXTIO
-# -- Loading package std_logic_1164
-# -- Loading package NUMERIC_STD
-# -- Compiling entity cronometro
-# -- Compiling architecture cronometro_arch of cronometro
-# vcom -93 -work work {C:/Users/mathe/Projects/universidade/logica-reconfiguravel-2023.01/Lab2-cronometro/bcd_2_ssd.vhd}
-# Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
-# -- Loading package STANDARD
-# -- Loading package TEXTIO
-# -- Loading package std_logic_1164
-# -- Loading package NUMERIC_STD
-# -- Compiling entity bcd_2_ssd
-# -- Compiling architecture bcd_2_ssd_arch of bcd_2_ssd
-# vcom -93 -work work {C:/Users/mathe/Projects/universidade/logica-reconfiguravel-2023.01/Lab2-cronometro/divisor.vhd}
-# Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
-# -- Loading package STANDARD
-# -- Loading package TEXTIO
-# -- Loading package std_logic_1164
-# -- Loading package NUMERIC_STD
-# -- Compiling entity DIVISOR
-# -- Compiling architecture x of DIVISOR
-# 
-add wave -position insertpoint  \
-sim:/tb_cronometro/clk \
-sim:/tb_cronometro/rst \
-sim:/tb_cronometro/en \
-sim:/tb_cronometro/stst
-add wave -position insertpoint  \
-sim:/tb_cronometro/out_3 \
-sim:/tb_cronometro/out_2 \
-sim:/tb_cronometro/out_1 \
-sim:/tb_cronometro/out_0
-run
-add wave -position insertpoint  \
-sim:/tb_cronometro/DUT/cont_out_3 \
-sim:/tb_cronometro/DUT/cont_out_2 \
-sim:/tb_cronometro/DUT/cont_out_1 \
-sim:/tb_cronometro/DUT/cont_out_0
-restart
-# ** Error: (vsim-3170) Could not find 'C:/Users/mathe/Projects/universidade/logica-reconfiguravel-2023.01/Lab2-cronometro/simulation/modelsim/rtl_work.tb_cronometro'.
-# 
-# A time value could not be extracted from the current line
-do cronometro_run_msim_rtl_vhdl.do
-# if {[file exists rtl_work]} {
-# 	vdel -lib rtl_work -all
-# }
-# vlib rtl_work
-# vmap work rtl_work
-# Modifying modelsim.ini
-# 
-# vcom -93 -work work {C:/Users/mathe/Projects/universidade/logica-reconfiguravel-2023.01/Lab2-cronometro/cont4_completo.vhd}
-# Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
-# -- Loading package STANDARD
-# -- Loading package TEXTIO
-# -- Loading package std_logic_1164
-# -- Loading package NUMERIC_STD
-# -- Compiling entity cont4_completo
-# -- Compiling architecture X of Cont4_completo
-# vcom -93 -work work {C:/Users/mathe/Projects/universidade/logica-reconfiguravel-2023.01/Lab2-cronometro/cont_10.vhd}
-# Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
-# -- Loading package STANDARD
-# -- Loading package TEXTIO
-# -- Loading package std_logic_1164
-# -- Loading package NUMERIC_STD
-# -- Compiling entity cont_10
-# -- Compiling architecture cont_10_arch of cont_10
-# vcom -93 -work work {C:/Users/mathe/Projects/universidade/logica-reconfiguravel-2023.01/Lab2-cronometro/cronometro.vhd}
-# Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
-# -- Loading package STANDARD
-# -- Loading package TEXTIO
-# -- Loading package std_logic_1164
-# -- Loading package NUMERIC_STD
-# -- Compiling entity cronometro
-# -- Compiling architecture cronometro_arch of cronometro
-# vcom -93 -work work {C:/Users/mathe/Projects/universidade/logica-reconfiguravel-2023.01/Lab2-cronometro/bcd_2_ssd.vhd}
-# Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
-# -- Loading package STANDARD
-# -- Loading package TEXTIO
-# -- Loading package std_logic_1164
-# -- Loading package NUMERIC_STD
-# -- Compiling entity bcd_2_ssd
-# -- Compiling architecture bcd_2_ssd_arch of bcd_2_ssd
-# vcom -93 -work work {C:/Users/mathe/Projects/universidade/logica-reconfiguravel-2023.01/Lab2-cronometro/divisor.vhd}
-# Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
-# -- Loading package STANDARD
-# -- Loading package TEXTIO
-# -- Loading package std_logic_1164
-# -- Loading package NUMERIC_STD
-# -- Compiling entity DIVISOR
-# -- Compiling architecture x of DIVISOR
-# 
-# Load canceled
-# Load canceled
-do cronometro_run_msim_rtl_vhdl.do
-# if {[file exists rtl_work]} {
-# 	vdel -lib rtl_work -all
-# }
-# vlib rtl_work
-# vmap work rtl_work
-# Modifying modelsim.ini
-# 
-# vcom -93 -work work {C:/Users/mathe/Projects/universidade/logica-reconfiguravel-2023.01/Lab2-cronometro/cont4_completo.vhd}
-# Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
-# -- Loading package STANDARD
-# -- Loading package TEXTIO
-# -- Loading package std_logic_1164
-# -- Loading package NUMERIC_STD
-# -- Compiling entity cont4_completo
-# -- Compiling architecture X of Cont4_completo
-# vcom -93 -work work {C:/Users/mathe/Projects/universidade/logica-reconfiguravel-2023.01/Lab2-cronometro/cont_10.vhd}
-# Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
-# -- Loading package STANDARD
-# -- Loading package TEXTIO
-# -- Loading package std_logic_1164
-# -- Loading package NUMERIC_STD
-# -- Compiling entity cont_10
-# -- Compiling architecture cont_10_arch of cont_10
-# vcom -93 -work work {C:/Users/mathe/Projects/universidade/logica-reconfiguravel-2023.01/Lab2-cronometro/cronometro.vhd}
-# Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
-# -- Loading package STANDARD
-# -- Loading package TEXTIO
-# -- Loading package std_logic_1164
-# -- Loading package NUMERIC_STD
-# -- Compiling entity cronometro
-# -- Compiling architecture cronometro_arch of cronometro
-# vcom -93 -work work {C:/Users/mathe/Projects/universidade/logica-reconfiguravel-2023.01/Lab2-cronometro/bcd_2_ssd.vhd}
-# Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
-# -- Loading package STANDARD
-# -- Loading package TEXTIO
-# -- Loading package std_logic_1164
-# -- Loading package NUMERIC_STD
-# -- Compiling entity bcd_2_ssd
-# -- Compiling architecture bcd_2_ssd_arch of bcd_2_ssd
-# vcom -93 -work work {C:/Users/mathe/Projects/universidade/logica-reconfiguravel-2023.01/Lab2-cronometro/divisor.vhd}
-# Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
-# -- Loading package STANDARD
-# -- Loading package TEXTIO
-# -- Loading package std_logic_1164
-# -- Loading package NUMERIC_STD
-# -- Compiling entity DIVISOR
-# -- Compiling architecture x of DIVISOR
-# 
-# Load canceled
-vcom -reportprogress 300 -work work C:/Users/mathe/Projects/universidade/logica-reconfiguravel-2023.01/Lab2-cronometro/tb_cronometro.vhd
-# Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
-# -- Loading package STANDARD
-# -- Loading package TEXTIO
-# -- Loading package std_logic_1164
-# -- Loading package NUMERIC_STD
-# -- Compiling entity tb_cronometro
-# -- Compiling architecture tb_cronometro_arch of tb_cronometro
-vsim +altera -do cronometro_run_msim_rtl_vhdl.do -l msim_transcript -gui work.tb_cronometro
-# vsim +altera -do cronometro_run_msim_rtl_vhdl.do -l msim_transcript -gui work.tb_cronometro 
-# Error loading design
-vsim +altera -do cronometro_run_msim_rtl_vhdl.do -l msim_transcript -gui work.tb_cronometro
-# vsim +altera -do cronometro_run_msim_rtl_vhdl.do -l msim_transcript -gui work.tb_cronometro 
-# Loading std.standard
-# Loading std.textio(body)
-# Loading ieee.std_logic_1164(body)
-# Loading ieee.numeric_std(body)
-# Loading work.tb_cronometro(tb_cronometro_arch)
-# Loading work.cronometro(cronometro_arch)
-# Loading work.divisor(x)
-# Loading work.cont_10(cont_10_arch)
-# Loading work.cont4_completo(x)
-# Loading work.bcd_2_ssd(bcd_2_ssd_arch)
-# do cronometro_run_msim_rtl_vhdl.do 
-# if {[file exists rtl_work]} {
-# 	vdel -lib rtl_work -all
-# }
-# vlib rtl_work
-# vmap work rtl_work
-# Modifying modelsim.ini
-# 
-# vcom -93 -work work {C:/Users/mathe/Projects/universidade/logica-reconfiguravel-2023.01/Lab2-cronometro/cont4_completo.vhd}
-# Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
-# -- Loading package STANDARD
-# -- Loading package TEXTIO
-# -- Loading package std_logic_1164
-# -- Loading package NUMERIC_STD
-# -- Compiling entity cont4_completo
-# -- Compiling architecture X of Cont4_completo
-# vcom -93 -work work {C:/Users/mathe/Projects/universidade/logica-reconfiguravel-2023.01/Lab2-cronometro/cont_10.vhd}
-# Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
-# -- Loading package STANDARD
-# -- Loading package TEXTIO
-# -- Loading package std_logic_1164
-# -- Loading package NUMERIC_STD
-# -- Compiling entity cont_10
-# -- Compiling architecture cont_10_arch of cont_10
-# vcom -93 -work work {C:/Users/mathe/Projects/universidade/logica-reconfiguravel-2023.01/Lab2-cronometro/cronometro.vhd}
-# Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
-# -- Loading package STANDARD
-# -- Loading package TEXTIO
-# -- Loading package std_logic_1164
-# -- Loading package NUMERIC_STD
-# -- Compiling entity cronometro
-# -- Compiling architecture cronometro_arch of cronometro
-# vcom -93 -work work {C:/Users/mathe/Projects/universidade/logica-reconfiguravel-2023.01/Lab2-cronometro/bcd_2_ssd.vhd}
-# Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
-# -- Loading package STANDARD
-# -- Loading package TEXTIO
-# -- Loading package std_logic_1164
-# -- Loading package NUMERIC_STD
-# -- Compiling entity bcd_2_ssd
-# -- Compiling architecture bcd_2_ssd_arch of bcd_2_ssd
-# vcom -93 -work work {C:/Users/mathe/Projects/universidade/logica-reconfiguravel-2023.01/Lab2-cronometro/divisor.vhd}
-# Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
-# -- Loading package STANDARD
-# -- Loading package TEXTIO
-# -- Loading package std_logic_1164
-# -- Loading package NUMERIC_STD
-# -- Compiling entity DIVISOR
-# -- Compiling architecture x of DIVISOR
-# 
-run
-add wave -position insertpoint  \
-sim:/tb_cronometro/DUT/en_cont_3 \
-sim:/tb_cronometro/DUT/en_cont_2 \
-sim:/tb_cronometro/DUT/en_cont_1 \
-sim:/tb_cronometro/DUT/en_cont_0
-add wave -position insertpoint  \
-sim:/tb_cronometro/DUT/running \
-sim:/tb_cronometro/DUT/max_reached \
-sim:/tb_cronometro/DUT/internal_en
-restart
-# ** Error: (vsim-3170) Could not find 'C:/Users/mathe/Projects/universidade/logica-reconfiguravel-2023.01/Lab2-cronometro/simulation/modelsim/rtl_work.tb_cronometro'.
-# 
-vcom -reportprogress 300 -work work C:/Users/mathe/Projects/universidade/logica-reconfiguravel-2023.01/Lab2-cronometro/tb_cronometro.vhd
-# Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
-# -- Loading package STANDARD
-# -- Loading package TEXTIO
-# -- Loading package std_logic_1164
-# -- Loading package NUMERIC_STD
-# -- Compiling entity tb_cronometro
-# -- Compiling architecture tb_cronometro_arch of tb_cronometro
-vsim +altera -do cronometro_run_msim_rtl_vhdl.do -l msim_transcript -gui work.tb_cronometro
-# vsim +altera -do cronometro_run_msim_rtl_vhdl.do -l msim_transcript -gui work.tb_cronometro 
-# Error loading design
-vsim +altera -do cronometro_run_msim_rtl_vhdl.do -l msim_transcript -gui work.tb_cronometro
-# vsim +altera -do cronometro_run_msim_rtl_vhdl.do -l msim_transcript -gui work.tb_cronometro 
-# Loading std.standard
-# Loading std.textio(body)
-# Loading ieee.std_logic_1164(body)
-# Loading ieee.numeric_std(body)
-# Loading work.tb_cronometro(tb_cronometro_arch)
-# Loading work.cronometro(cronometro_arch)
-# Loading work.divisor(x)
-# Loading work.cont_10(cont_10_arch)
-# Loading work.cont4_completo(x)
-# Loading work.bcd_2_ssd(bcd_2_ssd_arch)
-# do cronometro_run_msim_rtl_vhdl.do 
-# if {[file exists rtl_work]} {
-# 	vdel -lib rtl_work -all
-# }
-# vlib rtl_work
-# vmap work rtl_work
-# Modifying modelsim.ini
-# 
-# vcom -93 -work work {C:/Users/mathe/Projects/universidade/logica-reconfiguravel-2023.01/Lab2-cronometro/cont4_completo.vhd}
-# Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
-# -- Loading package STANDARD
-# -- Loading package TEXTIO
-# -- Loading package std_logic_1164
-# -- Loading package NUMERIC_STD
-# -- Compiling entity cont4_completo
-# -- Compiling architecture X of Cont4_completo
-# vcom -93 -work work {C:/Users/mathe/Projects/universidade/logica-reconfiguravel-2023.01/Lab2-cronometro/cont_10.vhd}
-# Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
-# -- Loading package STANDARD
-# -- Loading package TEXTIO
-# -- Loading package std_logic_1164
-# -- Loading package NUMERIC_STD
-# -- Compiling entity cont_10
-# -- Compiling architecture cont_10_arch of cont_10
-# vcom -93 -work work {C:/Users/mathe/Projects/universidade/logica-reconfiguravel-2023.01/Lab2-cronometro/cronometro.vhd}
-# Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
-# -- Loading package STANDARD
-# -- Loading package TEXTIO
-# -- Loading package std_logic_1164
-# -- Loading package NUMERIC_STD
-# -- Compiling entity cronometro
-# -- Compiling architecture cronometro_arch of cronometro
-# vcom -93 -work work {C:/Users/mathe/Projects/universidade/logica-reconfiguravel-2023.01/Lab2-cronometro/bcd_2_ssd.vhd}
-# Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
-# -- Loading package STANDARD
-# -- Loading package TEXTIO
-# -- Loading package std_logic_1164
-# -- Loading package NUMERIC_STD
-# -- Compiling entity bcd_2_ssd
-# -- Compiling architecture bcd_2_ssd_arch of bcd_2_ssd
-# vcom -93 -work work {C:/Users/mathe/Projects/universidade/logica-reconfiguravel-2023.01/Lab2-cronometro/divisor.vhd}
-# Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
-# -- Loading package STANDARD
-# -- Loading package TEXTIO
-# -- Loading package std_logic_1164
-# -- Loading package NUMERIC_STD
-# -- Compiling entity DIVISOR
-# -- Compiling architecture x of DIVISOR
-# 
-run
+# Top level modules:
+# 	cronometro

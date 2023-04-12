@@ -1,0 +1,85 @@
+m255
+K3
+13
+cModel Technology
+Z0 dC:\Users\mathe\Projects\universidade\logica-reconfiguravel-2023.01\Lab3-v2\simulation\modelsim
+Elab3
+Z1 w1681304821
+Z2 DPx4 ieee 16 vital_primitives 0 22 9W@YP9_VCb?_GCJ8e:;YQ0
+Z3 DPx9 cycloneii 19 cycloneii_atom_pack 0 22 zUjlM<IUJVWSWg:L2<>ic3
+Z4 DPx4 ieee 12 vital_timing 0 22 7h8zz2S4HVg:a;2TBMI[j1
+Z5 DPx3 std 6 textio 0 22 5>J:;AW>W0[[dW0I6EN1Q0
+Z6 DPx4 ieee 14 std_logic_1164 0 22 5=aWaoGZSMWIcH0i^f`XF1
+Z7 DPx9 cycloneii 20 cycloneii_components 0 22 h@gSJ;Al32oYg[7^PbnAR0
+Z8 dC:\Users\mathe\Projects\universidade\logica-reconfiguravel-2023.01\Lab3-v2\simulation\modelsim
+Z9 8C:/Users/mathe/Projects/universidade/logica-reconfiguravel-2023.01/Lab3-v2/simulation/modelsim/lab3.vho
+Z10 FC:/Users/mathe/Projects/universidade/logica-reconfiguravel-2023.01/Lab3-v2/simulation/modelsim/lab3.vho
+l0
+L34
+V@F4_:cDH:aCmAYUIkR5<72
+Z11 OV;C;10.1d;51
+32
+Z12 !s108 1681304847.172000
+Z13 !s90 -reportprogress|300|-work|work|C:/Users/mathe/Projects/universidade/logica-reconfiguravel-2023.01/Lab3-v2/simulation/modelsim/lab3.vho|
+Z14 !s107 C:/Users/mathe/Projects/universidade/logica-reconfiguravel-2023.01/Lab3-v2/simulation/modelsim/lab3.vho|
+Z15 o-work work -O0
+Z16 tExplicit 1
+!s100 GChYbWQjQbehbM9_[i7Dc3
+!i10b 1
+Astructure
+R2
+R3
+R4
+R5
+R6
+R7
+DEx4 work 4 lab3 0 22 @F4_:cDH:aCmAYUIkR5<72
+l110
+L65
+VQ3Q`z`:GBRUMLzUgX7cXe0
+!s100 X:Y<]bDKjI?CiSYzKKo;h1
+R11
+32
+R12
+R13
+R14
+R15
+R16
+!i10b 1
+Etb_lab3
+Z17 w1681304810
+Z18 DPx4 ieee 11 numeric_std 0 22 O3PF8EB`?j9=z7KT`fn941
+R5
+R6
+R8
+Z19 8C:/Users/mathe/Projects/universidade/logica-reconfiguravel-2023.01/Lab3-v2/tb_lab3.vhd
+Z20 FC:/Users/mathe/Projects/universidade/logica-reconfiguravel-2023.01/Lab3-v2/tb_lab3.vhd
+l0
+L5
+V?YkF9g74En4Y_]P[;Y6Hz1
+!s100 V0>?B7GzSiEm8O<:>MaS_0
+R11
+32
+!i10b 1
+Z21 !s108 1681304854.165000
+Z22 !s90 -reportprogress|300|-work|work|C:/Users/mathe/Projects/universidade/logica-reconfiguravel-2023.01/Lab3-v2/tb_lab3.vhd|
+Z23 !s107 C:/Users/mathe/Projects/universidade/logica-reconfiguravel-2023.01/Lab3-v2/tb_lab3.vhd|
+R15
+R16
+Atb_lab3_arch
+R18
+R5
+R6
+DEx4 work 7 tb_lab3 0 22 ?YkF9g74En4Y_]P[;Y6Hz1
+l36
+L9
+V46BMXamaV`UgVc4NlDzb10
+!s100 7o53RbNgZ0;04LHFY3SzG3
+R11
+32
+!i10b 1
+R21
+R22
+R23
+R15
+R16

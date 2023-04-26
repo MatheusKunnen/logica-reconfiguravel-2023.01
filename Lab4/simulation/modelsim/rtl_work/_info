@@ -1,0 +1,186 @@
+m255
+K3
+13
+cModel Technology
+Z0 dC:\Users\mathe\Projects\universidade\logica-reconfiguravel-2023.01\Lab4\simulation\modelsim
+Ebram
+Z1 w1681903989
+Z2 DPx3 std 6 textio 0 22 5>J:;AW>W0[[dW0I6EN1Q0
+Z3 DPx4 ieee 14 std_logic_1164 0 22 5=aWaoGZSMWIcH0i^f`XF1
+Z4 dC:\Users\mathe\Projects\universidade\logica-reconfiguravel-2023.01\Lab4\simulation\modelsim
+Z5 8C:/Users/mathe/Projects/universidade/logica-reconfiguravel-2023.01/Lab4/bram.vhd
+Z6 FC:/Users/mathe/Projects/universidade/logica-reconfiguravel-2023.01/Lab4/bram.vhd
+l0
+L42
+VPUWOdM80VZHDHhiZgF4P33
+Z7 OV;C;10.1d;51
+31
+Z8 !s108 1682476634.460000
+Z9 !s90 -reportprogress|300|-93|-work|work|C:/Users/mathe/Projects/universidade/logica-reconfiguravel-2023.01/Lab4/bram.vhd|
+Z10 !s107 C:/Users/mathe/Projects/universidade/logica-reconfiguravel-2023.01/Lab4/bram.vhd|
+Z11 o-93 -work work -O0
+Z12 tExplicit 1
+!s100 `zEEY<bFmf4K`K<=nBOLD1
+!i10b 1
+Asyn
+R2
+R3
+DEx4 work 4 bram 0 22 PUWOdM80VZHDHhiZgF4P33
+l86
+L54
+VJj[;dZlHlVnNOG:>Re[W@2
+R7
+31
+R8
+R9
+R10
+R11
+R12
+!s100 BO=5DfQhik=WCY=5k^<Xl0
+!i10b 1
+Efifo
+Z13 w1681904319
+R2
+R3
+R4
+Z14 8C:/Users/mathe/Projects/universidade/logica-reconfiguravel-2023.01/Lab4/fifo.vhd
+Z15 FC:/Users/mathe/Projects/universidade/logica-reconfiguravel-2023.01/Lab4/fifo.vhd
+l0
+L42
+VE=NHkE[ahCkRG5z[=W9B62
+R7
+31
+Z16 !s108 1682476634.522000
+Z17 !s90 -reportprogress|300|-93|-work|work|C:/Users/mathe/Projects/universidade/logica-reconfiguravel-2023.01/Lab4/fifo.vhd|
+Z18 !s107 C:/Users/mathe/Projects/universidade/logica-reconfiguravel-2023.01/Lab4/fifo.vhd|
+R11
+R12
+!s100 ch5G;S364m?Zbon<mKfce3
+!i10b 1
+Asyn
+R2
+R3
+DEx4 work 4 fifo 0 22 E=NHkE[ahCkRG5z[=W9B62
+l91
+L57
+Ve^96XIQVIl^4Yib2=P?o93
+R7
+31
+R16
+R17
+R18
+R11
+R12
+!s100 I:9>K1C09?fG7ih;VM6Xa1
+!i10b 1
+Elab4
+Z19 w1682482497
+Z20 DPx4 ieee 11 numeric_std 0 22 O3PF8EB`?j9=z7KT`fn941
+R2
+R3
+R4
+Z21 8C:/Users/mathe/Projects/universidade/logica-reconfiguravel-2023.01/Lab4/lab4.vhd
+Z22 FC:/Users/mathe/Projects/universidade/logica-reconfiguravel-2023.01/Lab4/lab4.vhd
+l0
+L5
+VHk]VzKg^<4TgjKHQKgGCa2
+R7
+32
+Z23 !s108 1682482521.784000
+Z24 !s90 -reportprogress|300|-work|work|-O0|C:/Users/mathe/Projects/universidade/logica-reconfiguravel-2023.01/Lab4/lab4.vhd|
+Z25 !s107 C:/Users/mathe/Projects/universidade/logica-reconfiguravel-2023.01/Lab4/lab4.vhd|
+Z26 o-work work -O0
+R12
+!s100 kCdDEFnOZf0CPf@0]1f>D2
+!i10b 1
+Alab4_arch
+R20
+R2
+R3
+DEx4 work 4 lab4 0 22 Hk]VzKg^<4TgjKHQKgGCa2
+l87
+L13
+V?o?A=]doImUKdO48DOA>X0
+R7
+32
+R23
+R24
+R25
+R26
+R12
+!s100 J6[MKQen1Q1ojk2K6^DJV3
+!i10b 1
+Etb_lab4
+Z27 w1681911888
+R20
+R2
+R3
+R4
+Z28 8C:/Users/mathe/Projects/universidade/logica-reconfiguravel-2023.01/Lab4/tb_lab4.vhd
+Z29 FC:/Users/mathe/Projects/universidade/logica-reconfiguravel-2023.01/Lab4/tb_lab4.vhd
+l0
+L5
+VMV4FjOHUn2_EKDOX;9Dk<0
+!s100 cH=;Re=PDGPKjifoj;7:K2
+R7
+31
+!i10b 1
+Z30 !s108 1682482524.121000
+Z31 !s90 -reportprogress|300|-93|-work|work|-O0|C:/Users/mathe/Projects/universidade/logica-reconfiguravel-2023.01/Lab4/tb_lab4.vhd|
+Z32 !s107 C:/Users/mathe/Projects/universidade/logica-reconfiguravel-2023.01/Lab4/tb_lab4.vhd|
+R11
+R12
+Atb_lab4_arch
+R20
+R2
+R3
+Z33 DEx4 work 7 tb_lab4 0 22 MV4FjOHUn2_EKDOX;9Dk<0
+l24
+L9
+Z34 V:F[H1m49;>mY_bIiD22li3
+Z35 !s100 UYF^A00gi5[eOJ>=`M78i2
+R7
+31
+!i10b 1
+R30
+R31
+R32
+R11
+R12
+Etb_ram
+Z36 w1681908346
+R20
+R2
+R3
+R4
+Z37 8C:/Users/mathe/Projects/universidade/logica-reconfiguravel-2023.01/Lab4/tb_ram.vhd
+Z38 FC:/Users/mathe/Projects/universidade/logica-reconfiguravel-2023.01/Lab4/tb_ram.vhd
+l0
+L5
+VRX;<3Rda1kM9e41llQQWb1
+R7
+32
+Z39 !s108 1682476649.856000
+Z40 !s90 -reportprogress|300|-work|work|C:/Users/mathe/Projects/universidade/logica-reconfiguravel-2023.01/Lab4/tb_ram.vhd|
+Z41 !s107 C:/Users/mathe/Projects/universidade/logica-reconfiguravel-2023.01/Lab4/tb_ram.vhd|
+R26
+R12
+!s100 ZG9_JmlAZ;azoIgDUe<4n3
+!i10b 1
+Atb_bram_arch
+R20
+R2
+R3
+DEx4 work 6 tb_ram 0 22 RX;<3Rda1kM9e41llQQWb1
+l31
+L9
+VBME`1:5hC0WPEh:NGNJ@<1
+R7
+32
+R39
+R40
+R41
+R26
+R12
+!s100 L_5T6gVWGbQOgHYCAF;Dg2
+!i10b 1

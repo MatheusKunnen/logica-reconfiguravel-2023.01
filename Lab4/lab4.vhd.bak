@@ -1,0 +1,9 @@
+entity lab4 is 
+port()
+end entity;
+
+architecture lab4_arch of lab4 is 
+
+begin
+
+end architecture;

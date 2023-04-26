@@ -126,12 +126,9 @@ begin
       if rising_edge(clk) then
          if fifo_full = '0' and en = '1' and bram0_address /= "1111111111" then 
             read_bram0 <= '1';
+            bram0_address <= std_logic_vector(unsigned(bram0_address) + 1);
          else
             read_bram0 <= '0';
-         end if;
-         
-         if read_bram0 = '1' then
-            bram0_address <= std_logic_vector(unsigned(bram0_address) + 1);
          end if;
       end if;
    end process;

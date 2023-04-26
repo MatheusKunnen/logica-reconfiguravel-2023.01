@@ -974,3 +974,63 @@ run
 run
 restart
 run
+vcom -work work -O0 C:/Users/mathe/Projects/universidade/logica-reconfiguravel-2023.01/Lab4/lab4.vhd
+# Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity lab4
+# -- Compiling architecture lab4_arch of lab4
+vcom -93 -work work -O0 C:/Users/mathe/Projects/universidade/logica-reconfiguravel-2023.01/Lab4/tb_lab4.vhd
+# Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity tb_lab4
+# -- Compiling architecture tb_lab4_arch of tb_lab4
+restart
+# Loading work.tb_lab4(tb_lab4_arch)
+# Loading work.lab4(lab4_arch)
+run
+vcom -work work -O0 C:/Users/mathe/Projects/universidade/logica-reconfiguravel-2023.01/Lab4/lab4.vhd
+# Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity lab4
+# -- Compiling architecture lab4_arch of lab4
+vcom -93 -work work -O0 C:/Users/mathe/Projects/universidade/logica-reconfiguravel-2023.01/Lab4/tb_lab4.vhd
+# Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity tb_lab4
+# -- Compiling architecture tb_lab4_arch of tb_lab4
+restart
+# Loading work.tb_lab4(tb_lab4_arch)
+# Loading work.lab4(lab4_arch)
+run
+vcom -work work -O0 C:/Users/mathe/Projects/universidade/logica-reconfiguravel-2023.01/Lab4/lab4.vhd
+# Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity lab4
+# -- Compiling architecture lab4_arch of lab4
+vcom -93 -work work -O0 C:/Users/mathe/Projects/universidade/logica-reconfiguravel-2023.01/Lab4/tb_lab4.vhd
+# Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity tb_lab4
+# -- Compiling architecture tb_lab4_arch of tb_lab4
+restart
+# Loading work.tb_lab4(tb_lab4_arch)
+# Loading work.lab4(lab4_arch)
+run

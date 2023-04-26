@@ -74,7 +74,7 @@ R12
 !s100 I:9>K1C09?fG7ih;VM6Xa1
 !i10b 1
 Elab4
-Z19 w1682482497
+Z19 w1682508816
 Z20 DPx4 ieee 11 numeric_std 0 22 O3PF8EB`?j9=z7KT`fn941
 R2
 R3
@@ -86,7 +86,7 @@ L5
 VHk]VzKg^<4TgjKHQKgGCa2
 R7
 32
-Z23 !s108 1682482521.784000
+Z23 !s108 1682508820.702000
 Z24 !s90 -reportprogress|300|-work|work|-O0|C:/Users/mathe/Projects/universidade/logica-reconfiguravel-2023.01/Lab4/lab4.vhd|
 Z25 !s107 C:/Users/mathe/Projects/universidade/logica-reconfiguravel-2023.01/Lab4/lab4.vhd|
 Z26 o-work work -O0
@@ -98,9 +98,9 @@ R20
 R2
 R3
 DEx4 work 4 lab4 0 22 Hk]VzKg^<4TgjKHQKgGCa2
-l87
+l78
 L13
-V?o?A=]doImUKdO48DOA>X0
+V]`AQbV_QhkzTTgdlnokA=0
 R7
 32
 R23
@@ -108,7 +108,7 @@ R24
 R25
 R26
 R12
-!s100 J6[MKQen1Q1ojk2K6^DJV3
+!s100 _Bj433K[<[:i9CBDo=T3D1
 !i10b 1
 Etb_lab4
 Z27 w1681911888
@@ -125,7 +125,7 @@ VMV4FjOHUn2_EKDOX;9Dk<0
 R7
 31
 !i10b 1
-Z30 !s108 1682482524.121000
+Z30 !s108 1682508822.248000
 Z31 !s90 -reportprogress|300|-93|-work|work|-O0|C:/Users/mathe/Projects/universidade/logica-reconfiguravel-2023.01/Lab4/tb_lab4.vhd|
 Z32 !s107 C:/Users/mathe/Projects/universidade/logica-reconfiguravel-2023.01/Lab4/tb_lab4.vhd|
 R11

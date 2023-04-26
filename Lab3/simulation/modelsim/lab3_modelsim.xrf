@@ -1,7 +1,7 @@
 vendor_name = ModelSim
-source_file = 1, C:/Users/mathe/Projects/universidade/logica-reconfiguravel-2023.01/Lab3-v2/lab3.vhd
-source_file = 1, C:/Users/mathe/Projects/universidade/logica-reconfiguravel-2023.01/Lab3-v2/tb_lab3.vhd
-source_file = 1, C:/Users/mathe/Projects/universidade/logica-reconfiguravel-2023.01/Lab3-v2/db/lab3.cbx.xml
+source_file = 1, C:/Users/mathe/Projects/universidade/logica-reconfiguravel-2023.01/Lab3/lab3.vhd
+source_file = 1, C:/Users/mathe/Projects/universidade/logica-reconfiguravel-2023.01/Lab3/tb_lab3.vhd
+source_file = 1, C:/Users/mathe/Projects/universidade/logica-reconfiguravel-2023.01/Lab3/db/lab3.cbx.xml
 source_file = 1, c:/altera/13.0sp1/quartus/libraries/vhdl/ieee/prmtvs_b.vhd
 source_file = 1, c:/altera/13.0sp1/quartus/libraries/vhdl/ieee/prmtvs_p.vhd
 source_file = 1, c:/altera/13.0sp1/quartus/libraries/vhdl/ieee/timing_b.vhd

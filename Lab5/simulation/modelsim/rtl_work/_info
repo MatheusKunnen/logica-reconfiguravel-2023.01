@@ -1,0 +1,114 @@
+m255
+K3
+13
+cModel Technology
+Z0 dC:\Users\mathe\Projects\universidade\logica-reconfiguravel-2023.01\Lab5\simulation\modelsim
+Ebram
+Z1 w1682510865
+Z2 DPx4 ieee 11 numeric_std 0 22 O3PF8EB`?j9=z7KT`fn941
+Z3 DPx3 std 6 textio 0 22 5>J:;AW>W0[[dW0I6EN1Q0
+Z4 DPx4 ieee 14 std_logic_1164 0 22 5=aWaoGZSMWIcH0i^f`XF1
+Z5 dC:\Users\mathe\Projects\universidade\logica-reconfiguravel-2023.01\Lab5\simulation\modelsim
+Z6 8C:/Users/mathe/Projects/universidade/logica-reconfiguravel-2023.01/Lab5/BRAM.vhd
+Z7 FC:/Users/mathe/Projects/universidade/logica-reconfiguravel-2023.01/Lab5/BRAM.vhd
+l0
+L5
+VnUh4L`Y[`@hIeTJnYaY0n3
+Z8 OV;C;10.1d;51
+31
+Z9 !s108 1682562834.540000
+Z10 !s90 -reportprogress|300|-93|-work|work|C:/Users/mathe/Projects/universidade/logica-reconfiguravel-2023.01/Lab5/BRAM.vhd|
+Z11 !s107 C:/Users/mathe/Projects/universidade/logica-reconfiguravel-2023.01/Lab5/BRAM.vhd|
+Z12 o-93 -work work -O0
+Z13 tExplicit 1
+!s100 YaXX^8z<f8ciSFQYQlOg32
+!i10b 1
+Ax
+R2
+R3
+R4
+DEx4 work 4 bram 0 22 nUh4L`Y[`@hIeTJnYaY0n3
+l35
+L18
+V9b3H<Tk]<Nz8PO_N1FnQ71
+R8
+31
+R9
+R10
+R11
+R12
+R13
+!s100 J3g[04D71i?M<`;]a]e4J0
+!i10b 1
+Ebram_tb
+Z14 w1682514348
+R2
+R3
+R4
+R5
+Z15 8C:/Users/mathe/Projects/universidade/logica-reconfiguravel-2023.01/Lab5/BRAM_tb.vhd
+Z16 FC:/Users/mathe/Projects/universidade/logica-reconfiguravel-2023.01/Lab5/BRAM_tb.vhd
+l0
+L5
+V5V3Cg:S^`inG[f?jblXkP2
+!s100 Zf@Ni7Ljc3N3ITHJ[M]IE1
+R8
+31
+!i10b 1
+Z17 !s108 1682562834.688000
+Z18 !s90 -reportprogress|300|-93|-work|work|C:/Users/mathe/Projects/universidade/logica-reconfiguravel-2023.01/Lab5/BRAM_tb.vhd|
+Z19 !s107 C:/Users/mathe/Projects/universidade/logica-reconfiguravel-2023.01/Lab5/BRAM_tb.vhd|
+R12
+R13
+Ax
+R2
+R3
+R4
+DEx4 work 7 bram_tb 0 22 5V3Cg:S^`inG[f?jblXkP2
+l452
+L8
+V;eXc1IzUml:fY?Il]]0eT2
+!s100 5ZHA>hNj9E5>QQ6SCgYMD0
+R8
+31
+!i10b 1
+R17
+R18
+R19
+R12
+R13
+Eqbram
+Z20 w1682510250
+R3
+R4
+R5
+Z21 8C:/Users/mathe/Projects/universidade/logica-reconfiguravel-2023.01/Lab5/qbram.vhd
+Z22 FC:/Users/mathe/Projects/universidade/logica-reconfiguravel-2023.01/Lab5/qbram.vhd
+l0
+L42
+V=3>NA84NQc1845N0eoW??0
+R8
+31
+Z23 !s108 1682562834.628000
+Z24 !s90 -reportprogress|300|-93|-work|work|C:/Users/mathe/Projects/universidade/logica-reconfiguravel-2023.01/Lab5/qbram.vhd|
+Z25 !s107 C:/Users/mathe/Projects/universidade/logica-reconfiguravel-2023.01/Lab5/qbram.vhd|
+R12
+R13
+!s100 3VZd<]edg2;5FDb?WDUWh0
+!i10b 1
+Asyn
+R3
+R4
+DEx4 work 5 qbram 0 22 =3>NA84NQc1845N0eoW??0
+l86
+L54
+V?5Xn[T^P[g^`7O5enP9h71
+R8
+31
+R23
+R24
+R25
+R12
+R13
+!s100 ebJ@ChVHV7JFc[R=VfLng1
+!i10b 1

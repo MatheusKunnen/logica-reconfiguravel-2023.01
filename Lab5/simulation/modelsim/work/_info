@@ -1,0 +1,79 @@
+m255
+K3
+13
+cModel Technology
+Z0 dD:\VHDL_NOVO\BRAM\simulation\modelsim
+Ebram
+Z1 w1626221636
+Z2 DPx4 ieee 11 numeric_std 0 22 O3PF8EB`?j9=z7KT`fn941
+Z3 DPx3 std 6 textio 0 22 5>J:;AW>W0[[dW0I6EN1Q0
+Z4 DPx4 ieee 14 std_logic_1164 0 22 5=aWaoGZSMWIcH0i^f`XF1
+Z5 dD:\VHDL_NOVO\BRAM\simulation\modelsim
+Z6 8D:/VHDL_NOVO/BRAM/BRAM.vhd
+Z7 FD:/VHDL_NOVO/BRAM/BRAM.vhd
+l0
+L5
+VnUh4L`Y[`@hIeTJnYaY0n3
+Z8 OV;C;10.1d;51
+31
+Z9 !s108 1626223162.055000
+Z10 !s90 -reportprogress|300|-93|-work|work|D:/VHDL_NOVO/BRAM/BRAM.vhd|
+Z11 !s107 D:/VHDL_NOVO/BRAM/BRAM.vhd|
+Z12 o-93 -work work -O0
+Z13 tExplicit 1
+!s100 YaXX^8z<f8ciSFQYQlOg32
+!i10b 1
+Ax
+R2
+R3
+R4
+DEx4 work 4 bram 0 22 nUh4L`Y[`@hIeTJnYaY0n3
+l20
+L18
+V9Obk3O3`:AF_gLh:EcJ?G2
+R8
+31
+R9
+R10
+R11
+R12
+R13
+!s100 Fn?ZWW908DPL@MIoke[DO3
+!i10b 1
+Ebram_tb
+Z14 w1626266293
+R2
+R3
+R4
+R5
+Z15 8D:/VHDL_NOVO/BRAM/BRAM_tb.vhd
+Z16 FD:/VHDL_NOVO/BRAM/BRAM_tb.vhd
+l0
+L5
+V]kX<z9M<b>PXC30gUhM:?0
+!s100 Zf@Ni7Ljc3N3ITHJ[M]IE1
+R8
+32
+!i10b 1
+Z17 !s108 1626266308.081000
+Z18 !s90 -reportprogress|300|-work|work|D:/VHDL_NOVO/BRAM/BRAM_tb.vhd|
+Z19 !s107 D:/VHDL_NOVO/BRAM/BRAM_tb.vhd|
+Z20 o-work work -O0
+R13
+Ax
+R2
+R3
+R4
+Z21 DEx4 work 7 bram_tb 0 22 ]kX<z9M<b>PXC30gUhM:?0
+l30
+L8
+V<icD567oULjQB5dR6`aed2
+!s100 Qah1[f2nRI96;6`5F4leI2
+R8
+32
+!i10b 1
+R17
+R18
+R19
+R20
+R13

@@ -5,7 +5,7 @@ use IEEE.numeric_std.all;
 entity lab4 is 
    port
    (
-      clk: IN std_logic;
+      clk_raw: IN std_logic;
       en:  IN std_logic
    );
 end entity;
@@ -48,6 +48,16 @@ architecture lab4_arch of lab4 is
       );
    END COMPONENT;
    
+   COMPONENT DIVISOR is
+   PORT
+   (
+      CLK: in std_logic;
+		RST: in std_logic;
+		DIV50: out std_logic
+    );
+	END COMPONENT;
+   
+   signal clk: std_logic := '0';
    signal read_bram0: std_logic := '1';
 
    signal bram0_wren: std_logic;
@@ -88,6 +98,14 @@ begin
    fifo_write_en <= '1' when en = '1' and bram0_out_ready = '1' else '0';
    fifo_read_en <= '1' when fifo_rd_clk_en = '1' and fifo_empty /= '1' else '0'; 
    
+   div0: DIVISOR
+   port map
+      (
+         CLK => clk_raw,
+         RST => '0',
+         DIV50 => clk
+      );
+      
    bram0: bram
    port map
       (
@@ -133,13 +151,13 @@ begin
       end if;
    end process;
    
-    process(clk)
+   process(clk)
    begin
       if rising_edge(clk) then         
-         if fifo_free_sp = "010000000" then
+         if fifo_free_sp = "110000000" then
             fifo_full <= '1';
          else 
-            if fifo_free_sp = "000001000" then
+            if fifo_free_sp = "100000000" then
                fifo_full <= '0';
             end if;
          end if;
@@ -162,7 +180,7 @@ begin
       variable count: integer range 0 to 5 := 0;
    begin
       if rising_edge(clk) then
-         if count = 5 then
+         if count = 4 then
             bram1_clk_en <= '1';
             count := 0;
          else 

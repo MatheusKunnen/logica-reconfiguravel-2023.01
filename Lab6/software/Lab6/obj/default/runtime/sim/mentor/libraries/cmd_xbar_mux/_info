@@ -1,0 +1,42 @@
+m255
+K3
+13
+cModel Technology
+Z0 dC:\logica\Lab6\software\Lab6\obj\default\runtime\sim\mentor
+Ehostsystem_cmd_xbar_mux
+Z1 w1683767811
+Z2 DPx3 std 6 textio 0 22 5>J:;AW>W0[[dW0I6EN1Q0
+Z3 DPx4 ieee 14 std_logic_1164 0 22 5=aWaoGZSMWIcH0i^f`XF1
+Z4 DPx5 sgate 10 sgate_pack 0 22 T9IHbG>MnW3faLYHJJ;[L3
+Z5 dC:\logica\Lab6\software\Lab6\obj\default\runtime\sim\mentor
+Z6 8C:/logica/Lab6/HostSystem/simulation/submodules/HostSystem_cmd_xbar_mux.vho
+Z7 FC:/logica/Lab6/HostSystem/simulation/submodules/HostSystem_cmd_xbar_mux.vho
+l0
+L33
+V41KG9D_X9AlMQdOd[zMJX3
+!s100 YdjF8gDfeoT5[h2CTW9h42
+Z8 OV;C;10.1d;51
+32
+!i10b 1
+Z9 !s108 1683852753.072000
+Z10 !s90 -reportprogress|300|C:/logica/Lab6/HostSystem/simulation/submodules/HostSystem_cmd_xbar_mux.vho|-work|cmd_xbar_mux|
+Z11 !s107 C:/logica/Lab6/HostSystem/simulation/submodules/HostSystem_cmd_xbar_mux.vho|
+Z12 o-work cmd_xbar_mux -O0
+Z13 tExplicit 1
+Artl
+R2
+R3
+R4
+Z14 DEx4 work 23 hostsystem_cmd_xbar_mux 0 22 41KG9D_X9AlMQdOd[zMJX3
+l541
+L59
+Z15 V_ga@Q7SMi]T7gf6dE<^OT1
+Z16 !s100 U;NZCMGHAWD`?Bd3_O3O:0
+R8
+32
+!i10b 1
+R9
+R10
+R11
+R12
+R13

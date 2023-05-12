@@ -1,0 +1,77 @@
+m255
+K3
+13
+cModel Technology
+Z0 dC:\logica\Lab6\software\Lab6\obj\default\runtime\sim\mentor
+Ebram
+Z1 w1683767805
+Z2 DPx4 ieee 11 numeric_std 0 22 O3PF8EB`?j9=z7KT`fn941
+Z3 DPx3 std 6 textio 0 22 5>J:;AW>W0[[dW0I6EN1Q0
+Z4 DPx4 ieee 14 std_logic_1164 0 22 5=aWaoGZSMWIcH0i^f`XF1
+Z5 dC:\logica\Lab6\software\Lab6\obj\default\runtime\sim\mentor
+Z6 8C:/logica/Lab6/HostSystem/simulation/submodules/BRAM.vhd
+Z7 FC:/logica/Lab6/HostSystem/simulation/submodules/BRAM.vhd
+l0
+L5
+Vj418YR398`2i5`hB07DIP1
+Z8 OV;C;10.1d;51
+32
+Z9 !s108 1683852757.424000
+Z10 !s90 -reportprogress|300|C:/logica/Lab6/HostSystem/simulation/submodules/BRAM.vhd|-work|bram_0|
+Z11 !s107 C:/logica/Lab6/HostSystem/simulation/submodules/BRAM.vhd|
+Z12 o-work bram_0 -O0
+Z13 tExplicit 1
+!s100 YaXX^8z<f8ciSFQYQlOg32
+!i10b 1
+Ax
+R2
+R3
+R4
+DEx4 work 4 bram 0 22 j418YR398`2i5`hB07DIP1
+l35
+L18
+VkHU89RfVT0V5gVD[]fakM1
+!s100 J3g[04D71i?M<`;]a]e4J0
+R8
+32
+R9
+R10
+R11
+R12
+R13
+!i10b 1
+Eqbram
+R1
+R3
+R4
+R5
+Z14 8C:/logica/Lab6/HostSystem/simulation/submodules/qbram.vhd
+Z15 FC:/logica/Lab6/HostSystem/simulation/submodules/qbram.vhd
+l0
+L42
+VnUL8]?chB]Qm@nlBd>X^o2
+!s100 3VZd<]edg2;5FDb?WDUWh0
+R8
+32
+!i10b 1
+Z16 !s108 1683852757.493000
+Z17 !s90 -reportprogress|300|C:/logica/Lab6/HostSystem/simulation/submodules/qbram.vhd|-work|bram_0|
+Z18 !s107 C:/logica/Lab6/HostSystem/simulation/submodules/qbram.vhd|
+R12
+R13
+Asyn
+R3
+R4
+Z19 DEx4 work 5 qbram 0 22 nUL8]?chB]Qm@nlBd>X^o2
+l86
+L54
+Z20 VN?e3CkBcD[5==B?F:Y7oD0
+Z21 !s100 ebJ@ChVHV7JFc[R=VfLng1
+R8
+32
+!i10b 1
+R16
+R17
+R18
+R12
+R13

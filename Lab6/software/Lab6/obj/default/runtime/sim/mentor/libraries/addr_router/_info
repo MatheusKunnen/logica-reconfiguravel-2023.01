@@ -1,0 +1,40 @@
+m255
+K3
+13
+cModel Technology
+Z0 dC:\logica\Lab6\software\Lab6\obj\default\runtime\sim\mentor
+Ehostsystem_addr_router
+Z1 w1683767808
+Z2 DPx3 std 6 textio 0 22 5>J:;AW>W0[[dW0I6EN1Q0
+Z3 DPx4 ieee 14 std_logic_1164 0 22 5=aWaoGZSMWIcH0i^f`XF1
+Z4 dC:\logica\Lab6\software\Lab6\obj\default\runtime\sim\mentor
+Z5 8C:/logica/Lab6/HostSystem/simulation/submodules/HostSystem_addr_router.vho
+Z6 FC:/logica/Lab6/HostSystem/simulation/submodules/HostSystem_addr_router.vho
+l0
+L30
+V@gf]QkcQW_6Q8g0Pc1UFC2
+!s100 RAaa4J=IJhOA]DM@V2=DJ2
+Z7 OV;C;10.1d;51
+32
+!i10b 1
+Z8 !s108 1683852755.180000
+Z9 !s90 -reportprogress|300|C:/logica/Lab6/HostSystem/simulation/submodules/HostSystem_addr_router.vho|-work|addr_router|
+Z10 !s107 C:/logica/Lab6/HostSystem/simulation/submodules/HostSystem_addr_router.vho|
+Z11 o-work addr_router -O0
+Z12 tExplicit 1
+Artl
+R2
+R3
+Z13 DEx4 work 22 hostsystem_addr_router 0 22 @gf]QkcQW_6Q8g0Pc1UFC2
+l55
+L49
+Z14 VJfBOEYB>0zFXLm0;[Vbc_1
+Z15 !s100 kgX2KecdRaW=OBKHXmAYe0
+R7
+32
+!i10b 1
+R8
+R9
+R10
+R11
+R12

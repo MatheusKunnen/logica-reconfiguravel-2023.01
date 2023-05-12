@@ -40029,963 +40029,285 @@
 #    Time: 457910 ns  Iteration: 2  Instance: /bram_tb
 # ** Warning: NUMERIC_STD.TO_UNSIGNED: vector truncated
 #    Time: 457930 ns  Iteration: 2  Instance: /bram_tb
-# ** Warning: NUMERIC_STD.TO_UNSIGNED: vector truncated
-#    Time: 457950 ns  Iteration: 2  Instance: /bram_tb
-# ** Warning: NUMERIC_STD.TO_UNSIGNED: vector truncated
-#    Time: 457970 ns  Iteration: 2  Instance: /bram_tb
-# ** Warning: NUMERIC_STD.TO_UNSIGNED: vector truncated
-#    Time: 457990 ns  Iteration: 2  Instance: /bram_tb
-# ** Warning: NUMERIC_STD.TO_UNSIGNED: vector truncated
-#    Time: 458010 ns  Iteration: 2  Instance: /bram_tb
-# ** Warning: NUMERIC_STD.TO_UNSIGNED: vector truncated
-#    Time: 458030 ns  Iteration: 2  Instance: /bram_tb
-# ** Warning: NUMERIC_STD.TO_UNSIGNED: vector truncated
-#    Time: 458050 ns  Iteration: 2  Instance: /bram_tb
-# ** Warning: NUMERIC_STD.TO_UNSIGNED: vector truncated
-#    Time: 458070 ns  Iteration: 2  Instance: /bram_tb
-# ** Warning: NUMERIC_STD.TO_UNSIGNED: vector truncated
-#    Time: 458090 ns  Iteration: 2  Instance: /bram_tb
-# ** Warning: NUMERIC_STD.TO_UNSIGNED: vector truncated
-#    Time: 458110 ns  Iteration: 2  Instance: /bram_tb
-# ** Warning: NUMERIC_STD.TO_UNSIGNED: vector truncated
-#    Time: 458130 ns  Iteration: 2  Instance: /bram_tb
-# ** Warning: NUMERIC_STD.TO_UNSIGNED: vector truncated
-#    Time: 458150 ns  Iteration: 2  Instance: /bram_tb
-# ** Warning: NUMERIC_STD.TO_UNSIGNED: vector truncated
-#    Time: 458170 ns  Iteration: 2  Instance: /bram_tb
-# ** Warning: NUMERIC_STD.TO_UNSIGNED: vector truncated
-#    Time: 458190 ns  Iteration: 2  Instance: /bram_tb
-# ** Warning: NUMERIC_STD.TO_UNSIGNED: vector truncated
-#    Time: 458210 ns  Iteration: 2  Instance: /bram_tb
-# ** Warning: NUMERIC_STD.TO_UNSIGNED: vector truncated
-#    Time: 458230 ns  Iteration: 2  Instance: /bram_tb
-# ** Warning: NUMERIC_STD.TO_UNSIGNED: vector truncated
-#    Time: 458250 ns  Iteration: 2  Instance: /bram_tb
-# ** Warning: NUMERIC_STD.TO_UNSIGNED: vector truncated
-#    Time: 458270 ns  Iteration: 2  Instance: /bram_tb
-# ** Warning: NUMERIC_STD.TO_UNSIGNED: vector truncated
-#    Time: 458290 ns  Iteration: 2  Instance: /bram_tb
-# ** Warning: NUMERIC_STD.TO_UNSIGNED: vector truncated
-#    Time: 458310 ns  Iteration: 2  Instance: /bram_tb
-# ** Warning: NUMERIC_STD.TO_UNSIGNED: vector truncated
-#    Time: 458330 ns  Iteration: 2  Instance: /bram_tb
-# ** Warning: NUMERIC_STD.TO_UNSIGNED: vector truncated
-#    Time: 458350 ns  Iteration: 2  Instance: /bram_tb
-# ** Warning: NUMERIC_STD.TO_UNSIGNED: vector truncated
-#    Time: 458370 ns  Iteration: 2  Instance: /bram_tb
-# ** Warning: NUMERIC_STD.TO_UNSIGNED: vector truncated
-#    Time: 458390 ns  Iteration: 2  Instance: /bram_tb
-# ** Warning: NUMERIC_STD.TO_UNSIGNED: vector truncated
-#    Time: 458410 ns  Iteration: 2  Instance: /bram_tb
-# ** Warning: NUMERIC_STD.TO_UNSIGNED: vector truncated
-#    Time: 458430 ns  Iteration: 2  Instance: /bram_tb
-# ** Warning: NUMERIC_STD.TO_UNSIGNED: vector truncated
-#    Time: 458450 ns  Iteration: 2  Instance: /bram_tb
-# ** Warning: NUMERIC_STD.TO_UNSIGNED: vector truncated
-#    Time: 458470 ns  Iteration: 2  Instance: /bram_tb
-# ** Warning: NUMERIC_STD.TO_UNSIGNED: vector truncated
-#    Time: 458490 ns  Iteration: 2  Instance: /bram_tb
-# ** Warning: NUMERIC_STD.TO_UNSIGNED: vector truncated
-#    Time: 458510 ns  Iteration: 2  Instance: /bram_tb
-# ** Warning: NUMERIC_STD.TO_UNSIGNED: vector truncated
-#    Time: 458530 ns  Iteration: 2  Instance: /bram_tb
-# ** Warning: NUMERIC_STD.TO_UNSIGNED: vector truncated
-#    Time: 458550 ns  Iteration: 2  Instance: /bram_tb
-# ** Warning: NUMERIC_STD.TO_UNSIGNED: vector truncated
-#    Time: 458570 ns  Iteration: 2  Instance: /bram_tb
-# ** Warning: NUMERIC_STD.TO_UNSIGNED: vector truncated
-#    Time: 458590 ns  Iteration: 2  Instance: /bram_tb
-# ** Warning: NUMERIC_STD.TO_UNSIGNED: vector truncated
-#    Time: 458610 ns  Iteration: 2  Instance: /bram_tb
-# ** Warning: NUMERIC_STD.TO_UNSIGNED: vector truncated
-#    Time: 458630 ns  Iteration: 2  Instance: /bram_tb
-# ** Warning: NUMERIC_STD.TO_UNSIGNED: vector truncated
-#    Time: 458650 ns  Iteration: 2  Instance: /bram_tb
-# ** Warning: NUMERIC_STD.TO_UNSIGNED: vector truncated
-#    Time: 458670 ns  Iteration: 2  Instance: /bram_tb
-# ** Warning: NUMERIC_STD.TO_UNSIGNED: vector truncated
-#    Time: 458690 ns  Iteration: 2  Instance: /bram_tb
-# ** Warning: NUMERIC_STD.TO_UNSIGNED: vector truncated
-#    Time: 458710 ns  Iteration: 2  Instance: /bram_tb
-# ** Warning: NUMERIC_STD.TO_UNSIGNED: vector truncated
-#    Time: 458730 ns  Iteration: 2  Instance: /bram_tb
-# ** Warning: NUMERIC_STD.TO_UNSIGNED: vector truncated
-#    Time: 458750 ns  Iteration: 2  Instance: /bram_tb
-# ** Warning: NUMERIC_STD.TO_UNSIGNED: vector truncated
-#    Time: 458770 ns  Iteration: 2  Instance: /bram_tb
-# ** Warning: NUMERIC_STD.TO_UNSIGNED: vector truncated
-#    Time: 458790 ns  Iteration: 2  Instance: /bram_tb
-# ** Warning: NUMERIC_STD.TO_UNSIGNED: vector truncated
-#    Time: 458810 ns  Iteration: 2  Instance: /bram_tb
-# ** Warning: NUMERIC_STD.TO_UNSIGNED: vector truncated
-#    Time: 458830 ns  Iteration: 2  Instance: /bram_tb
-# ** Warning: NUMERIC_STD.TO_UNSIGNED: vector truncated
-#    Time: 458850 ns  Iteration: 2  Instance: /bram_tb
-# ** Warning: NUMERIC_STD.TO_UNSIGNED: vector truncated
-#    Time: 458870 ns  Iteration: 2  Instance: /bram_tb
-# ** Warning: NUMERIC_STD.TO_UNSIGNED: vector truncated
-#    Time: 458890 ns  Iteration: 2  Instance: /bram_tb
-# ** Warning: NUMERIC_STD.TO_UNSIGNED: vector truncated
-#    Time: 458910 ns  Iteration: 2  Instance: /bram_tb
-# ** Warning: NUMERIC_STD.TO_UNSIGNED: vector truncated
-#    Time: 458930 ns  Iteration: 2  Instance: /bram_tb
-# ** Warning: NUMERIC_STD.TO_UNSIGNED: vector truncated
-#    Time: 458950 ns  Iteration: 2  Instance: /bram_tb
-# ** Warning: NUMERIC_STD.TO_UNSIGNED: vector truncated
-#    Time: 458970 ns  Iteration: 2  Instance: /bram_tb
-# ** Warning: NUMERIC_STD.TO_UNSIGNED: vector truncated
-#    Time: 458990 ns  Iteration: 2  Instance: /bram_tb
-# ** Warning: NUMERIC_STD.TO_UNSIGNED: vector truncated
-#    Time: 459010 ns  Iteration: 2  Instance: /bram_tb
-# ** Warning: NUMERIC_STD.TO_UNSIGNED: vector truncated
-#    Time: 459030 ns  Iteration: 2  Instance: /bram_tb
-# ** Warning: NUMERIC_STD.TO_UNSIGNED: vector truncated
-#    Time: 459050 ns  Iteration: 2  Instance: /bram_tb
-# ** Warning: NUMERIC_STD.TO_UNSIGNED: vector truncated
-#    Time: 459070 ns  Iteration: 2  Instance: /bram_tb
-# ** Warning: NUMERIC_STD.TO_UNSIGNED: vector truncated
-#    Time: 459090 ns  Iteration: 2  Instance: /bram_tb
-# ** Warning: NUMERIC_STD.TO_UNSIGNED: vector truncated
-#    Time: 459110 ns  Iteration: 2  Instance: /bram_tb
-# ** Warning: NUMERIC_STD.TO_UNSIGNED: vector truncated
-#    Time: 459130 ns  Iteration: 2  Instance: /bram_tb
-# ** Warning: NUMERIC_STD.TO_UNSIGNED: vector truncated
-#    Time: 459150 ns  Iteration: 2  Instance: /bram_tb
-# ** Warning: NUMERIC_STD.TO_UNSIGNED: vector truncated
-#    Time: 459170 ns  Iteration: 2  Instance: /bram_tb
-# ** Warning: NUMERIC_STD.TO_UNSIGNED: vector truncated
-#    Time: 459190 ns  Iteration: 2  Instance: /bram_tb
-# ** Warning: NUMERIC_STD.TO_UNSIGNED: vector truncated
-#    Time: 459210 ns  Iteration: 2  Instance: /bram_tb
-# ** Warning: NUMERIC_STD.TO_UNSIGNED: vector truncated
-#    Time: 459230 ns  Iteration: 2  Instance: /bram_tb
-# ** Warning: NUMERIC_STD.TO_UNSIGNED: vector truncated
-#    Time: 459250 ns  Iteration: 2  Instance: /bram_tb
-# ** Warning: NUMERIC_STD.TO_UNSIGNED: vector truncated
-#    Time: 459270 ns  Iteration: 2  Instance: /bram_tb
-# ** Warning: NUMERIC_STD.TO_UNSIGNED: vector truncated
-#    Time: 459290 ns  Iteration: 2  Instance: /bram_tb
-# ** Warning: NUMERIC_STD.TO_UNSIGNED: vector truncated
-#    Time: 459310 ns  Iteration: 2  Instance: /bram_tb
-# ** Warning: NUMERIC_STD.TO_UNSIGNED: vector truncated
-#    Time: 459330 ns  Iteration: 2  Instance: /bram_tb
-# ** Warning: NUMERIC_STD.TO_UNSIGNED: vector truncated
-#    Time: 459350 ns  Iteration: 2  Instance: /bram_tb
-# ** Warning: NUMERIC_STD.TO_UNSIGNED: vector truncated
-#    Time: 459370 ns  Iteration: 2  Instance: /bram_tb
-# ** Warning: NUMERIC_STD.TO_UNSIGNED: vector truncated
-#    Time: 459390 ns  Iteration: 2  Instance: /bram_tb
-# ** Warning: NUMERIC_STD.TO_UNSIGNED: vector truncated
-#    Time: 459410 ns  Iteration: 2  Instance: /bram_tb
-# ** Warning: NUMERIC_STD.TO_UNSIGNED: vector truncated
-#    Time: 459430 ns  Iteration: 2  Instance: /bram_tb
-# ** Warning: NUMERIC_STD.TO_UNSIGNED: vector truncated
-#    Time: 459450 ns  Iteration: 2  Instance: /bram_tb
-# ** Warning: NUMERIC_STD.TO_UNSIGNED: vector truncated
-#    Time: 459470 ns  Iteration: 2  Instance: /bram_tb
-# ** Warning: NUMERIC_STD.TO_UNSIGNED: vector truncated
-#    Time: 459490 ns  Iteration: 2  Instance: /bram_tb
-# ** Warning: NUMERIC_STD.TO_UNSIGNED: vector truncated
-#    Time: 459510 ns  Iteration: 2  Instance: /bram_tb
-# ** Warning: NUMERIC_STD.TO_UNSIGNED: vector truncated
-#    Time: 459530 ns  Iteration: 2  Instance: /bram_tb
-# ** Warning: NUMERIC_STD.TO_UNSIGNED: vector truncated
-#    Time: 459550 ns  Iteration: 2  Instance: /bram_tb
-# ** Warning: NUMERIC_STD.TO_UNSIGNED: vector truncated
-#    Time: 459570 ns  Iteration: 2  Instance: /bram_tb
-# ** Warning: NUMERIC_STD.TO_UNSIGNED: vector truncated
-#    Time: 459590 ns  Iteration: 2  Instance: /bram_tb
-# ** Warning: NUMERIC_STD.TO_UNSIGNED: vector truncated
-#    Time: 459610 ns  Iteration: 2  Instance: /bram_tb
-# ** Warning: NUMERIC_STD.TO_UNSIGNED: vector truncated
-#    Time: 459630 ns  Iteration: 2  Instance: /bram_tb
-# ** Warning: NUMERIC_STD.TO_UNSIGNED: vector truncated
-#    Time: 459650 ns  Iteration: 2  Instance: /bram_tb
-# ** Warning: NUMERIC_STD.TO_UNSIGNED: vector truncated
-#    Time: 459670 ns  Iteration: 2  Instance: /bram_tb
-# ** Warning: NUMERIC_STD.TO_UNSIGNED: vector truncated
-#    Time: 459690 ns  Iteration: 2  Instance: /bram_tb
-# ** Warning: NUMERIC_STD.TO_UNSIGNED: vector truncated
-#    Time: 459710 ns  Iteration: 2  Instance: /bram_tb
-# ** Warning: NUMERIC_STD.TO_UNSIGNED: vector truncated
-#    Time: 459730 ns  Iteration: 2  Instance: /bram_tb
-# ** Warning: NUMERIC_STD.TO_UNSIGNED: vector truncated
-#    Time: 459750 ns  Iteration: 2  Instance: /bram_tb
-# ** Warning: NUMERIC_STD.TO_UNSIGNED: vector truncated
-#    Time: 459770 ns  Iteration: 2  Instance: /bram_tb
-# ** Warning: NUMERIC_STD.TO_UNSIGNED: vector truncated
-#    Time: 459790 ns  Iteration: 2  Instance: /bram_tb
-# ** Warning: NUMERIC_STD.TO_UNSIGNED: vector truncated
-#    Time: 459810 ns  Iteration: 2  Instance: /bram_tb
-# ** Warning: NUMERIC_STD.TO_UNSIGNED: vector truncated
-#    Time: 459830 ns  Iteration: 2  Instance: /bram_tb
-# ** Warning: NUMERIC_STD.TO_UNSIGNED: vector truncated
-#    Time: 459850 ns  Iteration: 2  Instance: /bram_tb
-# ** Warning: NUMERIC_STD.TO_UNSIGNED: vector truncated
-#    Time: 459870 ns  Iteration: 2  Instance: /bram_tb
-# ** Warning: NUMERIC_STD.TO_UNSIGNED: vector truncated
-#    Time: 459890 ns  Iteration: 2  Instance: /bram_tb
-# ** Warning: NUMERIC_STD.TO_UNSIGNED: vector truncated
-#    Time: 459910 ns  Iteration: 2  Instance: /bram_tb
-# ** Warning: NUMERIC_STD.TO_UNSIGNED: vector truncated
-#    Time: 459930 ns  Iteration: 2  Instance: /bram_tb
-# ** Warning: NUMERIC_STD.TO_UNSIGNED: vector truncated
-#    Time: 459950 ns  Iteration: 2  Instance: /bram_tb
-# ** Warning: NUMERIC_STD.TO_UNSIGNED: vector truncated
-#    Time: 459970 ns  Iteration: 2  Instance: /bram_tb
-# ** Warning: NUMERIC_STD.TO_UNSIGNED: vector truncated
-#    Time: 459990 ns  Iteration: 2  Instance: /bram_tb
-# ** Warning: NUMERIC_STD.TO_UNSIGNED: vector truncated
-#    Time: 460010 ns  Iteration: 2  Instance: /bram_tb
-# ** Warning: NUMERIC_STD.TO_UNSIGNED: vector truncated
-#    Time: 460030 ns  Iteration: 2  Instance: /bram_tb
-# ** Warning: NUMERIC_STD.TO_UNSIGNED: vector truncated
-#    Time: 460050 ns  Iteration: 2  Instance: /bram_tb
-# ** Warning: NUMERIC_STD.TO_UNSIGNED: vector truncated
-#    Time: 460070 ns  Iteration: 2  Instance: /bram_tb
-# ** Warning: NUMERIC_STD.TO_UNSIGNED: vector truncated
-#    Time: 460090 ns  Iteration: 2  Instance: /bram_tb
-# ** Warning: NUMERIC_STD.TO_UNSIGNED: vector truncated
-#    Time: 460110 ns  Iteration: 2  Instance: /bram_tb
-# ** Warning: NUMERIC_STD.TO_UNSIGNED: vector truncated
-#    Time: 460130 ns  Iteration: 2  Instance: /bram_tb
-# ** Warning: NUMERIC_STD.TO_UNSIGNED: vector truncated
-#    Time: 460150 ns  Iteration: 2  Instance: /bram_tb
-# ** Warning: NUMERIC_STD.TO_UNSIGNED: vector truncated
-#    Time: 460170 ns  Iteration: 2  Instance: /bram_tb
-# ** Warning: NUMERIC_STD.TO_UNSIGNED: vector truncated
-#    Time: 460190 ns  Iteration: 2  Instance: /bram_tb
-# ** Warning: NUMERIC_STD.TO_UNSIGNED: vector truncated
-#    Time: 460210 ns  Iteration: 2  Instance: /bram_tb
-# ** Warning: NUMERIC_STD.TO_UNSIGNED: vector truncated
-#    Time: 460230 ns  Iteration: 2  Instance: /bram_tb
-# ** Warning: NUMERIC_STD.TO_UNSIGNED: vector truncated
-#    Time: 460250 ns  Iteration: 2  Instance: /bram_tb
-# ** Warning: NUMERIC_STD.TO_UNSIGNED: vector truncated
-#    Time: 460270 ns  Iteration: 2  Instance: /bram_tb
-# ** Warning: NUMERIC_STD.TO_UNSIGNED: vector truncated
-#    Time: 460290 ns  Iteration: 2  Instance: /bram_tb
-# ** Warning: NUMERIC_STD.TO_UNSIGNED: vector truncated
-#    Time: 460310 ns  Iteration: 2  Instance: /bram_tb
-# ** Warning: NUMERIC_STD.TO_UNSIGNED: vector truncated
-#    Time: 460330 ns  Iteration: 2  Instance: /bram_tb
-# ** Warning: NUMERIC_STD.TO_UNSIGNED: vector truncated
-#    Time: 460350 ns  Iteration: 2  Instance: /bram_tb
-# ** Warning: NUMERIC_STD.TO_UNSIGNED: vector truncated
-#    Time: 460370 ns  Iteration: 2  Instance: /bram_tb
-# ** Warning: NUMERIC_STD.TO_UNSIGNED: vector truncated
-#    Time: 460390 ns  Iteration: 2  Instance: /bram_tb
-# ** Warning: NUMERIC_STD.TO_UNSIGNED: vector truncated
-#    Time: 460410 ns  Iteration: 2  Instance: /bram_tb
-# ** Warning: NUMERIC_STD.TO_UNSIGNED: vector truncated
-#    Time: 460430 ns  Iteration: 2  Instance: /bram_tb
-# ** Warning: NUMERIC_STD.TO_UNSIGNED: vector truncated
-#    Time: 460450 ns  Iteration: 2  Instance: /bram_tb
-# ** Warning: NUMERIC_STD.TO_UNSIGNED: vector truncated
-#    Time: 460470 ns  Iteration: 2  Instance: /bram_tb
-# ** Warning: NUMERIC_STD.TO_UNSIGNED: vector truncated
-#    Time: 460490 ns  Iteration: 2  Instance: /bram_tb
-# ** Warning: NUMERIC_STD.TO_UNSIGNED: vector truncated
-#    Time: 460510 ns  Iteration: 2  Instance: /bram_tb
-# ** Warning: NUMERIC_STD.TO_UNSIGNED: vector truncated
-#    Time: 460530 ns  Iteration: 2  Instance: /bram_tb
-# ** Warning: NUMERIC_STD.TO_UNSIGNED: vector truncated
-#    Time: 460550 ns  Iteration: 2  Instance: /bram_tb
-# ** Warning: NUMERIC_STD.TO_UNSIGNED: vector truncated
-#    Time: 460570 ns  Iteration: 2  Instance: /bram_tb
-# ** Warning: NUMERIC_STD.TO_UNSIGNED: vector truncated
-#    Time: 460590 ns  Iteration: 2  Instance: /bram_tb
-# ** Warning: NUMERIC_STD.TO_UNSIGNED: vector truncated
-#    Time: 460610 ns  Iteration: 2  Instance: /bram_tb
-# ** Warning: NUMERIC_STD.TO_UNSIGNED: vector truncated
-#    Time: 460630 ns  Iteration: 2  Instance: /bram_tb
-# ** Warning: NUMERIC_STD.TO_UNSIGNED: vector truncated
-#    Time: 460650 ns  Iteration: 2  Instance: /bram_tb
-# ** Warning: NUMERIC_STD.TO_UNSIGNED: vector truncated
-#    Time: 460670 ns  Iteration: 2  Instance: /bram_tb
-# ** Warning: NUMERIC_STD.TO_UNSIGNED: vector truncated
-#    Time: 460690 ns  Iteration: 2  Instance: /bram_tb
-# ** Warning: NUMERIC_STD.TO_UNSIGNED: vector truncated
-#    Time: 460710 ns  Iteration: 2  Instance: /bram_tb
-# ** Warning: NUMERIC_STD.TO_UNSIGNED: vector truncated
-#    Time: 460730 ns  Iteration: 2  Instance: /bram_tb
-# ** Warning: NUMERIC_STD.TO_UNSIGNED: vector truncated
-#    Time: 460750 ns  Iteration: 2  Instance: /bram_tb
-# ** Warning: NUMERIC_STD.TO_UNSIGNED: vector truncated
-#    Time: 460770 ns  Iteration: 2  Instance: /bram_tb
-# ** Warning: NUMERIC_STD.TO_UNSIGNED: vector truncated
-#    Time: 460790 ns  Iteration: 2  Instance: /bram_tb
-# ** Warning: NUMERIC_STD.TO_UNSIGNED: vector truncated
-#    Time: 460810 ns  Iteration: 2  Instance: /bram_tb
-# ** Warning: NUMERIC_STD.TO_UNSIGNED: vector truncated
-#    Time: 460830 ns  Iteration: 2  Instance: /bram_tb
-# ** Warning: NUMERIC_STD.TO_UNSIGNED: vector truncated
-#    Time: 460850 ns  Iteration: 2  Instance: /bram_tb
-# ** Warning: NUMERIC_STD.TO_UNSIGNED: vector truncated
-#    Time: 460870 ns  Iteration: 2  Instance: /bram_tb
-# ** Warning: NUMERIC_STD.TO_UNSIGNED: vector truncated
-#    Time: 460890 ns  Iteration: 2  Instance: /bram_tb
-# ** Warning: NUMERIC_STD.TO_UNSIGNED: vector truncated
-#    Time: 460910 ns  Iteration: 2  Instance: /bram_tb
-# ** Warning: NUMERIC_STD.TO_UNSIGNED: vector truncated
-#    Time: 460930 ns  Iteration: 2  Instance: /bram_tb
-# ** Warning: NUMERIC_STD.TO_UNSIGNED: vector truncated
-#    Time: 460950 ns  Iteration: 2  Instance: /bram_tb
-# ** Warning: NUMERIC_STD.TO_UNSIGNED: vector truncated
-#    Time: 460970 ns  Iteration: 2  Instance: /bram_tb
-# ** Warning: NUMERIC_STD.TO_UNSIGNED: vector truncated
-#    Time: 460990 ns  Iteration: 2  Instance: /bram_tb
-# ** Warning: NUMERIC_STD.TO_UNSIGNED: vector truncated
-#    Time: 461010 ns  Iteration: 2  Instance: /bram_tb
-# ** Warning: NUMERIC_STD.TO_UNSIGNED: vector truncated
-#    Time: 461030 ns  Iteration: 2  Instance: /bram_tb
-# ** Warning: NUMERIC_STD.TO_UNSIGNED: vector truncated
-#    Time: 461050 ns  Iteration: 2  Instance: /bram_tb
-# ** Warning: NUMERIC_STD.TO_UNSIGNED: vector truncated
-#    Time: 461070 ns  Iteration: 2  Instance: /bram_tb
-# ** Warning: NUMERIC_STD.TO_UNSIGNED: vector truncated
-#    Time: 461090 ns  Iteration: 2  Instance: /bram_tb
-# ** Warning: NUMERIC_STD.TO_UNSIGNED: vector truncated
-#    Time: 461110 ns  Iteration: 2  Instance: /bram_tb
-# ** Warning: NUMERIC_STD.TO_UNSIGNED: vector truncated
-#    Time: 461130 ns  Iteration: 2  Instance: /bram_tb
-# ** Warning: NUMERIC_STD.TO_UNSIGNED: vector truncated
-#    Time: 461150 ns  Iteration: 2  Instance: /bram_tb
-# ** Warning: NUMERIC_STD.TO_UNSIGNED: vector truncated
-#    Time: 461170 ns  Iteration: 2  Instance: /bram_tb
-# ** Warning: NUMERIC_STD.TO_UNSIGNED: vector truncated
-#    Time: 461190 ns  Iteration: 2  Instance: /bram_tb
-# ** Warning: NUMERIC_STD.TO_UNSIGNED: vector truncated
-#    Time: 461210 ns  Iteration: 2  Instance: /bram_tb
-# ** Warning: NUMERIC_STD.TO_UNSIGNED: vector truncated
-#    Time: 461230 ns  Iteration: 2  Instance: /bram_tb
-# ** Warning: NUMERIC_STD.TO_UNSIGNED: vector truncated
-#    Time: 461250 ns  Iteration: 2  Instance: /bram_tb
-# ** Warning: NUMERIC_STD.TO_UNSIGNED: vector truncated
-#    Time: 461270 ns  Iteration: 2  Instance: /bram_tb
-# ** Warning: NUMERIC_STD.TO_UNSIGNED: vector truncated
-#    Time: 461290 ns  Iteration: 2  Instance: /bram_tb
-# ** Warning: NUMERIC_STD.TO_UNSIGNED: vector truncated
-#    Time: 461310 ns  Iteration: 2  Instance: /bram_tb
-# ** Warning: NUMERIC_STD.TO_UNSIGNED: vector truncated
-#    Time: 461330 ns  Iteration: 2  Instance: /bram_tb
-# ** Warning: NUMERIC_STD.TO_UNSIGNED: vector truncated
-#    Time: 461350 ns  Iteration: 2  Instance: /bram_tb
-# ** Warning: NUMERIC_STD.TO_UNSIGNED: vector truncated
-#    Time: 461370 ns  Iteration: 2  Instance: /bram_tb
-# ** Warning: NUMERIC_STD.TO_UNSIGNED: vector truncated
-#    Time: 461390 ns  Iteration: 2  Instance: /bram_tb
-# ** Warning: NUMERIC_STD.TO_UNSIGNED: vector truncated
-#    Time: 461410 ns  Iteration: 2  Instance: /bram_tb
-# ** Warning: NUMERIC_STD.TO_UNSIGNED: vector truncated
-#    Time: 461430 ns  Iteration: 2  Instance: /bram_tb
-# ** Warning: NUMERIC_STD.TO_UNSIGNED: vector truncated
-#    Time: 461450 ns  Iteration: 2  Instance: /bram_tb
-# ** Warning: NUMERIC_STD.TO_UNSIGNED: vector truncated
-#    Time: 461470 ns  Iteration: 2  Instance: /bram_tb
-# ** Warning: NUMERIC_STD.TO_UNSIGNED: vector truncated
-#    Time: 461490 ns  Iteration: 2  Instance: /bram_tb
-# ** Warning: NUMERIC_STD.TO_UNSIGNED: vector truncated
-#    Time: 461510 ns  Iteration: 2  Instance: /bram_tb
-# ** Warning: NUMERIC_STD.TO_UNSIGNED: vector truncated
-#    Time: 461530 ns  Iteration: 2  Instance: /bram_tb
-# ** Warning: NUMERIC_STD.TO_UNSIGNED: vector truncated
-#    Time: 461550 ns  Iteration: 2  Instance: /bram_tb
-# ** Warning: NUMERIC_STD.TO_UNSIGNED: vector truncated
-#    Time: 461570 ns  Iteration: 2  Instance: /bram_tb
-# ** Warning: NUMERIC_STD.TO_UNSIGNED: vector truncated
-#    Time: 461590 ns  Iteration: 2  Instance: /bram_tb
-# ** Warning: NUMERIC_STD.TO_UNSIGNED: vector truncated
-#    Time: 461610 ns  Iteration: 2  Instance: /bram_tb
-# ** Warning: NUMERIC_STD.TO_UNSIGNED: vector truncated
-#    Time: 461630 ns  Iteration: 2  Instance: /bram_tb
-# ** Warning: NUMERIC_STD.TO_UNSIGNED: vector truncated
-#    Time: 461650 ns  Iteration: 2  Instance: /bram_tb
-# ** Warning: NUMERIC_STD.TO_UNSIGNED: vector truncated
-#    Time: 461670 ns  Iteration: 2  Instance: /bram_tb
-# ** Warning: NUMERIC_STD.TO_UNSIGNED: vector truncated
-#    Time: 461690 ns  Iteration: 2  Instance: /bram_tb
-# ** Warning: NUMERIC_STD.TO_UNSIGNED: vector truncated
-#    Time: 461710 ns  Iteration: 2  Instance: /bram_tb
-# ** Warning: NUMERIC_STD.TO_UNSIGNED: vector truncated
-#    Time: 461730 ns  Iteration: 2  Instance: /bram_tb
-# ** Warning: NUMERIC_STD.TO_UNSIGNED: vector truncated
-#    Time: 461750 ns  Iteration: 2  Instance: /bram_tb
-# ** Warning: NUMERIC_STD.TO_UNSIGNED: vector truncated
-#    Time: 461770 ns  Iteration: 2  Instance: /bram_tb
-# ** Warning: NUMERIC_STD.TO_UNSIGNED: vector truncated
-#    Time: 461790 ns  Iteration: 2  Instance: /bram_tb
-# ** Warning: NUMERIC_STD.TO_UNSIGNED: vector truncated
-#    Time: 461810 ns  Iteration: 2  Instance: /bram_tb
-# ** Warning: NUMERIC_STD.TO_UNSIGNED: vector truncated
-#    Time: 461830 ns  Iteration: 2  Instance: /bram_tb
-# ** Warning: NUMERIC_STD.TO_UNSIGNED: vector truncated
-#    Time: 461850 ns  Iteration: 2  Instance: /bram_tb
-# ** Warning: NUMERIC_STD.TO_UNSIGNED: vector truncated
-#    Time: 461870 ns  Iteration: 2  Instance: /bram_tb
-# ** Warning: NUMERIC_STD.TO_UNSIGNED: vector truncated
-#    Time: 461890 ns  Iteration: 2  Instance: /bram_tb
-# ** Warning: NUMERIC_STD.TO_UNSIGNED: vector truncated
-#    Time: 461910 ns  Iteration: 2  Instance: /bram_tb
-# ** Warning: NUMERIC_STD.TO_UNSIGNED: vector truncated
-#    Time: 461930 ns  Iteration: 2  Instance: /bram_tb
-# ** Warning: NUMERIC_STD.TO_UNSIGNED: vector truncated
-#    Time: 461950 ns  Iteration: 2  Instance: /bram_tb
-# ** Warning: NUMERIC_STD.TO_UNSIGNED: vector truncated
-#    Time: 461970 ns  Iteration: 2  Instance: /bram_tb
-# ** Warning: NUMERIC_STD.TO_UNSIGNED: vector truncated
-#    Time: 461990 ns  Iteration: 2  Instance: /bram_tb
-# ** Warning: NUMERIC_STD.TO_UNSIGNED: vector truncated
-#    Time: 462010 ns  Iteration: 2  Instance: /bram_tb
-# ** Warning: NUMERIC_STD.TO_UNSIGNED: vector truncated
-#    Time: 462030 ns  Iteration: 2  Instance: /bram_tb
-# ** Warning: NUMERIC_STD.TO_UNSIGNED: vector truncated
-#    Time: 462050 ns  Iteration: 2  Instance: /bram_tb
-# ** Warning: NUMERIC_STD.TO_UNSIGNED: vector truncated
-#    Time: 462070 ns  Iteration: 2  Instance: /bram_tb
-# ** Warning: NUMERIC_STD.TO_UNSIGNED: vector truncated
-#    Time: 462090 ns  Iteration: 2  Instance: /bram_tb
-# ** Warning: NUMERIC_STD.TO_UNSIGNED: vector truncated
-#    Time: 462110 ns  Iteration: 2  Instance: /bram_tb
-# ** Warning: NUMERIC_STD.TO_UNSIGNED: vector truncated
-#    Time: 462130 ns  Iteration: 2  Instance: /bram_tb
-# ** Warning: NUMERIC_STD.TO_UNSIGNED: vector truncated
-#    Time: 462150 ns  Iteration: 2  Instance: /bram_tb
-# ** Warning: NUMERIC_STD.TO_UNSIGNED: vector truncated
-#    Time: 462170 ns  Iteration: 2  Instance: /bram_tb
-# ** Warning: NUMERIC_STD.TO_UNSIGNED: vector truncated
-#    Time: 462190 ns  Iteration: 2  Instance: /bram_tb
-# ** Warning: NUMERIC_STD.TO_UNSIGNED: vector truncated
-#    Time: 462210 ns  Iteration: 2  Instance: /bram_tb
-# ** Warning: NUMERIC_STD.TO_UNSIGNED: vector truncated
-#    Time: 462230 ns  Iteration: 2  Instance: /bram_tb
-# ** Warning: NUMERIC_STD.TO_UNSIGNED: vector truncated
-#    Time: 462250 ns  Iteration: 2  Instance: /bram_tb
-# ** Warning: NUMERIC_STD.TO_UNSIGNED: vector truncated
-#    Time: 462270 ns  Iteration: 2  Instance: /bram_tb
-# ** Warning: NUMERIC_STD.TO_UNSIGNED: vector truncated
-#    Time: 462290 ns  Iteration: 2  Instance: /bram_tb
-# ** Warning: NUMERIC_STD.TO_UNSIGNED: vector truncated
-#    Time: 462310 ns  Iteration: 2  Instance: /bram_tb
-# ** Warning: NUMERIC_STD.TO_UNSIGNED: vector truncated
-#    Time: 462330 ns  Iteration: 2  Instance: /bram_tb
-# ** Warning: NUMERIC_STD.TO_UNSIGNED: vector truncated
-#    Time: 462350 ns  Iteration: 2  Instance: /bram_tb
-# ** Warning: NUMERIC_STD.TO_UNSIGNED: vector truncated
-#    Time: 462370 ns  Iteration: 2  Instance: /bram_tb
-# ** Warning: NUMERIC_STD.TO_UNSIGNED: vector truncated
-#    Time: 462390 ns  Iteration: 2  Instance: /bram_tb
-# ** Warning: NUMERIC_STD.TO_UNSIGNED: vector truncated
-#    Time: 462410 ns  Iteration: 2  Instance: /bram_tb
-# ** Warning: NUMERIC_STD.TO_UNSIGNED: vector truncated
-#    Time: 462430 ns  Iteration: 2  Instance: /bram_tb
-# ** Warning: NUMERIC_STD.TO_UNSIGNED: vector truncated
-#    Time: 462450 ns  Iteration: 2  Instance: /bram_tb
-# ** Warning: NUMERIC_STD.TO_UNSIGNED: vector truncated
-#    Time: 462470 ns  Iteration: 2  Instance: /bram_tb
-# ** Warning: NUMERIC_STD.TO_UNSIGNED: vector truncated
-#    Time: 462490 ns  Iteration: 2  Instance: /bram_tb
-# ** Warning: NUMERIC_STD.TO_UNSIGNED: vector truncated
-#    Time: 462510 ns  Iteration: 2  Instance: /bram_tb
-# ** Warning: NUMERIC_STD.TO_UNSIGNED: vector truncated
-#    Time: 462530 ns  Iteration: 2  Instance: /bram_tb
-# ** Warning: NUMERIC_STD.TO_UNSIGNED: vector truncated
-#    Time: 462550 ns  Iteration: 2  Instance: /bram_tb
-# ** Warning: NUMERIC_STD.TO_UNSIGNED: vector truncated
-#    Time: 462570 ns  Iteration: 2  Instance: /bram_tb
-# ** Warning: NUMERIC_STD.TO_UNSIGNED: vector truncated
-#    Time: 462590 ns  Iteration: 2  Instance: /bram_tb
-# ** Warning: NUMERIC_STD.TO_UNSIGNED: vector truncated
-#    Time: 462610 ns  Iteration: 2  Instance: /bram_tb
-# ** Warning: NUMERIC_STD.TO_UNSIGNED: vector truncated
-#    Time: 462630 ns  Iteration: 2  Instance: /bram_tb
-# ** Warning: NUMERIC_STD.TO_UNSIGNED: vector truncated
-#    Time: 462650 ns  Iteration: 2  Instance: /bram_tb
-# ** Warning: NUMERIC_STD.TO_UNSIGNED: vector truncated
-#    Time: 462670 ns  Iteration: 2  Instance: /bram_tb
-# ** Warning: NUMERIC_STD.TO_UNSIGNED: vector truncated
-#    Time: 462690 ns  Iteration: 2  Instance: /bram_tb
-# ** Warning: NUMERIC_STD.TO_UNSIGNED: vector truncated
-#    Time: 462710 ns  Iteration: 2  Instance: /bram_tb
-# ** Warning: NUMERIC_STD.TO_UNSIGNED: vector truncated
-#    Time: 462730 ns  Iteration: 2  Instance: /bram_tb
-# ** Warning: NUMERIC_STD.TO_UNSIGNED: vector truncated
-#    Time: 462750 ns  Iteration: 2  Instance: /bram_tb
-# ** Warning: NUMERIC_STD.TO_UNSIGNED: vector truncated
-#    Time: 462770 ns  Iteration: 2  Instance: /bram_tb
-# ** Warning: NUMERIC_STD.TO_UNSIGNED: vector truncated
-#    Time: 462790 ns  Iteration: 2  Instance: /bram_tb
-# ** Warning: NUMERIC_STD.TO_UNSIGNED: vector truncated
-#    Time: 462810 ns  Iteration: 2  Instance: /bram_tb
-# ** Warning: NUMERIC_STD.TO_UNSIGNED: vector truncated
-#    Time: 462830 ns  Iteration: 2  Instance: /bram_tb
-# ** Warning: NUMERIC_STD.TO_UNSIGNED: vector truncated
-#    Time: 462850 ns  Iteration: 2  Instance: /bram_tb
-# ** Warning: NUMERIC_STD.TO_UNSIGNED: vector truncated
-#    Time: 462870 ns  Iteration: 2  Instance: /bram_tb
-# ** Warning: NUMERIC_STD.TO_UNSIGNED: vector truncated
-#    Time: 462890 ns  Iteration: 2  Instance: /bram_tb
-# ** Warning: NUMERIC_STD.TO_UNSIGNED: vector truncated
-#    Time: 462910 ns  Iteration: 2  Instance: /bram_tb
-# ** Warning: NUMERIC_STD.TO_UNSIGNED: vector truncated
-#    Time: 462930 ns  Iteration: 2  Instance: /bram_tb
-# ** Warning: NUMERIC_STD.TO_UNSIGNED: vector truncated
-#    Time: 462950 ns  Iteration: 2  Instance: /bram_tb
-# ** Warning: NUMERIC_STD.TO_UNSIGNED: vector truncated
-#    Time: 462970 ns  Iteration: 2  Instance: /bram_tb
-# ** Warning: NUMERIC_STD.TO_UNSIGNED: vector truncated
-#    Time: 462990 ns  Iteration: 2  Instance: /bram_tb
-# ** Warning: NUMERIC_STD.TO_UNSIGNED: vector truncated
-#    Time: 463010 ns  Iteration: 2  Instance: /bram_tb
-# ** Warning: NUMERIC_STD.TO_UNSIGNED: vector truncated
-#    Time: 463030 ns  Iteration: 2  Instance: /bram_tb
-# ** Warning: NUMERIC_STD.TO_UNSIGNED: vector truncated
-#    Time: 463050 ns  Iteration: 2  Instance: /bram_tb
-# ** Warning: NUMERIC_STD.TO_UNSIGNED: vector truncated
-#    Time: 463070 ns  Iteration: 2  Instance: /bram_tb
-# ** Warning: NUMERIC_STD.TO_UNSIGNED: vector truncated
-#    Time: 463090 ns  Iteration: 2  Instance: /bram_tb
-# ** Warning: NUMERIC_STD.TO_UNSIGNED: vector truncated
-#    Time: 463110 ns  Iteration: 2  Instance: /bram_tb
-# ** Warning: NUMERIC_STD.TO_UNSIGNED: vector truncated
-#    Time: 463130 ns  Iteration: 2  Instance: /bram_tb
-# ** Warning: NUMERIC_STD.TO_UNSIGNED: vector truncated
-#    Time: 463150 ns  Iteration: 2  Instance: /bram_tb
-# ** Warning: NUMERIC_STD.TO_UNSIGNED: vector truncated
-#    Time: 463170 ns  Iteration: 2  Instance: /bram_tb
-# ** Warning: NUMERIC_STD.TO_UNSIGNED: vector truncated
-#    Time: 463190 ns  Iteration: 2  Instance: /bram_tb
-# ** Warning: NUMERIC_STD.TO_UNSIGNED: vector truncated
-#    Time: 463210 ns  Iteration: 2  Instance: /bram_tb
-# ** Warning: NUMERIC_STD.TO_UNSIGNED: vector truncated
-#    Time: 463230 ns  Iteration: 2  Instance: /bram_tb
-# ** Warning: NUMERIC_STD.TO_UNSIGNED: vector truncated
-#    Time: 463250 ns  Iteration: 2  Instance: /bram_tb
-# ** Warning: NUMERIC_STD.TO_UNSIGNED: vector truncated
-#    Time: 463270 ns  Iteration: 2  Instance: /bram_tb
-# ** Warning: NUMERIC_STD.TO_UNSIGNED: vector truncated
-#    Time: 463290 ns  Iteration: 2  Instance: /bram_tb
-# ** Warning: NUMERIC_STD.TO_UNSIGNED: vector truncated
-#    Time: 463310 ns  Iteration: 2  Instance: /bram_tb
-# ** Warning: NUMERIC_STD.TO_UNSIGNED: vector truncated
-#    Time: 463330 ns  Iteration: 2  Instance: /bram_tb
-# ** Warning: NUMERIC_STD.TO_UNSIGNED: vector truncated
-#    Time: 463350 ns  Iteration: 2  Instance: /bram_tb
-# ** Warning: NUMERIC_STD.TO_UNSIGNED: vector truncated
-#    Time: 463370 ns  Iteration: 2  Instance: /bram_tb
-# ** Warning: NUMERIC_STD.TO_UNSIGNED: vector truncated
-#    Time: 463390 ns  Iteration: 2  Instance: /bram_tb
-# ** Warning: NUMERIC_STD.TO_UNSIGNED: vector truncated
-#    Time: 463410 ns  Iteration: 2  Instance: /bram_tb
-# ** Warning: NUMERIC_STD.TO_UNSIGNED: vector truncated
-#    Time: 463430 ns  Iteration: 2  Instance: /bram_tb
-# ** Warning: NUMERIC_STD.TO_UNSIGNED: vector truncated
-#    Time: 463450 ns  Iteration: 2  Instance: /bram_tb
-# ** Warning: NUMERIC_STD.TO_UNSIGNED: vector truncated
-#    Time: 463470 ns  Iteration: 2  Instance: /bram_tb
-# ** Warning: NUMERIC_STD.TO_UNSIGNED: vector truncated
-#    Time: 463490 ns  Iteration: 2  Instance: /bram_tb
-# ** Warning: NUMERIC_STD.TO_UNSIGNED: vector truncated
-#    Time: 463510 ns  Iteration: 2  Instance: /bram_tb
-# ** Warning: NUMERIC_STD.TO_UNSIGNED: vector truncated
-#    Time: 463530 ns  Iteration: 2  Instance: /bram_tb
-# ** Warning: NUMERIC_STD.TO_UNSIGNED: vector truncated
-#    Time: 463550 ns  Iteration: 2  Instance: /bram_tb
-# ** Warning: NUMERIC_STD.TO_UNSIGNED: vector truncated
-#    Time: 463570 ns  Iteration: 2  Instance: /bram_tb
-# ** Warning: NUMERIC_STD.TO_UNSIGNED: vector truncated
-#    Time: 463590 ns  Iteration: 2  Instance: /bram_tb
-# ** Warning: NUMERIC_STD.TO_UNSIGNED: vector truncated
-#    Time: 463610 ns  Iteration: 2  Instance: /bram_tb
-# ** Warning: NUMERIC_STD.TO_UNSIGNED: vector truncated
-#    Time: 463630 ns  Iteration: 2  Instance: /bram_tb
-# ** Warning: NUMERIC_STD.TO_UNSIGNED: vector truncated
-#    Time: 463650 ns  Iteration: 2  Instance: /bram_tb
-# ** Warning: NUMERIC_STD.TO_UNSIGNED: vector truncated
-#    Time: 463670 ns  Iteration: 2  Instance: /bram_tb
-# ** Warning: NUMERIC_STD.TO_UNSIGNED: vector truncated
-#    Time: 463690 ns  Iteration: 2  Instance: /bram_tb
-# ** Warning: NUMERIC_STD.TO_UNSIGNED: vector truncated
-#    Time: 463710 ns  Iteration: 2  Instance: /bram_tb
-# ** Warning: NUMERIC_STD.TO_UNSIGNED: vector truncated
-#    Time: 463730 ns  Iteration: 2  Instance: /bram_tb
-# ** Warning: NUMERIC_STD.TO_UNSIGNED: vector truncated
-#    Time: 463750 ns  Iteration: 2  Instance: /bram_tb
-# ** Warning: NUMERIC_STD.TO_UNSIGNED: vector truncated
-#    Time: 463770 ns  Iteration: 2  Instance: /bram_tb
-# ** Warning: NUMERIC_STD.TO_UNSIGNED: vector truncated
-#    Time: 463790 ns  Iteration: 2  Instance: /bram_tb
-# ** Warning: NUMERIC_STD.TO_UNSIGNED: vector truncated
-#    Time: 463810 ns  Iteration: 2  Instance: /bram_tb
-# ** Warning: NUMERIC_STD.TO_UNSIGNED: vector truncated
-#    Time: 463830 ns  Iteration: 2  Instance: /bram_tb
-# ** Warning: NUMERIC_STD.TO_UNSIGNED: vector truncated
-#    Time: 463850 ns  Iteration: 2  Instance: /bram_tb
-# ** Warning: NUMERIC_STD.TO_UNSIGNED: vector truncated
-#    Time: 463870 ns  Iteration: 2  Instance: /bram_tb
-# ** Warning: NUMERIC_STD.TO_UNSIGNED: vector truncated
-#    Time: 463890 ns  Iteration: 2  Instance: /bram_tb
-# ** Warning: NUMERIC_STD.TO_UNSIGNED: vector truncated
-#    Time: 463910 ns  Iteration: 2  Instance: /bram_tb
-# ** Warning: NUMERIC_STD.TO_UNSIGNED: vector truncated
-#    Time: 463930 ns  Iteration: 2  Instance: /bram_tb
-# ** Warning: NUMERIC_STD.TO_UNSIGNED: vector truncated
-#    Time: 463950 ns  Iteration: 2  Instance: /bram_tb
-# ** Warning: NUMERIC_STD.TO_UNSIGNED: vector truncated
-#    Time: 463970 ns  Iteration: 2  Instance: /bram_tb
-# ** Warning: NUMERIC_STD.TO_UNSIGNED: vector truncated
-#    Time: 463990 ns  Iteration: 2  Instance: /bram_tb
-# ** Warning: NUMERIC_STD.TO_UNSIGNED: vector truncated
-#    Time: 464010 ns  Iteration: 2  Instance: /bram_tb
-# ** Warning: NUMERIC_STD.TO_UNSIGNED: vector truncated
-#    Time: 464030 ns  Iteration: 2  Instance: /bram_tb
-# ** Warning: NUMERIC_STD.TO_UNSIGNED: vector truncated
-#    Time: 464050 ns  Iteration: 2  Instance: /bram_tb
-# ** Warning: NUMERIC_STD.TO_UNSIGNED: vector truncated
-#    Time: 464070 ns  Iteration: 2  Instance: /bram_tb
-# ** Warning: NUMERIC_STD.TO_UNSIGNED: vector truncated
-#    Time: 464090 ns  Iteration: 2  Instance: /bram_tb
-# ** Warning: NUMERIC_STD.TO_UNSIGNED: vector truncated
-#    Time: 464110 ns  Iteration: 2  Instance: /bram_tb
-# ** Warning: NUMERIC_STD.TO_UNSIGNED: vector truncated
-#    Time: 464130 ns  Iteration: 2  Instance: /bram_tb
-# ** Warning: NUMERIC_STD.TO_UNSIGNED: vector truncated
-#    Time: 464150 ns  Iteration: 2  Instance: /bram_tb
-# ** Warning: NUMERIC_STD.TO_UNSIGNED: vector truncated
-#    Time: 464170 ns  Iteration: 2  Instance: /bram_tb
-# ** Warning: NUMERIC_STD.TO_UNSIGNED: vector truncated
-#    Time: 464190 ns  Iteration: 2  Instance: /bram_tb
-# ** Warning: NUMERIC_STD.TO_UNSIGNED: vector truncated
-#    Time: 464210 ns  Iteration: 2  Instance: /bram_tb
-# ** Warning: NUMERIC_STD.TO_UNSIGNED: vector truncated
-#    Time: 464230 ns  Iteration: 2  Instance: /bram_tb
-# ** Warning: NUMERIC_STD.TO_UNSIGNED: vector truncated
-#    Time: 464250 ns  Iteration: 2  Instance: /bram_tb
-# ** Warning: NUMERIC_STD.TO_UNSIGNED: vector truncated
-#    Time: 464270 ns  Iteration: 2  Instance: /bram_tb
-# ** Warning: NUMERIC_STD.TO_UNSIGNED: vector truncated
-#    Time: 464290 ns  Iteration: 2  Instance: /bram_tb
-# ** Warning: NUMERIC_STD.TO_UNSIGNED: vector truncated
-#    Time: 464310 ns  Iteration: 2  Instance: /bram_tb
-# ** Warning: NUMERIC_STD.TO_UNSIGNED: vector truncated
-#    Time: 464330 ns  Iteration: 2  Instance: /bram_tb
-# ** Warning: NUMERIC_STD.TO_UNSIGNED: vector truncated
-#    Time: 464350 ns  Iteration: 2  Instance: /bram_tb
-# ** Warning: NUMERIC_STD.TO_UNSIGNED: vector truncated
-#    Time: 464370 ns  Iteration: 2  Instance: /bram_tb
-# ** Warning: NUMERIC_STD.TO_UNSIGNED: vector truncated
-#    Time: 464390 ns  Iteration: 2  Instance: /bram_tb
-# ** Warning: NUMERIC_STD.TO_UNSIGNED: vector truncated
-#    Time: 464410 ns  Iteration: 2  Instance: /bram_tb
-# ** Warning: NUMERIC_STD.TO_UNSIGNED: vector truncated
-#    Time: 464430 ns  Iteration: 2  Instance: /bram_tb
-# ** Warning: NUMERIC_STD.TO_UNSIGNED: vector truncated
-#    Time: 464450 ns  Iteration: 2  Instance: /bram_tb
-# ** Warning: NUMERIC_STD.TO_UNSIGNED: vector truncated
-#    Time: 464470 ns  Iteration: 2  Instance: /bram_tb
-# ** Warning: NUMERIC_STD.TO_UNSIGNED: vector truncated
-#    Time: 464490 ns  Iteration: 2  Instance: /bram_tb
-# ** Warning: NUMERIC_STD.TO_UNSIGNED: vector truncated
-#    Time: 464510 ns  Iteration: 2  Instance: /bram_tb
-# ** Warning: NUMERIC_STD.TO_UNSIGNED: vector truncated
-#    Time: 464530 ns  Iteration: 2  Instance: /bram_tb
-# ** Warning: NUMERIC_STD.TO_UNSIGNED: vector truncated
-#    Time: 464550 ns  Iteration: 2  Instance: /bram_tb
-# ** Warning: NUMERIC_STD.TO_UNSIGNED: vector truncated
-#    Time: 464570 ns  Iteration: 2  Instance: /bram_tb
-# ** Warning: NUMERIC_STD.TO_UNSIGNED: vector truncated
-#    Time: 464590 ns  Iteration: 2  Instance: /bram_tb
-# ** Warning: NUMERIC_STD.TO_UNSIGNED: vector truncated
-#    Time: 464610 ns  Iteration: 2  Instance: /bram_tb
-# ** Warning: NUMERIC_STD.TO_UNSIGNED: vector truncated
-#    Time: 464630 ns  Iteration: 2  Instance: /bram_tb
-# ** Warning: NUMERIC_STD.TO_UNSIGNED: vector truncated
-#    Time: 464650 ns  Iteration: 2  Instance: /bram_tb
-# ** Warning: NUMERIC_STD.TO_UNSIGNED: vector truncated
-#    Time: 464670 ns  Iteration: 2  Instance: /bram_tb
-# ** Warning: NUMERIC_STD.TO_UNSIGNED: vector truncated
-#    Time: 464690 ns  Iteration: 2  Instance: /bram_tb
-# ** Warning: NUMERIC_STD.TO_UNSIGNED: vector truncated
-#    Time: 464710 ns  Iteration: 2  Instance: /bram_tb
-# ** Warning: NUMERIC_STD.TO_UNSIGNED: vector truncated
-#    Time: 464730 ns  Iteration: 2  Instance: /bram_tb
-# ** Warning: NUMERIC_STD.TO_UNSIGNED: vector truncated
-#    Time: 464750 ns  Iteration: 2  Instance: /bram_tb
-# ** Warning: NUMERIC_STD.TO_UNSIGNED: vector truncated
-#    Time: 464770 ns  Iteration: 2  Instance: /bram_tb
-# ** Warning: NUMERIC_STD.TO_UNSIGNED: vector truncated
-#    Time: 464790 ns  Iteration: 2  Instance: /bram_tb
-# ** Warning: NUMERIC_STD.TO_UNSIGNED: vector truncated
-#    Time: 464810 ns  Iteration: 2  Instance: /bram_tb
-# ** Warning: NUMERIC_STD.TO_UNSIGNED: vector truncated
-#    Time: 464830 ns  Iteration: 2  Instance: /bram_tb
-# ** Warning: NUMERIC_STD.TO_UNSIGNED: vector truncated
-#    Time: 464850 ns  Iteration: 2  Instance: /bram_tb
-# ** Warning: NUMERIC_STD.TO_UNSIGNED: vector truncated
-#    Time: 464870 ns  Iteration: 2  Instance: /bram_tb
-# ** Warning: NUMERIC_STD.TO_UNSIGNED: vector truncated
-#    Time: 464890 ns  Iteration: 2  Instance: /bram_tb
-# ** Warning: NUMERIC_STD.TO_UNSIGNED: vector truncated
-#    Time: 464910 ns  Iteration: 2  Instance: /bram_tb
-# ** Warning: NUMERIC_STD.TO_UNSIGNED: vector truncated
-#    Time: 464930 ns  Iteration: 2  Instance: /bram_tb
-# ** Warning: NUMERIC_STD.TO_UNSIGNED: vector truncated
-#    Time: 464950 ns  Iteration: 2  Instance: /bram_tb
-# ** Warning: NUMERIC_STD.TO_UNSIGNED: vector truncated
-#    Time: 464970 ns  Iteration: 2  Instance: /bram_tb
-# ** Warning: NUMERIC_STD.TO_UNSIGNED: vector truncated
-#    Time: 464990 ns  Iteration: 2  Instance: /bram_tb
-# ** Warning: NUMERIC_STD.TO_UNSIGNED: vector truncated
-#    Time: 465010 ns  Iteration: 2  Instance: /bram_tb
-# ** Warning: NUMERIC_STD.TO_UNSIGNED: vector truncated
-#    Time: 465030 ns  Iteration: 2  Instance: /bram_tb
-# ** Warning: NUMERIC_STD.TO_UNSIGNED: vector truncated
-#    Time: 465050 ns  Iteration: 2  Instance: /bram_tb
-# ** Warning: NUMERIC_STD.TO_UNSIGNED: vector truncated
-#    Time: 465070 ns  Iteration: 2  Instance: /bram_tb
-# ** Warning: NUMERIC_STD.TO_UNSIGNED: vector truncated
-#    Time: 465090 ns  Iteration: 2  Instance: /bram_tb
-# ** Warning: NUMERIC_STD.TO_UNSIGNED: vector truncated
-#    Time: 465110 ns  Iteration: 2  Instance: /bram_tb
-# ** Warning: NUMERIC_STD.TO_UNSIGNED: vector truncated
-#    Time: 465130 ns  Iteration: 2  Instance: /bram_tb
-# ** Warning: NUMERIC_STD.TO_UNSIGNED: vector truncated
-#    Time: 465150 ns  Iteration: 2  Instance: /bram_tb
-# ** Warning: NUMERIC_STD.TO_UNSIGNED: vector truncated
-#    Time: 465170 ns  Iteration: 2  Instance: /bram_tb
-# ** Warning: NUMERIC_STD.TO_UNSIGNED: vector truncated
-#    Time: 465190 ns  Iteration: 2  Instance: /bram_tb
-# ** Warning: NUMERIC_STD.TO_UNSIGNED: vector truncated
-#    Time: 465210 ns  Iteration: 2  Instance: /bram_tb
-# ** Warning: NUMERIC_STD.TO_UNSIGNED: vector truncated
-#    Time: 465230 ns  Iteration: 2  Instance: /bram_tb
-# ** Warning: NUMERIC_STD.TO_UNSIGNED: vector truncated
-#    Time: 465250 ns  Iteration: 2  Instance: /bram_tb
-# ** Warning: NUMERIC_STD.TO_UNSIGNED: vector truncated
-#    Time: 465270 ns  Iteration: 2  Instance: /bram_tb
-# ** Warning: NUMERIC_STD.TO_UNSIGNED: vector truncated
-#    Time: 465290 ns  Iteration: 2  Instance: /bram_tb
-# ** Warning: NUMERIC_STD.TO_UNSIGNED: vector truncated
-#    Time: 465310 ns  Iteration: 2  Instance: /bram_tb
-# ** Warning: NUMERIC_STD.TO_UNSIGNED: vector truncated
-#    Time: 465330 ns  Iteration: 2  Instance: /bram_tb
-# ** Warning: NUMERIC_STD.TO_UNSIGNED: vector truncated
-#    Time: 465350 ns  Iteration: 2  Instance: /bram_tb
-# ** Warning: NUMERIC_STD.TO_UNSIGNED: vector truncated
-#    Time: 465370 ns  Iteration: 2  Instance: /bram_tb
-# ** Warning: NUMERIC_STD.TO_UNSIGNED: vector truncated
-#    Time: 465390 ns  Iteration: 2  Instance: /bram_tb
-# ** Warning: NUMERIC_STD.TO_UNSIGNED: vector truncated
-#    Time: 465410 ns  Iteration: 2  Instance: /bram_tb
-# ** Warning: NUMERIC_STD.TO_UNSIGNED: vector truncated
-#    Time: 465430 ns  Iteration: 2  Instance: /bram_tb
-# ** Warning: NUMERIC_STD.TO_UNSIGNED: vector truncated
-#    Time: 465450 ns  Iteration: 2  Instance: /bram_tb
-# ** Warning: NUMERIC_STD.TO_UNSIGNED: vector truncated
-#    Time: 465470 ns  Iteration: 2  Instance: /bram_tb
-# ** Warning: NUMERIC_STD.TO_UNSIGNED: vector truncated
-#    Time: 465490 ns  Iteration: 2  Instance: /bram_tb
-# ** Warning: NUMERIC_STD.TO_UNSIGNED: vector truncated
-#    Time: 465510 ns  Iteration: 2  Instance: /bram_tb
-# ** Warning: NUMERIC_STD.TO_UNSIGNED: vector truncated
-#    Time: 465530 ns  Iteration: 2  Instance: /bram_tb
-# ** Warning: NUMERIC_STD.TO_UNSIGNED: vector truncated
-#    Time: 465550 ns  Iteration: 2  Instance: /bram_tb
-# ** Warning: NUMERIC_STD.TO_UNSIGNED: vector truncated
-#    Time: 465570 ns  Iteration: 2  Instance: /bram_tb
-# ** Warning: NUMERIC_STD.TO_UNSIGNED: vector truncated
-#    Time: 465590 ns  Iteration: 2  Instance: /bram_tb
-# ** Warning: NUMERIC_STD.TO_UNSIGNED: vector truncated
-#    Time: 465610 ns  Iteration: 2  Instance: /bram_tb
-# ** Warning: NUMERIC_STD.TO_UNSIGNED: vector truncated
-#    Time: 465630 ns  Iteration: 2  Instance: /bram_tb
-# ** Warning: NUMERIC_STD.TO_UNSIGNED: vector truncated
-#    Time: 465650 ns  Iteration: 2  Instance: /bram_tb
-# ** Warning: NUMERIC_STD.TO_UNSIGNED: vector truncated
-#    Time: 465670 ns  Iteration: 2  Instance: /bram_tb
-# ** Warning: NUMERIC_STD.TO_UNSIGNED: vector truncated
-#    Time: 465690 ns  Iteration: 2  Instance: /bram_tb
-# ** Warning: NUMERIC_STD.TO_UNSIGNED: vector truncated
-#    Time: 465710 ns  Iteration: 2  Instance: /bram_tb
-# ** Warning: NUMERIC_STD.TO_UNSIGNED: vector truncated
-#    Time: 465730 ns  Iteration: 2  Instance: /bram_tb
-# ** Warning: NUMERIC_STD.TO_UNSIGNED: vector truncated
-#    Time: 465750 ns  Iteration: 2  Instance: /bram_tb
-# ** Warning: NUMERIC_STD.TO_UNSIGNED: vector truncated
-#    Time: 465770 ns  Iteration: 2  Instance: /bram_tb
-# ** Warning: NUMERIC_STD.TO_UNSIGNED: vector truncated
-#    Time: 465790 ns  Iteration: 2  Instance: /bram_tb
-# ** Warning: NUMERIC_STD.TO_UNSIGNED: vector truncated
-#    Time: 465810 ns  Iteration: 2  Instance: /bram_tb
-# ** Warning: NUMERIC_STD.TO_UNSIGNED: vector truncated
-#    Time: 465830 ns  Iteration: 2  Instance: /bram_tb
-# ** Warning: NUMERIC_STD.TO_UNSIGNED: vector truncated
-#    Time: 465850 ns  Iteration: 2  Instance: /bram_tb
-# ** Warning: NUMERIC_STD.TO_UNSIGNED: vector truncated
-#    Time: 465870 ns  Iteration: 2  Instance: /bram_tb
-# ** Warning: NUMERIC_STD.TO_UNSIGNED: vector truncated
-#    Time: 465890 ns  Iteration: 2  Instance: /bram_tb
-# ** Warning: NUMERIC_STD.TO_UNSIGNED: vector truncated
-#    Time: 465910 ns  Iteration: 2  Instance: /bram_tb
-# ** Warning: NUMERIC_STD.TO_UNSIGNED: vector truncated
-#    Time: 465930 ns  Iteration: 2  Instance: /bram_tb
-# ** Warning: NUMERIC_STD.TO_UNSIGNED: vector truncated
-#    Time: 465950 ns  Iteration: 2  Instance: /bram_tb
-# ** Warning: NUMERIC_STD.TO_UNSIGNED: vector truncated
-#    Time: 465970 ns  Iteration: 2  Instance: /bram_tb
-# ** Warning: NUMERIC_STD.TO_UNSIGNED: vector truncated
-#    Time: 465990 ns  Iteration: 2  Instance: /bram_tb
-# ** Warning: NUMERIC_STD.TO_UNSIGNED: vector truncated
-#    Time: 466010 ns  Iteration: 2  Instance: /bram_tb
-# ** Warning: NUMERIC_STD.TO_UNSIGNED: vector truncated
-#    Time: 466030 ns  Iteration: 2  Instance: /bram_tb
-# ** Warning: NUMERIC_STD.TO_UNSIGNED: vector truncated
-#    Time: 466050 ns  Iteration: 2  Instance: /bram_tb
-# ** Warning: NUMERIC_STD.TO_UNSIGNED: vector truncated
-#    Time: 466070 ns  Iteration: 2  Instance: /bram_tb
-# ** Warning: NUMERIC_STD.TO_UNSIGNED: vector truncated
-#    Time: 466090 ns  Iteration: 2  Instance: /bram_tb
-# ** Warning: NUMERIC_STD.TO_UNSIGNED: vector truncated
-#    Time: 466110 ns  Iteration: 2  Instance: /bram_tb
-# ** Warning: NUMERIC_STD.TO_UNSIGNED: vector truncated
-#    Time: 466130 ns  Iteration: 2  Instance: /bram_tb
-# ** Warning: NUMERIC_STD.TO_UNSIGNED: vector truncated
-#    Time: 466150 ns  Iteration: 2  Instance: /bram_tb
-# ** Warning: NUMERIC_STD.TO_UNSIGNED: vector truncated
-#    Time: 466170 ns  Iteration: 2  Instance: /bram_tb
-# ** Warning: NUMERIC_STD.TO_UNSIGNED: vector truncated
-#    Time: 466190 ns  Iteration: 2  Instance: /bram_tb
-# ** Warning: NUMERIC_STD.TO_UNSIGNED: vector truncated
-#    Time: 466210 ns  Iteration: 2  Instance: /bram_tb
-# ** Warning: NUMERIC_STD.TO_UNSIGNED: vector truncated
-#    Time: 466230 ns  Iteration: 2  Instance: /bram_tb
-# ** Warning: NUMERIC_STD.TO_UNSIGNED: vector truncated
-#    Time: 466250 ns  Iteration: 2  Instance: /bram_tb
-# ** Warning: NUMERIC_STD.TO_UNSIGNED: vector truncated
-#    Time: 466270 ns  Iteration: 2  Instance: /bram_tb
-# ** Warning: NUMERIC_STD.TO_UNSIGNED: vector truncated
-#    Time: 466290 ns  Iteration: 2  Instance: /bram_tb
-# ** Warning: NUMERIC_STD.TO_UNSIGNED: vector truncated
-#    Time: 466310 ns  Iteration: 2  Instance: /bram_tb
-# ** Warning: NUMERIC_STD.TO_UNSIGNED: vector truncated
-#    Time: 466330 ns  Iteration: 2  Instance: /bram_tb
-# ** Warning: NUMERIC_STD.TO_UNSIGNED: vector truncated
-#    Time: 466350 ns  Iteration: 2  Instance: /bram_tb
-# ** Warning: NUMERIC_STD.TO_UNSIGNED: vector truncated
-#    Time: 466370 ns  Iteration: 2  Instance: /bram_tb
-# ** Warning: NUMERIC_STD.TO_UNSIGNED: vector truncated
-#    Time: 466390 ns  Iteration: 2  Instance: /bram_tb
-# ** Warning: NUMERIC_STD.TO_UNSIGNED: vector truncated
-#    Time: 466410 ns  Iteration: 2  Instance: /bram_tb
-# ** Warning: NUMERIC_STD.TO_UNSIGNED: vector truncated
-#    Time: 466430 ns  Iteration: 2  Instance: /bram_tb
-# ** Warning: NUMERIC_STD.TO_UNSIGNED: vector truncated
-#    Time: 466450 ns  Iteration: 2  Instance: /bram_tb
-# ** Warning: NUMERIC_STD.TO_UNSIGNED: vector truncated
-#    Time: 466470 ns  Iteration: 2  Instance: /bram_tb
-# ** Warning: NUMERIC_STD.TO_UNSIGNED: vector truncated
-#    Time: 466490 ns  Iteration: 2  Instance: /bram_tb
-# ** Warning: NUMERIC_STD.TO_UNSIGNED: vector truncated
-#    Time: 466510 ns  Iteration: 2  Instance: /bram_tb
-# ** Warning: NUMERIC_STD.TO_UNSIGNED: vector truncated
-#    Time: 466530 ns  Iteration: 2  Instance: /bram_tb
-# ** Warning: NUMERIC_STD.TO_UNSIGNED: vector truncated
-#    Time: 466550 ns  Iteration: 2  Instance: /bram_tb
-# ** Warning: NUMERIC_STD.TO_UNSIGNED: vector truncated
-#    Time: 466570 ns  Iteration: 2  Instance: /bram_tb
-# ** Warning: NUMERIC_STD.TO_UNSIGNED: vector truncated
-#    Time: 466590 ns  Iteration: 2  Instance: /bram_tb
-# ** Warning: NUMERIC_STD.TO_UNSIGNED: vector truncated
-#    Time: 466610 ns  Iteration: 2  Instance: /bram_tb
-# ** Warning: NUMERIC_STD.TO_UNSIGNED: vector truncated
-#    Time: 466630 ns  Iteration: 2  Instance: /bram_tb
-# ** Warning: NUMERIC_STD.TO_UNSIGNED: vector truncated
-#    Time: 466650 ns  Iteration: 2  Instance: /bram_tb
-# ** Warning: NUMERIC_STD.TO_UNSIGNED: vector truncated
-#    Time: 466670 ns  Iteration: 2  Instance: /bram_tb
-# ** Warning: NUMERIC_STD.TO_UNSIGNED: vector truncated
-#    Time: 466690 ns  Iteration: 2  Instance: /bram_tb
-# ** Warning: NUMERIC_STD.TO_UNSIGNED: vector truncated
-#    Time: 466710 ns  Iteration: 2  Instance: /bram_tb
-# ** Warning: NUMERIC_STD.TO_UNSIGNED: vector truncated
-#    Time: 466730 ns  Iteration: 2  Instance: /bram_tb
-# ** Warning: NUMERIC_STD.TO_UNSIGNED: vector truncated
-#    Time: 466750 ns  Iteration: 2  Instance: /bram_tb
-# ** Warning: NUMERIC_STD.TO_UNSIGNED: vector truncated
-#    Time: 466770 ns  Iteration: 2  Instance: /bram_tb
-# ** Warning: NUMERIC_STD.TO_UNSIGNED: vector truncated
-#    Time: 466790 ns  Iteration: 2  Instance: /bram_tb
-# ** Warning: NUMERIC_STD.TO_UNSIGNED: vector truncated
-#    Time: 466810 ns  Iteration: 2  Instance: /bram_tb
-# ** Warning: NUMERIC_STD.TO_UNSIGNED: vector truncated
-#    Time: 466830 ns  Iteration: 2  Instance: /bram_tb
-# ** Warning: NUMERIC_STD.TO_UNSIGNED: vector truncated
-#    Time: 466850 ns  Iteration: 2  Instance: /bram_tb
-# ** Warning: NUMERIC_STD.TO_UNSIGNED: vector truncated
-#    Time: 466870 ns  Iteration: 2  Instance: /bram_tb
-# ** Warning: NUMERIC_STD.TO_UNSIGNED: vector truncated
-#    Time: 466890 ns  Iteration: 2  Instance: /bram_tb
-# ** Warning: NUMERIC_STD.TO_UNSIGNED: vector truncated
-#    Time: 466910 ns  Iteration: 2  Instance: /bram_tb
-# ** Warning: NUMERIC_STD.TO_UNSIGNED: vector truncated
-#    Time: 466930 ns  Iteration: 2  Instance: /bram_tb
-# ** Warning: NUMERIC_STD.TO_UNSIGNED: vector truncated
-#    Time: 466950 ns  Iteration: 2  Instance: /bram_tb
-# ** Warning: NUMERIC_STD.TO_UNSIGNED: vector truncated
-#    Time: 466970 ns  Iteration: 2  Instance: /bram_tb
-# ** Warning: NUMERIC_STD.TO_UNSIGNED: vector truncated
-#    Time: 466990 ns  Iteration: 2  Instance: /bram_tb
-# ** Warning: NUMERIC_STD.TO_UNSIGNED: vector truncated
-#    Time: 467010 ns  Iteration: 2  Instance: /bram_tb
-# ** Warning: NUMERIC_STD.TO_UNSIGNED: vector truncated
-#    Time: 467030 ns  Iteration: 2  Instance: /bram_tb
-# ** Warning: NUMERIC_STD.TO_UNSIGNED: vector truncated
-#    Time: 467050 ns  Iteration: 2  Instance: /bram_tb
-# ** Warning: NUMERIC_STD.TO_UNSIGNED: vector truncated
-#    Time: 467070 ns  Iteration: 2  Instance: /bram_tb
-# ** Warning: NUMERIC_STD.TO_UNSIGNED: vector truncated
-#    Time: 467090 ns  Iteration: 2  Instance: /bram_tb
-# ** Warning: NUMERIC_STD.TO_UNSIGNED: vector truncated
-#    Time: 467110 ns  Iteration: 2  Instance: /bram_tb
-# ** Warning: NUMERIC_STD.TO_UNSIGNED: vector truncated
-#    Time: 467130 ns  Iteration: 2  Instance: /bram_tb
-# ** Warning: NUMERIC_STD.TO_UNSIGNED: vector truncated
-#    Time: 467150 ns  Iteration: 2  Instance: /bram_tb
-# ** Warning: NUMERIC_STD.TO_UNSIGNED: vector truncated
-#    Time: 467170 ns  Iteration: 2  Instance: /bram_tb
-# ** Warning: NUMERIC_STD.TO_UNSIGNED: vector truncated
-#    Time: 467190 ns  Iteration: 2  Instance: /bram_tb
-# ** Warning: NUMERIC_STD.TO_UNSIGNED: vector truncated
-#    Time: 467210 ns  Iteration: 2  Instance: /bram_tb
-# ** Warning: NUMERIC_STD.TO_UNSIGNED: vector truncated
-#    Time: 467230 ns  Iteration: 2  Instance: /bram_tb
-# ** Warning: NUMERIC_STD.TO_UNSIGNED: vector truncated
-#    Time: 467250 ns  Iteration: 2  Instance: /bram_tb
-# ** Warning: NUMERIC_STD.TO_UNSIGNED: vector truncated
-#    Time: 467270 ns  Iteration: 2  Instance: /bram_tb
-# ** Warning: NUMERIC_STD.TO_UNSIGNED: vector truncated
-#    Time: 467290 ns  Iteration: 2  Instance: /bram_tb
-# ** Warning: NUMERIC_STD.TO_UNSIGNED: vector truncated
-#    Time: 467310 ns  Iteration: 2  Instance: /bram_tb
-# ** Warning: NUMERIC_STD.TO_UNSIGNED: vector truncated
-#    Time: 467330 ns  Iteration: 2  Instance: /bram_tb
-# ** Warning: NUMERIC_STD.TO_UNSIGNED: vector truncated
-#    Time: 467350 ns  Iteration: 2  Instance: /bram_tb
-# ** Warning: NUMERIC_STD.TO_UNSIGNED: vector truncated
-#    Time: 467370 ns  Iteration: 2  Instance: /bram_tb
-# ** Warning: NUMERIC_STD.TO_UNSIGNED: vector truncated
-#    Time: 467390 ns  Iteration: 2  Instance: /bram_tb
-# ** Warning: NUMERIC_STD.TO_UNSIGNED: vector truncated
-#    Time: 467410 ns  Iteration: 2  Instance: /bram_tb
-# ** Warning: NUMERIC_STD.TO_UNSIGNED: vector truncated
-#    Time: 467430 ns  Iteration: 2  Instance: /bram_tb
-# ** Warning: NUMERIC_STD.TO_UNSIGNED: vector truncated
-#    Time: 467450 ns  Iteration: 2  Instance: /bram_tb
-# ** Warning: NUMERIC_STD.TO_UNSIGNED: vector truncated
-#    Time: 467470 ns  Iteration: 2  Instance: /bram_tb
-# ** Warning: NUMERIC_STD.TO_UNSIGNED: vector truncated
-#    Time: 467490 ns  Iteration: 2  Instance: /bram_tb
-# ** Warning: NUMERIC_STD.TO_UNSIGNED: vector truncated
-#    Time: 467510 ns  Iteration: 2  Instance: /bram_tb
-# ** Warning: NUMERIC_STD.TO_UNSIGNED: vector truncated
-#    Time: 467530 ns  Iteration: 2  Instance: /bram_tb
+restart
+run
+vcom -93 -work work -O0 C:/Users/mathe/Projects/universidade/logica-reconfiguravel-2023.01/Lab5/BRAM_tb.vhd
+# Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity BRAM_tb
+# -- Compiling architecture X of BRAM_tb
+restart
+# Loading work.bram_tb(x)
+run
+vcom -93 -work work -O0 C:/Users/mathe/Projects/universidade/logica-reconfiguravel-2023.01/Lab5/BRAM_tb.vhd
+# Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity BRAM_tb
+# -- Compiling architecture X of BRAM_tb
+restart
+# Loading work.bram_tb(x)
+run
+run
+vcom -93 -work work -O0 C:/Users/mathe/Projects/universidade/logica-reconfiguravel-2023.01/Lab5/BRAM_tb.vhd
+# Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity BRAM_tb
+# -- Compiling architecture X of BRAM_tb
+restart
+# Loading work.bram_tb(x)
+run
+vcom -93 -work work -O0 C:/Users/mathe/Projects/universidade/logica-reconfiguravel-2023.01/Lab5/BRAM_tb.vhd
+# Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity BRAM_tb
+# -- Compiling architecture X of BRAM_tb
+restart
+# Loading work.bram_tb(x)
+run
+vcom -93 -work work -O0 C:/Users/mathe/Projects/universidade/logica-reconfiguravel-2023.01/Lab5/BRAM_tb.vhd
+# Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity BRAM_tb
+# -- Compiling architecture X of BRAM_tb
+restart
+# Loading work.bram_tb(x)
+run
+vcom -93 -work work -O0 C:/Users/mathe/Projects/universidade/logica-reconfiguravel-2023.01/Lab5/BRAM_tb.vhd
+# Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity BRAM_tb
+# -- Compiling architecture X of BRAM_tb
+# ** Error: C:/Users/mathe/Projects/universidade/logica-reconfiguravel-2023.01/Lab5/BRAM_tb.vhd(545): (vcom-1339) Case statement choices cover only 6 out of 7 cases.
+# 
+# ** Error: C:/Users/mathe/Projects/universidade/logica-reconfiguravel-2023.01/Lab5/BRAM_tb.vhd(586): VHDL Compiler exiting
+# C:/altera/13.0sp1/modelsim_ase/win32aloem/vcom failed.
+vcom -93 -work work -O0 C:/Users/mathe/Projects/universidade/logica-reconfiguravel-2023.01/Lab5/BRAM_tb.vhd
+# Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity BRAM_tb
+# -- Compiling architecture X of BRAM_tb
+restart
+# Loading work.bram_tb(x)
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+restart
+vcom -93 -work work -O0 C:/Users/mathe/Projects/universidade/logica-reconfiguravel-2023.01/Lab5/BRAM_tb.vhd
+# Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity BRAM_tb
+# -- Compiling architecture X of BRAM_tb
+run
+vcom -93 -work work -O0 C:/Users/mathe/Projects/universidade/logica-reconfiguravel-2023.01/Lab5/BRAM_tb.vhd
+# Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity BRAM_tb
+# -- Compiling architecture X of BRAM_tb
+restart
+# Loading work.bram_tb(x)
+run
+run
+run
+restart
+run
+restart
+vcom -93 -work work -O0 C:/Users/mathe/Projects/universidade/logica-reconfiguravel-2023.01/Lab5/BRAM_tb.vhd
+# Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity BRAM_tb
+# -- Compiling architecture X of BRAM_tb
+vcom -93 -work work -O0 C:/Users/mathe/Projects/universidade/logica-reconfiguravel-2023.01/Lab5/BRAM_tb.vhd
+# Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity BRAM_tb
+# -- Compiling architecture X of BRAM_tb
+run
+vcom -93 -work work -O0 C:/Users/mathe/Projects/universidade/logica-reconfiguravel-2023.01/Lab5/BRAM_tb.vhd
+# Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity BRAM_tb
+# -- Compiling architecture X of BRAM_tb
+# ** Error: C:/Users/mathe/Projects/universidade/logica-reconfiguravel-2023.01/Lab5/BRAM_tb.vhd(539): Signal "address" is type std.STANDARD.INTEGER; expecting type std.STANDARD.BOOLEAN.
+# ** Error: C:/Users/mathe/Projects/universidade/logica-reconfiguravel-2023.01/Lab5/BRAM_tb.vhd(539): near "!": expecting GENERATE or THEN
+# ** Error: C:/Users/mathe/Projects/universidade/logica-reconfiguravel-2023.01/Lab5/BRAM_tb.vhd(542): near "if": expecting CASE
+# C:/altera/13.0sp1/modelsim_ase/win32aloem/vcom failed.
+vcom -93 -work work -O0 C:/Users/mathe/Projects/universidade/logica-reconfiguravel-2023.01/Lab5/BRAM_tb.vhd
+# Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity BRAM_tb
+# -- Compiling architecture X of BRAM_tb
+restart
+# Loading work.bram_tb(x)
+run
+vcom -93 -work work -O0 C:/Users/mathe/Projects/universidade/logica-reconfiguravel-2023.01/Lab5/BRAM_tb.vhd
+# Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity BRAM_tb
+# -- Compiling architecture X of BRAM_tb
+restart
+# Loading work.bram_tb(x)
+run
+vcom -93 -work work -O0 C:/Users/mathe/Projects/universidade/logica-reconfiguravel-2023.01/Lab5/BRAM_tb.vhd
+# Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity BRAM_tb
+# -- Compiling architecture X of BRAM_tb
+restart
+# Loading work.bram_tb(x)
+run
+vcom -93 -work work -O0 C:/Users/mathe/Projects/universidade/logica-reconfiguravel-2023.01/Lab5/BRAM_tb.vhd
+# Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity BRAM_tb
+# -- Compiling architecture X of BRAM_tb
+restart
+# Loading work.bram_tb(x)
+run
+vcom -93 -work work -O0 C:/Users/mathe/Projects/universidade/logica-reconfiguravel-2023.01/Lab5/BRAM_tb.vhd
+# Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity BRAM_tb
+# -- Compiling architecture X of BRAM_tb
+restart
+# Loading work.bram_tb(x)
+run
+vcom -93 -work work -O0 C:/Users/mathe/Projects/universidade/logica-reconfiguravel-2023.01/Lab5/BRAM.vhd
+# Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity BRAM
+# -- Compiling architecture X of BRAM
+# ** Error: C:/Users/mathe/Projects/universidade/logica-reconfiguravel-2023.01/Lab5/BRAM.vhd(32): Integer literal 0 is not of type ieee.std_logic_1164.STD_LOGIC.
+# ** Error: C:/Users/mathe/Projects/universidade/logica-reconfiguravel-2023.01/Lab5/BRAM.vhd(55): VHDL Compiler exiting
+# C:/altera/13.0sp1/modelsim_ase/win32aloem/vcom failed.
+vcom -93 -work work -O0 C:/Users/mathe/Projects/universidade/logica-reconfiguravel-2023.01/Lab5/BRAM_tb.vhd
+# Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity BRAM_tb
+# -- Compiling architecture X of BRAM_tb
+vcom -93 -work work -O0 C:/Users/mathe/Projects/universidade/logica-reconfiguravel-2023.01/Lab5/BRAM.vhd
+# Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity BRAM
+# -- Compiling architecture X of BRAM
+vcom -93 -work work -O0 C:/Users/mathe/Projects/universidade/logica-reconfiguravel-2023.01/Lab5/BRAM_tb.vhd
+# Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity BRAM_tb
+# -- Compiling architecture X of BRAM_tb
+restart
+# Loading work.bram_tb(x)
+# Loading work.bram(x)
+run
+vcom -93 -work work -O0 C:/Users/mathe/Projects/universidade/logica-reconfiguravel-2023.01/Lab5/BRAM_tb.vhd
+# Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity BRAM_tb
+# -- Compiling architecture X of BRAM_tb
+restart
+# Loading work.bram_tb(x)
+run
+add wave -position insertpoint  \
+sim:/bram_tb/DUT/bram0/address
+add wave -position insertpoint  \
+sim:/bram_tb/DUT/bram0/data
+restart
+run
+add wave -position insertpoint  \
+sim:/bram_tb/DUT/bram0/q
+restart
+run
+vcom -93 -work work -O0 C:/Users/mathe/Projects/universidade/logica-reconfiguravel-2023.01/Lab5/BRAM_tb.vhd
+# Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity BRAM_tb
+# -- Compiling architecture X of BRAM_tb
+restart
+# Loading work.bram_tb(x)
+run
+vcom -93 -work work -O0 C:/Users/mathe/Projects/universidade/logica-reconfiguravel-2023.01/Lab5/BRAM_tb.vhd
+# Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity BRAM_tb
+# -- Compiling architecture X of BRAM_tb
+restart
+# Loading work.bram_tb(x)
+run

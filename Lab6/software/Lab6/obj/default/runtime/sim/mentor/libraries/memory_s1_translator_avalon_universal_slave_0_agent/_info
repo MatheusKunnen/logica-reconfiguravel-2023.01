@@ -1,0 +1,51 @@
+m255
+K3
+13
+cModel Technology
+Z0 dC:\logica\Lab6\software\Lab6\obj\default\runtime\sim\mentor
+vOw0wNu77UBhbpaxi4gtV7AQr3Nqj0/x21JjNxzRcycVbIqZEbg77DVDfIic7P/kq
+Z1 DXx6 sv_std 3 std 0 22 F[19LRNL:5;XmIFh[XOPn1
+!i10b 0
+!s100 A6<192mf^[L2mPGJ<`1Y_1
+IUN^Yh1Rm;G5IIb?^M[zT40
+Vk1gIA`RY2OQ1N9QbTULJo2
+xsip
+!i8a 1004619936
+!s105 altera_merlin_burst_uncompressor_sv_unit
+S1
+d.
+Z2 Fnofile
+L0 38
+Z3 OV;L;10.1d;51
+r1
+!s85 0
+31
+!s108 1683852755.819000
+!s107 C:/logica/Lab6/HostSystem/simulation/submodules/mentor/altera_merlin_burst_uncompressor.sv|
+!s90 -reportprogress|300|-sv|C:/logica/Lab6/HostSystem/simulation/submodules/mentor/altera_merlin_burst_uncompressor.sv|-work|memory_s1_translator_avalon_universal_slave_0_agent|
+!s101 -O0
+Z4 o-sv -work memory_s1_translator_avalon_universal_slave_0_agent -O0
+n4d119a2
+vk9eSM/gUTdNpFN1m6f2IVTRE41GNA2GxLEGZu3MKhSA=
+R1
+IWMgb_TORba=7gQPVb`6Z23
+VekU5U46jGhemBCkL?m_og2
+xsip
+S1
+d.
+R2
+L0 38
+R3
+r1
+31
+R4
+n527aa64
+!i10b 0
+!s100 I_KS<eF:ZdU_aZnV;gE3U0
+!i8a 210664288
+!s105 altera_merlin_slave_agent_sv_unit
+!s85 0
+!s108 1683852755.410000
+!s107 C:/logica/Lab6/HostSystem/simulation/submodules/mentor/altera_merlin_slave_agent.sv|
+!s90 -reportprogress|300|-sv|C:/logica/Lab6/HostSystem/simulation/submodules/mentor/altera_merlin_slave_agent.sv|-work|memory_s1_translator_avalon_universal_slave_0_agent|
+!s101 -O0

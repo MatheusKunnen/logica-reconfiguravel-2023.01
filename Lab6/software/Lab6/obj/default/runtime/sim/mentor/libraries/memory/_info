@@ -1,0 +1,50 @@
+m255
+K3
+13
+cModel Technology
+Z0 dC:\logica\Lab6\software\Lab6\obj\default\runtime\sim\mentor
+Ehostsystem_memory
+Z1 w1683767802
+Z2 DPx9 altera_mf 20 altera_mf_components 0 22 dN>@>Mze:JEj3f_7zNO2S2
+Z3 DPx4 ieee 15 std_logic_arith 0 22 4`Y?g_lkdn;7UL9IiJck01
+Z4 DPx4 ieee 18 std_logic_unsigned 0 22 RYmj;=TK`k=k>D@Cz`zoB3
+Z5 DPx4 ieee 11 numeric_std 0 22 O3PF8EB`?j9=z7KT`fn941
+Z6 DPx3 std 6 textio 0 22 5>J:;AW>W0[[dW0I6EN1Q0
+Z7 DPx4 ieee 14 std_logic_1164 0 22 5=aWaoGZSMWIcH0i^f`XF1
+Z8 DPx6 altera 25 altera_europa_support_lib 0 22 ]K^I5dOJEzAULGF>=EIc]2
+Z9 dC:\logica\Lab6\software\Lab6\obj\default\runtime\sim\mentor
+Z10 8C:/logica/Lab6/HostSystem/simulation/submodules/HostSystem_memory.vhd
+Z11 FC:/logica/Lab6/HostSystem/simulation/submodules/HostSystem_memory.vhd
+l0
+L29
+V[Glaf7D2W=:GZ`1e7HJH`3
+!s100 KX>IikZSc?^QDR]FZc=>90
+Z12 OV;C;10.1d;51
+32
+!i10b 1
+Z13 !s108 1683852757.795000
+Z14 !s90 -reportprogress|300|C:/logica/Lab6/HostSystem/simulation/submodules/HostSystem_memory.vhd|-work|memory|
+Z15 !s107 C:/logica/Lab6/HostSystem/simulation/submodules/HostSystem_memory.vhd|
+Z16 o-work memory -O0
+Z17 tExplicit 1
+Aeuropa
+R2
+R3
+R4
+R5
+R6
+R7
+R8
+Z18 DEx4 work 17 hostsystem_memory 0 22 [Glaf7D2W=:GZ`1e7HJH`3
+l81
+L51
+Z19 V:M[YQQmG7KmAVk0N6FS`J2
+Z20 !s100 Ka`5;MNh<JD`3Ae0TaF^90
+R12
+32
+!i10b 1
+R13
+R14
+R15
+R16
+R17

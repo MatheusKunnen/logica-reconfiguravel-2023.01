@@ -1,0 +1,45 @@
+m255
+K3
+13
+cModel Technology
+Z0 dC:\logica\Lab6\software\Lab6\obj\default\runtime\sim\mentor
+v7msTfx8HgvTFeqMXljztni7ACfDFxgMCd9KjxafjXz0=
+IEOWV3z>[KokF:L0eoeZUX2
+VBWWT<i0A@QcN4KE]hBS<V0
+xsip
+d.
+Z1 Fnofile
+L0 38
+Z2 OV;L;10.1d;51
+r1
+31
+Z3 o-work rst_controller -O0
+nf2f26c2
+!i10b 0
+!s100 oiO7IKNz?e1MfmQJJ8RE?3
+!i8a 452337152
+!s85 0
+!s108 1683852753.261000
+!s107 C:/logica/Lab6/HostSystem/simulation/submodules/mentor/altera_reset_controller.v|
+!s90 -reportprogress|300|C:/logica/Lab6/HostSystem/simulation/submodules/mentor/altera_reset_controller.v|-work|rst_controller|
+!s101 -O0
+vtHqmJkrOLSDXnOElxHRrQUHAxxIjpgQGFjdqSdRQ1zw=
+!i10b 0
+!s100 ]nNz^KSCMAQ:z=ZB]18;N0
+IJQDZRSJi72RYCBZ4XDI7X3
+V3CjoOZCIEdzCJgPn8]D7`2
+xsip
+!i8a 1192139840
+d.
+R1
+L0 38
+R2
+r1
+!s85 0
+31
+!s108 1683852753.698000
+!s107 C:/logica/Lab6/HostSystem/simulation/submodules/mentor/altera_reset_synchronizer.v|
+!s90 -reportprogress|300|C:/logica/Lab6/HostSystem/simulation/submodules/mentor/altera_reset_synchronizer.v|-work|rst_controller|
+!s101 -O0
+R3
+n15f2da2

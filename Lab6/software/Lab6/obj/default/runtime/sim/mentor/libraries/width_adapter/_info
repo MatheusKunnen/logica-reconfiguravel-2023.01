@@ -1,0 +1,74 @@
+m255
+K3
+13
+cModel Technology
+Z0 dC:\logica\Lab6\software\Lab6\obj\default\runtime\sim\mentor
+v7deownsNrzRR/PfxP2NGHEdJMhgtTsCN3C36AO+bUdw=
+Z1 DXx6 sv_std 3 std 0 22 F[19LRNL:5;XmIFh[XOPn1
+ImjO7o5A8iJkTiANTWefL70
+VH>XD0TEF@Z8U[ck`kGUJO2
+xsip
+S1
+d.
+Z2 Fnofile
+L0 38
+Z3 OV;L;10.1d;51
+r1
+31
+Z4 o-sv -work width_adapter -O0
+nd3f9d04
+!i10b 0
+!s100 >dK]NimZnV>IoK]6IbPWA3
+!i8a 1415540400
+!s105 altera_merlin_address_alignment_sv_unit
+!s85 0
+!s108 1683852752.176000
+!s107 C:/logica/Lab6/HostSystem/simulation/submodules/mentor/altera_merlin_address_alignment.sv|
+!s90 -reportprogress|300|-sv|C:/logica/Lab6/HostSystem/simulation/submodules/mentor/altera_merlin_address_alignment.sv|-work|width_adapter|
+!s101 -O0
+vq7GU29RhwaD12U2wyxxourpLw+Lpk/6EJz6DnP9K5MEX9QFx0aUSe7IrneGfBof1
+R1
+!i10b 0
+!s100 A6<192mf^[L2mPGJ<`1Y_1
+I^TQ7eed7m9UPLM5gAO_>@1
+Vk1gIA`RY2OQ1N9QbTULJo2
+xsip
+!i8a 430622448
+!s105 altera_merlin_burst_uncompressor_sv_unit
+S1
+d.
+R2
+L0 38
+R3
+r1
+!s85 0
+31
+!s108 1683852752.582000
+!s107 C:/logica/Lab6/HostSystem/simulation/submodules/mentor/altera_merlin_burst_uncompressor.sv|
+!s90 -reportprogress|300|-sv|C:/logica/Lab6/HostSystem/simulation/submodules/mentor/altera_merlin_burst_uncompressor.sv|-work|width_adapter|
+!s101 -O0
+R4
+n4d119a2
+v67zLFvWYPxg0fgKj3c+7IhTAD0VOOTNB3rLVeEs6Q38=
+R1
+IO=dkX_gADC@kG1WB=nSAD1
+V2j8B8W7hj9i^DJ]hQaO3J2
+xsip
+S1
+d.
+R2
+L0 38
+R3
+r1
+31
+R4
+nc092ef2
+!i10b 0
+!s100 ]LQI8Wc7hlUBTIDCN<8Kl2
+!i8a 917319600
+!s105 altera_merlin_width_adapter_sv_unit
+!s85 0
+!s108 1683852751.769000
+!s107 C:/logica/Lab6/HostSystem/simulation/submodules/mentor/altera_merlin_width_adapter.sv|
+!s90 -reportprogress|300|-sv|C:/logica/Lab6/HostSystem/simulation/submodules/mentor/altera_merlin_width_adapter.sv|-work|width_adapter|
+!s101 -O0

@@ -29,7 +29,7 @@ Architecture X of BRAM is
    
    signal VDD, GND : std_logic;
    
-   signal wren_internal: std_logic;
+   signal wren_internal: std_logic := '0';
    signal out_qbram: std_logic_vector(7 downto 0);
    
 Begin

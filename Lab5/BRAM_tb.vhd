@@ -22,11 +22,11 @@ signal GND, VCC: std_logic;
 signal rst, clk: std_logic;
 signal READDATA, WRITEDATA : std_logic_vector(7 downto 0);
 signal ADD : std_logic_vector(9 downto 0);
-TYPE state_type is (idle_st0,idle_st1, write_st0, write_st1, read_st0, read_st1);
-signal state : state_type; 
+TYPE state_type is (idle_st0,idle_st1, write_st0, write_st1, write_st2, read_st0, read_st1, read_st2);
+signal state : state_type := idle_st0; 
 signal INTERVAL_0, INTERVAL_1, counter: integer;
 signal address: integer := 0;
-signal CS, WR_EN, RD_EN    : std_logic; 
+signal CS, WR_EN, RD_EN    : std_logic := '0'; 
 
 type mem is array (0 to 417) of std_logic_vector(7 downto 0);
 constant data_nomes: mem := (0 => "01010000", -- P
@@ -487,6 +487,8 @@ DUT:BRAM
         ADD       => ADD       
 		  );
 
+ ADD        <= std_logic_vector(to_unsigned(address, ADD'length));
+        
 gera_data_we_rd_add_cs : process (RST, CLK)
 begin
 	If RST = '1' then
@@ -511,13 +513,15 @@ begin
 				state <= write_st1;
 				counter <= 0;
 			when write_st1 => 
+            state <= write_st2;
+         when write_st2 => 
             if address = 417 then
                state <= idle_st1;
                counter <= 0;
                address <= 0;
             else
-               state <= write_st0;
                address <= address + 1;
+               state <= write_st0;
             end if;
 			when idle_st1 => 
 				if counter = INTERVAL_1 then 
@@ -529,10 +533,15 @@ begin
 				counter <= 0;
 			when read_st1 => 
 				--if counter = INTERVAL_1 then 
-					state <= read_st0;
+					state <= read_st2;
 					counter <= 0;
+               
+         when read_st2 =>
 				--end if;	
-				address  <= address + 1;
+            if address /= 417 then
+               address  <= address + 1;
+               state <= read_st0;
+            end if;		
         end case;    	
 	end if;
 
@@ -543,41 +552,53 @@ begin
 		case state is
 			when idle_st0 => 
 --				READDATA   <= (others => '0');
+				WRITEDATA  <= x"00";
+				WR_EN      <= '0';
+				RD_EN      <= '0'; 
+				CS         <= '0';
+				--ADD        <= (others => '0');
+			when write_st0 => 
 				WRITEDATA  <= data_nomes(address);
 				WR_EN      <= '0';
 				RD_EN      <= '0'; 
 				CS         <= '0';
-				ADD        <= (others => '0');
-			when write_st0 => 
+				--ADD        <= std_logic_vector(to_unsigned(address + 1, ADD'length));
+			when write_st1 => 
 				WRITEDATA  <= data_nomes(address);
 				WR_EN      <= '1';
 				RD_EN      <= '0'; 
 				CS         <= '1';
-				ADD        <= std_logic_vector(to_unsigned(address, ADD'length));
-			when write_st1 => 
+				--ADD        <= std_logic_vector(to_unsigned(address + 1, ADD'length));
+         when write_st2 => 
 				WRITEDATA  <= data_nomes(address);
 				WR_EN      <= '0';
 				RD_EN      <= '0'; 
 				CS         <= '0';
-				ADD        <= std_logic_vector(to_unsigned(address, ADD'length));
+				--ADD        <= std_logic_vector(to_unsigned(address + 1, ADD'length));
 			when idle_st1 => 
 				WRITEDATA  <= (others => '0');
 				WR_EN      <= '0';
 				RD_EN      <= '0'; 
 				CS         <= '0';
-				ADD        <= (others => '0');
+				--ADD        <= (others => '0');
 			when read_st0 => 
 				WRITEDATA  <= x"00";
 				WR_EN      <= '0';
 				RD_EN      <= '1'; 
 				CS         <= '1';
-				ADD        <= std_logic_vector(to_unsigned(address, ADD'length));
+				--ADD        <= std_logic_vector(to_unsigned(address + 1, ADD'length));
 			when read_st1 => 
 				WRITEDATA  <= x"00";
 				WR_EN      <= '0';
-				RD_EN      <= '0'; 
-				CS         <= '0';
-				ADD        <= std_logic_vector(to_unsigned(address, ADD'length));
+				RD_EN      <= '1'; 
+				CS         <= '1';
+				--ADD        <= std_logic_vector(to_unsigned(address + 1, ADD'length));
+         when read_st2 => 
+				WRITEDATA  <= x"00";
+				WR_EN      <= '0';
+				RD_EN      <= '1'; 
+				CS         <= '1';
+				--ADD        <= std_logic_vector(to_unsigned(address + 1, ADD'length));
         end case;    	
 end process;	
 

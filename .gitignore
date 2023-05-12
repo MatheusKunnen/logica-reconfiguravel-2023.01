@@ -100,3 +100,8 @@ db/
 PLLJ_PLLSPE_INFO.txt
 *.zip
 Entregas
+*.bak?
+*.bak??
+.history
+.metadata
+*.o

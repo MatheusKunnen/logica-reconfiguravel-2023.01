@@ -1,5 +1,5 @@
 TimeQuest Timing Analyzer report for Lab6
-Wed May 10 22:17:55 2023
+Mon May 15 09:54:00 2023
 Quartus II 64-Bit Version 13.0.1 Build 232 06/12/2013 Service Pack 1 SJ Web Edition
 
 
@@ -87,7 +87,7 @@ applicable agreement for further details.
 +-------------------------------------------------------------+--------+--------------------------+
 ; SDC File Path                                               ; Status ; Read at                  ;
 +-------------------------------------------------------------+--------+--------------------------+
-; HostSystem/synthesis/submodules/altera_reset_controller.sdc ; OK     ; Wed May 10 22:17:55 2023 ;
+; HostSystem/synthesis/submodules/altera_reset_controller.sdc ; OK     ; Mon May 15 09:53:59 2023 ;
 +-------------------------------------------------------------+--------+--------------------------+
 
 
@@ -223,7 +223,7 @@ No dedicated SERDES Receiver circuitry present in device or used in design
 Info: *******************************************************************
 Info: Running Quartus II 64-Bit TimeQuest Timing Analyzer
     Info: Version 13.0.1 Build 232 06/12/2013 Service Pack 1 SJ Web Edition
-    Info: Processing started: Wed May 10 22:17:54 2023
+    Info: Processing started: Mon May 15 09:53:59 2023
 Info: Command: quartus_sta Lab6 -c Lab6
 Info: qsta_default_script.tcl version: #1
 Info (20030): Parallel compilation is enabled and will use 16 of the 16 processors detected
@@ -256,8 +256,8 @@ Info (332001): The selected device family is not supported by the report_metasta
 Info (332101): Design is fully constrained for setup requirements
 Info (332101): Design is fully constrained for hold requirements
 Info: Quartus II 64-Bit TimeQuest Timing Analyzer was successful. 0 errors, 2 warnings
-    Info: Peak virtual memory: 4585 megabytes
-    Info: Processing ended: Wed May 10 22:17:55 2023
+    Info: Peak virtual memory: 4586 megabytes
+    Info: Processing ended: Mon May 15 09:54:00 2023
     Info: Elapsed time: 00:00:01
     Info: Total CPU time (on all processors): 00:00:00
 

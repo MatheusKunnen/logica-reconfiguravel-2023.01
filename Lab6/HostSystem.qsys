@@ -6,9 +6,12 @@
    version="1.0"
    description=""
    tags=""
-   categories="" />
+   categories="System" />
  <parameter name="bonusData"><![CDATA[bonusData 
 {
+   element $${FILENAME}
+   {
+   }
    element bram_0
    {
       datum _sortIndex
@@ -53,10 +56,10 @@
  <parameter name="globalResetBus" value="false" />
  <parameter name="hdlLanguage" value="VERILOG" />
  <parameter name="maxAdditionalLatency" value="1" />
- <parameter name="projectName" value="" />
+ <parameter name="projectName" value="Lab6.qpf" />
  <parameter name="sopcBorderPoints" value="false" />
  <parameter name="systemHash" value="1" />
- <parameter name="timeStamp" value="1683762245589" />
+ <parameter name="timeStamp" value="1684154226672" />
  <parameter name="useTestBenchNamingPattern" value="false" />
  <instanceScript></instanceScript>
  <interface name="reset" internal="clk.clk_in_reset" type="reset" dir="end" />
@@ -210,7 +213,9 @@
   <parameter name="tightlyCoupledInstructionMaster2MapParam" value="" />
   <parameter name="tightlyCoupledInstructionMaster3MapParam" value="" />
  </module>
- <module kind="bram" version="1.0" enabled="1" name="bram_0" />
+ <module kind="bram" version="1.0" enabled="1" name="bram_0">
+  <parameter name="AUTO_CLOCK_CLOCK_RATE" value="25000000" />
+ </module>
  <connection kind="reset" version="13.0" start="clk.clk_reset" end="cpu.reset_n" />
  <connection kind="clock" version="13.0" start="clk.clk" end="cpu.clk" />
  <connection kind="clock" version="13.0" start="clk.clk" end="memory.clk1" />

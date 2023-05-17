@@ -3,7 +3,7 @@ K3
 13
 cModel Technology
 Z0 dC:\logica\Lab6\software\Lab6\obj\default\runtime\sim\mentor
-v7msTfx8HgvTFeqMXljztni7ACfDFxgMCd9KjxafjXz0=
+vA+5sj366qfufxBJxOrRKTrlTkUOiVmCUkSBL+2SwTgU=
 IEOWV3z>[KokF:L0eoeZUX2
 VBWWT<i0A@QcN4KE]hBS<V0
 xsip
@@ -17,19 +17,19 @@ Z3 o-work rst_controller -O0
 nf2f26c2
 !i10b 0
 !s100 oiO7IKNz?e1MfmQJJ8RE?3
-!i8a 452337152
+!i8a 1203256448
 !s85 0
-!s108 1683852753.261000
+!s108 1684328670.034000
 !s107 C:/logica/Lab6/HostSystem/simulation/submodules/mentor/altera_reset_controller.v|
 !s90 -reportprogress|300|C:/logica/Lab6/HostSystem/simulation/submodules/mentor/altera_reset_controller.v|-work|rst_controller|
 !s101 -O0
-vtHqmJkrOLSDXnOElxHRrQUHAxxIjpgQGFjdqSdRQ1zw=
+v4+oiL89EEF0kpnT7bGrposLO9n6X+WLT1LzodrmK0ck=
 !i10b 0
 !s100 ]nNz^KSCMAQ:z=ZB]18;N0
 IJQDZRSJi72RYCBZ4XDI7X3
 V3CjoOZCIEdzCJgPn8]D7`2
 xsip
-!i8a 1192139840
+!i8a 733930352
 d.
 R1
 L0 38
@@ -37,7 +37,7 @@ R2
 r1
 !s85 0
 31
-!s108 1683852753.698000
+!s108 1684328670.401000
 !s107 C:/logica/Lab6/HostSystem/simulation/submodules/mentor/altera_reset_synchronizer.v|
 !s90 -reportprogress|300|C:/logica/Lab6/HostSystem/simulation/submodules/mentor/altera_reset_synchronizer.v|-work|rst_controller|
 !s101 -O0

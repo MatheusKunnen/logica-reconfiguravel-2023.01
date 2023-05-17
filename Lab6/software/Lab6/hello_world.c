@@ -1,32 +1,21 @@
-/*
- * "Hello World" example.
- *
- * This example prints 'Hello from Nios II' to the STDOUT stream. It runs on
- * the Nios II 'standard', 'full_featured', 'fast', and 'low_cost' example
- * designs. It runs with or without the MicroC/OS-II RTOS and requires a STDOUT
- * device in your system's hardware.
- * The memory footprint of this hosted application is ~69 kbytes by default
- * using the standard reference design.
- *
- * For a reduced footprint version of this template, and an explanation of how
- * to reduce the memory footprint for a given application, see the
- * "small_hello_world" template.
- *
- */
-
 #include <stdio.h>
 #include "io.h"
 #include "system.h"
 
 
 #define BRAM_0_BASE 0x2000
-#define NAMES_SIZE 418
 
-static const char NAMES[NAMES_SIZE] = "PATRICIA ABE TURATO +++--+++ ANDERSON ANTONIO CAMPANHA +++--+++ GUSTAVO FELIPE GOLTZ +++--+++ LUIZ FERNANDO COPETTI +++--+++ JOAO GUILHERME MARTINS SILVA +++--+++ GABRIEL HENRIQUE LINKE +++--+++ JHONNY KRISTYAN VAZ TOSTES DE ASSIS +++--+++ MATHEUS KUNNEN LEDESMA +++--+++ LEONARDO MURAROTO DE FRANCA REIS +++--+++ LUCAS SANTANA RAMOS E SILVA +++--+++ GABRIEL TEODORO COBLINSKI HRYSAY +++--+++ JOAO VITOR DOTTO RISSARDI";
+#define NAMES_SIZE 418
+static const char NAMES[NAMES_SIZE] = "ANDERSON ANTONIO CAMPANHA +++--+++ GABRIEL HENRIQUE LINKE +++--+++ GABRIEL TEODORO COBLINSKI HRYSAY +++--+++ GUSTAVO FELIPE GOLTZ +++--+++ JHONNY KRISTYAN VAZ TOSTES DE ASSIS +++--+++ JOAO GUILHERME MARTINS SILVA +++--+++ JOAO VITOR DOTTO RISSARDI +++--+++ LEONARDO MURAROTO DE FRANCA REIS +++--+++ LUCAS SANTANA RAMOS E SILVA +++--+++ LUIZ FERNANDO COPETTI +++--+++ MATHEUS KUNNEN LEDESMA +++--+++ PATRICIA ABE TURATO";
+
+#if defined(VALIDATE_READ)
+
+char NAMES_READ[NAMES_SIZE] = {0};
+
+#endif
 
 int main()
 {
-	char tmp;
 	int i = 0;
 
 	for(i = 0; i < NAMES_SIZE; i++){
@@ -34,8 +23,18 @@ int main()
 	}
 
 	for(i = 0; i < NAMES_SIZE; i++){
-		tmp = IORD_8DIRECT(BRAM_0_BASE, i);
+#if defined(VALIDATE_READ)
+		NAMES_READ[i] = IORD_8DIRECT(BRAM_0_BASE, i);
+#else
+		IORD_8DIRECT(BRAM_0_BASE, i);
+#endif
 	}
+
+#if defined(VALIDATE_READ)
+	for(i = 0; i < NAMES_SIZE; i++){
+		IOWR_8DIRECT(BRAM_0_BASE, NAMES_SIZE + i, NAMES_READ[i]);
+	}
+#endif
 
 	return 0;
 }

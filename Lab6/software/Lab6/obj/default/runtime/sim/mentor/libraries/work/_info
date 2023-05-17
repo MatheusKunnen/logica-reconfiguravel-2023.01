@@ -4,7 +4,7 @@ K3
 cModel Technology
 Z0 dC:\logica\Lab6\software\Lab6\obj\default\runtime\sim\mentor
 Ehostsystem
-Z1 w1683767802
+Z1 w1684155267
 Z2 DPx4 ieee 11 numeric_std 0 22 O3PF8EB`?j9=z7KT`fn941
 Z3 DPx3 std 6 textio 0 22 5>J:;AW>W0[[dW0I6EN1Q0
 Z4 DPx4 ieee 14 std_logic_1164 0 22 5=aWaoGZSMWIcH0i^f`XF1
@@ -16,7 +16,7 @@ L9
 V:Il3fkOJZjWjIaoZl`O@02
 Z8 OV;C;10.1d;51
 32
-Z9 !s108 1683852757.870000
+Z9 !s108 1684328674.220000
 Z10 !s90 -reportprogress|300|C:/logica/Lab6/HostSystem/simulation/HostSystem.vhd|
 Z11 !s107 C:/logica/Lab6/HostSystem/simulation/HostSystem.vhd|
 o-O0
@@ -53,7 +53,7 @@ L9
 VDFoTzZfFEz8z<n3W=^K<i2
 R8
 32
-Z15 !s108 1683852758.015000
+Z15 !s108 1684328674.367000
 Z16 !s90 -reportprogress|300|C:/logica/Lab6/HostSystem/simulation/hostsystem_bram_0_avalon_slave_0_translator.vhd|
 Z17 !s107 C:/logica/Lab6/HostSystem/simulation/hostsystem_bram_0_avalon_slave_0_translator.vhd|
 o-O0
@@ -90,7 +90,7 @@ L9
 V@:a1WRWP>`A>ee^;=m9BF1
 R8
 32
-Z20 !s108 1683852758.144000
+Z20 !s108 1684328674.498000
 Z21 !s90 -reportprogress|300|C:/logica/Lab6/HostSystem/simulation/hostsystem_bram_0_avalon_slave_0_translator_avalon_universal_slave_0_agent.vhd|
 Z22 !s107 C:/logica/Lab6/HostSystem/simulation/hostsystem_bram_0_avalon_slave_0_translator_avalon_universal_slave_0_agent.vhd|
 o-O0
@@ -129,7 +129,7 @@ V9V7j:LRadoz15gCCcfNV30
 R8
 32
 !i10b 1
-Z25 !s108 1683852758.402000
+Z25 !s108 1684328674.755000
 Z26 !s90 -reportprogress|300|C:/logica/Lab6/HostSystem/simulation/hostsystem_cpu_data_master_translator.vhd|
 Z27 !s107 C:/logica/Lab6/HostSystem/simulation/hostsystem_cpu_data_master_translator.vhd|
 o-O0
@@ -164,7 +164,7 @@ L9
 VP3IMDD5bB>j^WaY7_bLb[0
 R8
 32
-Z33 !s108 1683852758.339000
+Z33 !s108 1684328674.692000
 Z34 !s90 -reportprogress|300|C:/logica/Lab6/HostSystem/simulation/hostsystem_cpu_instruction_master_translator.vhd|
 Z35 !s107 C:/logica/Lab6/HostSystem/simulation/hostsystem_cpu_instruction_master_translator.vhd|
 o-O0
@@ -201,7 +201,7 @@ L9
 VO=dE]obCo>LE2i4X6nWP40
 R8
 32
-Z38 !s108 1683852757.951000
+Z38 !s108 1684328674.304000
 Z39 !s90 -reportprogress|300|C:/logica/Lab6/HostSystem/simulation/hostsystem_memory_s1_translator.vhd|
 Z40 !s107 C:/logica/Lab6/HostSystem/simulation/hostsystem_memory_s1_translator.vhd|
 o-O0
@@ -238,7 +238,7 @@ L9
 VEIJT<DlOA>HbM?FzDbQc@2
 R8
 32
-Z43 !s108 1683852758.080000
+Z43 !s108 1684328674.433000
 Z44 !s90 -reportprogress|300|C:/logica/Lab6/HostSystem/simulation/hostsystem_memory_s1_translator_avalon_universal_slave_0_agent.vhd|
 Z45 !s107 C:/logica/Lab6/HostSystem/simulation/hostsystem_memory_s1_translator_avalon_universal_slave_0_agent.vhd|
 o-O0
@@ -275,7 +275,7 @@ L9
 VLfaFLiW8_Oi^U6o8VB@fg2
 R8
 32
-Z48 !s108 1683852758.210000
+Z48 !s108 1684328674.563000
 Z49 !s90 -reportprogress|300|C:/logica/Lab6/HostSystem/simulation/hostsystem_width_adapter.vhd|
 Z50 !s107 C:/logica/Lab6/HostSystem/simulation/hostsystem_width_adapter.vhd|
 o-O0
@@ -312,7 +312,7 @@ L9
 Vn_Rzf4@@lnCHigN@=ZMY81
 R8
 32
-Z53 !s108 1683852758.276000
+Z53 !s108 1684328674.627000
 Z54 !s90 -reportprogress|300|C:/logica/Lab6/HostSystem/simulation/hostsystem_width_adapter_001.vhd|
 Z55 !s107 C:/logica/Lab6/HostSystem/simulation/hostsystem_width_adapter_001.vhd|
 o-O0

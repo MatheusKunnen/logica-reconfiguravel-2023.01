@@ -3,14 +3,14 @@ K3
 13
 cModel Technology
 Z0 dC:\logica\Lab6\software\Lab6\obj\default\runtime\sim\mentor
-vDjWYvIvskRxvYB79ETbJLkS4PizA3vGEyZINLRG/5uA=
+vBDipZ5RWZpusEqsWkQyUqBAaLzeFoMfQ7pDdBx1aGGA=
 DXx6 sv_std 3 std 0 22 F[19LRNL:5;XmIFh[XOPn1
 !i10b 0
 !s100 0gZBF:TNVM]o<Y<fAOiYc0
 I267K5Edfe0PmRc9a2B1n[1
 V0KIH7<bW[IFhHJBzB4US?0
 xsip
-!i8a 1051006208
+!i8a 588780416
 !s105 altera_merlin_master_translator_sv_unit
 S1
 d.
@@ -20,7 +20,7 @@ Z1 OV;L;10.1d;51
 r1
 !s85 0
 31
-!s108 1683852757.041000
+!s108 1684328673.377000
 !s107 C:/logica/Lab6/HostSystem/simulation/submodules/mentor/altera_merlin_master_translator.sv|
 !s90 -reportprogress|300|-sv|C:/logica/Lab6/HostSystem/simulation/submodules/mentor/altera_merlin_master_translator.sv|-work|cpu_instruction_master_translator|
 !s101 -O0

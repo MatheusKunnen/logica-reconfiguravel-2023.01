@@ -4,7 +4,7 @@ K3
 cModel Technology
 Z0 dC:\logica\Lab6\software\Lab6\obj\default\runtime\sim\mentor
 Ebram
-Z1 w1683767805
+Z1 w1684155271
 Z2 DPx4 ieee 11 numeric_std 0 22 O3PF8EB`?j9=z7KT`fn941
 Z3 DPx3 std 6 textio 0 22 5>J:;AW>W0[[dW0I6EN1Q0
 Z4 DPx4 ieee 14 std_logic_1164 0 22 5=aWaoGZSMWIcH0i^f`XF1
@@ -16,7 +16,7 @@ L5
 Vj418YR398`2i5`hB07DIP1
 Z8 OV;C;10.1d;51
 32
-Z9 !s108 1683852757.424000
+Z9 !s108 1684328673.763000
 Z10 !s90 -reportprogress|300|C:/logica/Lab6/HostSystem/simulation/submodules/BRAM.vhd|-work|bram_0|
 Z11 !s107 C:/logica/Lab6/HostSystem/simulation/submodules/BRAM.vhd|
 Z12 o-work bram_0 -O0
@@ -54,7 +54,7 @@ VnUL8]?chB]Qm@nlBd>X^o2
 R8
 32
 !i10b 1
-Z16 !s108 1683852757.493000
+Z16 !s108 1684328673.826000
 Z17 !s90 -reportprogress|300|C:/logica/Lab6/HostSystem/simulation/submodules/qbram.vhd|-work|bram_0|
 Z18 !s107 C:/logica/Lab6/HostSystem/simulation/submodules/qbram.vhd|
 R12
@@ -63,10 +63,10 @@ Asyn
 R3
 R4
 Z19 DEx4 work 5 qbram 0 22 nUL8]?chB]Qm@nlBd>X^o2
-l86
+l85
 L54
-Z20 VN?e3CkBcD[5==B?F:Y7oD0
-Z21 !s100 ebJ@ChVHV7JFc[R=VfLng1
+Z20 V^LgWJhkzXizn34jf6b[WC0
+Z21 !s100 YLnXf38z^<WzP:dW1gz`Y1
 R8
 32
 !i10b 1
